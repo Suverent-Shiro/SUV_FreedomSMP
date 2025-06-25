@@ -1,2 +1,2 @@
-# SUV_FreedomSMP
-The Suverent Organization's Freedom SMP | Open-Source plugin configuration
+# The Suverent Organization's Freedom SMP
+A
