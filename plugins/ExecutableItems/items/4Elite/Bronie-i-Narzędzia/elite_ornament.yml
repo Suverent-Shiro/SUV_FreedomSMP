@@ -1,0 +1,96 @@
+name: §5Ornament
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------
+- §5🗡 Uzbrojenie
+- §5§o§m----------------------------------
+- '§4🗡 ATK: 6'
+- '§b⚡ SPD: Bardzo szybki'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§a✦ Szczęście: 2'
+- '§e❁ Odrzut: 1'
+- §5§o§m----------------------------------
+- §7§oKosa wykorzystywana jeszcze w
+- §7§ostarożytnej §b§oAgharii§7§o. Ze względu na nie
+- §7§odużą popularność w §e§oKrainie Spawnowej
+- §7§ota wersja kosy §7§obojowej jest
+- §7§onajpotężniejszą dostepną do kupona
+- §7§ow §e§oKrainie Spawnowej§7§o.
+- §5§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: IRON_HOE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Knockback
+    level: 1
+  enchantment1:
+    enchantment: Looting
+    level: 2
+  enchantment2:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-anvil: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+whitelistedWorlds: []
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 5.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: f27895b3-6030-406f-9507-5c966056b26c
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -1.8
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: ed027043-f38a-435d-be19-4eb9524344d4
+customModelData: 10

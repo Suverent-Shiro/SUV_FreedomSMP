@@ -1,0 +1,78 @@
+name: §5Legiony bastionów
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------
+- §5🗡 Uzbrojenie
+- §5🔰 Kolekcja Blasku słońca
+- §5§o§m----------------------------------
+- '§2🏹 Niezniszczalność: 3'
+- '§4🏹 Przebicie: 3'
+- §6⚡ Wielostrzał
+- §5§o§m----------------------------------
+- §7§oKusza pochodzenia netherowego. Ta
+- §7§opoprawiona wersja oferuje długą
+- §7§owytrzymałość i dużą moc aż 3 pocisków.
+- §5§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: CROSSBOW
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+keepDefaultAttributes: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Multishot
+    level: 1
+  enchantment1:
+    enchantment: Piercing
+    level: 3
+  enchantment2:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+  cancel-smithing-table: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

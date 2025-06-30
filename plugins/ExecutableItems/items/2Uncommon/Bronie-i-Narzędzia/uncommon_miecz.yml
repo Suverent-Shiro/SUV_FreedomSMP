@@ -1,0 +1,82 @@
+name: §aTępe ostrze
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m----------------------------------
+- §a🗡 Uzbrojenie
+- §a§o§m----------------------------------
+- '§4🗡 ATK: 6'
+- '§b⚡ SPD: Normalny'
+- ''
+- '§2🏹 Niezniszczalność: 2'
+- §a§o§m----------------------------------
+- §7§oJest to zwykły miecz. Tani i obrażenia
+- §7§ozadać potrafi. Lepsze to niż coś
+- §7§odrewnianego.
+- §a§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: STONE_SWORD
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 2
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -2.8
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_speed
+    uuid: cbc7169e-3e57-4c41-8757-07caeef1c176
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 5.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_damage
+    uuid: 57e4aabb-00aa-4c00-9ca2-422b17cff17b

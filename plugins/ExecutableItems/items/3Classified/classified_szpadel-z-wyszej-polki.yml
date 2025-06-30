@@ -1,0 +1,87 @@
+name: §9Szpadel z wyższej półki
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m---------------------------------------------------
+- §9⛏ Narzędzie
+- §9§o§m---------------------------------------------------
+- '§4🗡 ATK: 2'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 5'
+- '§9⛏ Wydajność: 4'
+- §9§o§m---------------------------------------------------
+- §7§oDosyć dobry szpadel z wyższej półki. Jest on produkcją
+- §7§oz §2§oLeśnego grodu§7§o. Przedmioty z całej §2§oKrainy Ciemnych lasów
+- §7§onie są za bardzo używane po za terenem tej krainy.
+- §9§o§m---------------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: DIAMOND_SHOVEL
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: true
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 5
+  enchantment1:
+    enchantment: Efficiency
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -2.8
+    slot: HAND
+    uuid: 27620537-181c-4dc4-b540-034409d98dbf
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.0
+    slot: HAND
+    name: ''
+    uuid: bac61dfc-d8e5-48b4-9052-b3afb0920f3d

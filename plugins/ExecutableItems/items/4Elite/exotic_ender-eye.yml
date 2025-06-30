@@ -1,0 +1,61 @@
+name: §6§lOko Endera
+lore:
+- §6§lEgzotyczne §6☆☆☆☆☆
+- §6§o§m----------------------------------------
+- §6✂ Surowce i materiały 💰 Specjalna waluta
+- §6§o§m----------------------------------------
+- §7§oLegendy głoszą że są to "oczy endermanów
+- §7§októre patrzą na nasz świat", jednak są to tylko
+- §7§olegendy. Te oko jest używane do uzyskania
+- §7§oprzedmiotów z magią endu.
+- §6§o§m----------------------------------------
+material: ENDER_EYE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+variables: {}
+activators: {}
+recognitions: []
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+config_5: true
+config_update: true

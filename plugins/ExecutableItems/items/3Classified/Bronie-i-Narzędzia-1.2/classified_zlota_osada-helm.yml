@@ -1,0 +1,74 @@
+name: §9Hełm nieskończonego złota
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m------------------------------------------
+- §9🛡 Zbroja
+- §9§o§m------------------------------------------
+- '§9🛡 Pkt. zbroji: §42§9 / §b0§9 / §50'
+- ''
+- '§2🏹 Niezniszczalność: 5'
+- §9§o§m------------------------------------------
+- §7§oBudżetowy złoty hełm z §x§E§1§E§1§9§8§oZłotej osady§7§o. Mimo to że
+- §7§ojest to hełm zrobiony ze złota to jest on dosyć
+- §7§owytrzymały... Jednak wciąż jest to złoto... Jednak
+- §7§oczy jest ktoś kto nie lubi złota?
+- §9§o§m------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: GOLDEN_HELMET
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 5
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: EYE

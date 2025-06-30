@@ -1,0 +1,830 @@
+Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+
+    # Make sure to check out the wiki for anything not explained here.
+  # https://github.com/Crazy-Crew/Crazy-Crates/wiki
+
+    # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  CrateType: CSGO
+  # Name of the Inventory if a GUI crate.
+  CrateName: '&9Klasyfikowana skrzynia'
+  # The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&8Podgląd &9Klasyfikowanej skrzyni'
+  # Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  # Max amount of crates that can be opened at once using /cc max-open
+  Max-Mass-Open: 10
+  # If the crate shows in the /cc GUI.
+  # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
+  InGUI: false
+  # Slot the item is in the GUI.
+  Slot: 21
+  # Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: true
+  # Message that is broadcast when opening the crate.
+  BroadCast: '%prefix%&6&l%player%&r &7otwiera &9&lKlasyfikowaną skrzynię&7.'
+  # Item the crate is in the GUI
+  Item: CHEST
+  # If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  # Name of the item in the GUI.
+  Name: '&a&lBasic Chest'
+  # The lore of the item in the GUI.
+  Lore:
+  - '&7To jest &6Skrzynia Premium.'
+  - '&7Użyj &6%Keys% &7aby otworzyć tą skrzynie.'
+  - '&7&l(&e&l!&7&l) Prawy przycisk myszy aby zobaczyć podgląd skrzynki.'
+  Preview:
+    # Turn on and off the preview for this crate.
+    Toggle: true
+    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 6
+    Glass:
+      # Turn the glass boarder in the preview on and off.
+      Toggle: true
+      # The name of the border item.
+      Name: ' '
+      # The item that shows in the boarder. Can be glass or any other item.
+      Item: GRAY_STAINED_GLASS_PANE
+  PhysicalKey:
+    # Name of the Key.
+    Name: '&b&lKlucz &7&ldo &9&lKlasyfikowanej skrzyni'
+    # Lore of the Key.
+    Lore:
+    - '&7Jest to klucz do &9Klasyfikowanej skrzyni'
+    - '&7Skrzynie możesz znaleźć w każdej głównej miejscówce.'
+    # The item the key is.
+    Item: TRIPWIRE_HOOK
+    # Makes the key look enchanted.
+    Glowing: true
+  # Settings for the holograms.
+  Hologram:
+    # Toggle on and off the holograms for the crates.
+    Toggle: true
+    # The height of the hologram above the crate.
+    Height: 1.5
+    # The message that will be displayed.
+    Message:
+    - '&9&lKlasyfikowana skrzynia'
+  # All the prizes that can be gotten in the Crate.
+  Prizes:
+    '1':
+      DisplayItem: TOTEM_OF_UNDYING
+      DisplayAmount: 1
+      DisplayName: Totem nieśmiertenlości
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Lore:
+      - '&cSzansa: &e30%'
+      MaxRange: 100
+      Chance: 30
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: TOTEM_OF_UNDYING
+    '2':
+      DisplayName: §9Rzadki miecz+
+      Lore:
+      - '&cSzansa: &e50%'
+      - '&9Item rzadkiej+ klasy'
+      DisplayItem: DIAMOND_SWORD
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 45
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rzadki
+            miecz+"}],"text":""}'
+          enchants:
+            DAMAGE_ALL: 2
+            DAMAGE_UNDEAD: 4
+            DURABILITY: 3
+    '3':
+      DisplayName: §9Rzadki kilof+
+      Lore:
+      - '&cSzansa: &e45%'
+      - '&9Item rzadkiej+ klasy'
+      DisplayItem: DIAMOND_PICKAXE
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 45
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rzadki
+            kilof+"}],"text":""}'
+          enchants:
+            DIG_SPEED: 4
+            LOOT_BONUS_BLOCKS: 2
+            DURABILITY: 3
+    '4':
+      DisplayName: §9Rzadki łuk
+      Lore:
+      - '&cSzansa: &e45%'
+      - '&9Item rzadkiej klasy'
+      DisplayItem: BOW
+      DisplayAmount: 1
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      MaxRange: 100
+      Chance: 45
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rzadki
+            łuk"}],"text":""}'
+          enchants:
+            ARROW_DAMAGE: 3
+            ARROW_KNOCKBACK: 2
+            DURABILITY: 4
+    '5':
+      DisplayName: §9Rzadki hełm
+      Lore:
+      - '&cSzansa: &e50%'
+      - '&9Item rzadkiej klasy'
+      DisplayItem: CHAINMAIL_HELMET
+      DisplayAmount: 1
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: CHAINMAIL_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rzadki
+            hełm"}],"text":""}'
+          enchants:
+            PROTECTION_FIRE: 1
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 4
+    '6':
+      DisplayName: §9Rzadki napierśnik
+      Lore:
+      - '&cSzansa: &e50%'
+      - '&9Item rzadkiej klasy'
+      DisplayItem: CHAINMAIL_CHESTPLATE
+      DisplayAmount: 1
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rzadki
+            napierśnik"}],"text":""}'
+          enchants:
+            PROTECTION_FIRE: 1
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 4
+    '7':
+      DisplayName: §9Rzadkie nogawce
+      Lore:
+      - '&cSzansa: &e50%'
+      - '&9Item rzadkiej klasy'
+      DisplayItem: CHAINMAIL_LEGGINGS
+      DisplayAmount: 1
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: CHAINMAIL_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rzadkie
+            nogawce"}],"text":""}'
+          enchants:
+            PROTECTION_FIRE: 1
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 4
+    '8':
+      DisplayName: §9Rzadkie buty
+      Lore:
+      - '&cSzansa: &e50%'
+      - '&9Item rzadkiej klasy'
+      DisplayItem: CHAINMAIL_BOOTS
+      DisplayAmount: 1
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: CHAINMAIL_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rzadkie
+            buty"}],"text":""}'
+          enchants:
+            PROTECTION_FIRE: 1
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 4
+    '9':
+      DisplayName: §9Rzadki trójząb
+      Lore:
+      - '&cSzansa: &e40%'
+      - '&9Item rzadkiej klasy'
+      DisplayItem: TRIDENT
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 40
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: TRIDENT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rzadki
+            trójząb"}],"text":""}'
+          enchants:
+            RIPTIDE: 2
+            DURABILITY: 4
+    '10':
+      DisplayName: §9Rzadki piorunowy trójząb
+      Lore:
+      - '&cSzansa: &e30%'
+      - '&9Item rzadkiej klasy'
+      DisplayItem: TRIDENT
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 30
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: TRIDENT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Rzadki
+            piorunowy trójząb"}],"text":""}'
+          enchants:
+            CHANNELING: 1
+            IMPALING: 2
+            LOYALTY: 1
+            DURABILITY: 4
+    '11':
+      DisplayName: §5Epicki miecz
+      Lore:
+      - '&cSzansa: &e30%'
+      - '&5Item epickiej klasy'
+      DisplayItem: DIAMOND_SWORD
+      DisplayAmount: 1
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 30
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Epicki
+            miecz"}],"text":""}'
+          enchants:
+            DAMAGE_ALL: 3
+            DAMAGE_UNDEAD: 5
+            DURABILITY: 5
+    '12':
+      DisplayName: §5Epicki kilof
+      Lore:
+      - '&cSzansa: &e30%'
+      - '&5Item epickiej klasy'
+      DisplayItem: DIAMOND_PICKAXE
+      DisplayAmount: 1
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 30
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Epicki
+            kilof"}],"text":""}'
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 2
+            DURABILITY: 4
+    '13':
+      DisplayName: §5Epicka siekiera
+      Lore:
+      - '&cSzansa: &e30%'
+      - '&5Item epickiej klasy'
+      DisplayItem: DIAMOND_AXE
+      DisplayAmount: 1
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 30
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Epicka
+            siekiera"}],"text":""}'
+          enchants:
+            DIG_SPEED: 5
+            SILK_TOUCH: 1
+            DURABILITY: 4
+    '14':
+      DisplayName: §5Epicki łuk
+      Lore:
+      - '&cSzansa: &e30%'
+      - '&5Item epickiej klasy'
+      DisplayItem: BOW
+      DisplayAmount: 1
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      MaxRange: 100
+      Chance: 30
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Epicki
+            łuk"}],"text":""}'
+          enchants:
+            ARROW_DAMAGE: 4
+            ARROW_KNOCKBACK: 3
+            DURABILITY: 5
+    '15':
+      DisplayName: §5Epicka kusza
+      Lore:
+      - '&cSzansa: &e30%'
+      - '&5Item epickiej klasy'
+      DisplayItem: CROSSBOW
+      DisplayAmount: 1
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 30
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: CROSSBOW
+        meta:
+          ==: ItemMeta
+          meta-type: CROSSBOW
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Epicka
+            kusza"}],"text":""}'
+          enchants:
+            PIERCING: 4
+            QUICK_CHARGE: 3
+            DURABILITY: 5
+          charged: false
+    '16':
+      DisplayName: §5Epicki trójząb
+      Lore:
+      - '&cSzansa: &e25%'
+      - '&5Item epickiej klasy'
+      DisplayItem: TRIDENT
+      DisplayAmount: 1
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      MaxRange: 100
+      Chance: 25
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: TRIDENT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Epicki
+            trójząb"}],"text":""}'
+          enchants:
+            RIPTIDE: 3
+            DURABILITY: 5
+    '17':
+      DisplayName: §b"Dobre intencje"
+      Lore:
+      - §bZdrowy rozsądek to podstawa
+      - ''
+      - '&cSzansa: &e35%'
+      - '&bItem specjalnej klasy'
+      DisplayItem: IRON_HOE
+      DisplayAmount: 1
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 35
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: IRON_HOE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"\"Dobre
+            intencje\""}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zdrowy
+            rozsądek to podstawa"}],"text":""}'
+          enchants:
+            KNOCKBACK: 6
+            DURABILITY: 10
+    '18':
+      DisplayItem: GOLDEN_APPLE
+      DisplayAmount: 3
+      DisplayName: x3 Złote jabłko
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      MaxRange: 100
+      Chance: 40
+      Lore:
+      - '&cSzansa: &e40%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GOLDEN_APPLE
+        amount: 3
+    '19':
+      DisplayItem: COOKED_BEEF
+      DisplayAmount: 64
+      MaxRange: 100
+      DisplayName: x64 Upieczona krowa
+      Chance: 60
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Lore:
+      - '&cSzansa: &e60%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: COOKED_BEEF
+        amount: 64
+    '20':
+      DisplayItem: COOKED_PORKCHOP
+      DisplayAmount: 64
+      MaxRange: 100
+      DisplayName: x64 Upieczona świnia
+      Chance: 60
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Lore:
+      - '&cSzansa: &e60%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: COOKED_PORKCHOP
+        amount: 64
+    '21':
+      DisplayItem: COOKED_MUTTON
+      DisplayAmount: 64
+      MaxRange: 100
+      DisplayName: x64 Upieczona owca
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 60
+      Lore:
+      - '&cSzansa: &e60%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: COOKED_MUTTON
+        amount: 64
+    '22':
+      DisplayItem: IRON_INGOT
+      DisplayAmount: 48
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      DisplayName: x48 Sztabka żelaza
+      Chance: 40
+      Lore:
+      - '&cSzansa: &e40%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: IRON_INGOT
+        amount: 48
+    '23':
+      DisplayItem: GOLD_INGOT
+      DisplayAmount: 48
+      MaxRange: 100
+      DisplayName: x48 Sztabka złota
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Chance: 40
+      Lore:
+      - '&cSzansa: &e40%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GOLD_INGOT
+        amount: 48
+    '24':
+      DisplayItem: DIAMOND
+      DisplayAmount: 24
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      DisplayName: x24 Diament
+      Chance: 30
+      Lore:
+      - '&cSzansa: &e30%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND
+        amount: 24
+    '25':
+      DisplayItem: GOLDEN_CARROT
+      DisplayAmount: 32
+      MaxRange: 100
+      Chance: 45
+      DisplayName: x32 Złota marchewka
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Lore:
+      - '&cSzansa: &e45%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: GOLDEN_CARROT
+        amount: 32
+    '26':
+      DisplayItem: ENDER_PEARL
+      DisplayAmount: 8
+      MaxRange: 100
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      DisplayName: x8 Ender perła
+      Chance: 30
+      Lore:
+      - '&cSzansa: &e30%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: ENDER_PEARL
+        amount: 8
+    '27':
+      DisplayItem: BLAZE_ROD
+      DisplayAmount: 16
+      MaxRange: 100
+      Chance: 40
+      DisplayName: x16 Pała blaze'a
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Lore:
+      - '&cSzansa: &e40%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: BLAZE_ROD
+        amount: 16
+    '28':
+      DisplayItem: FIREWORK_ROCKET
+      DisplayAmount: 64
+      MaxRange: 100
+      Chance: 40
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      DisplayName: x64 Fajerwerk (Moc 2)
+      Lore:
+      - '&7Moc fajerwerku: 2'
+      - ''
+      - '&cSzansa: &e40%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: FIREWORK_ROCKET
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: FIREWORK
+          power: 2
+    '29':
+      DisplayItem: FIREWORK_ROCKET
+      DisplayAmount: 64
+      MaxRange: 100
+      Chance: 30
+      DisplayName: x64 Fajerwerk (Moc 3)
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Lore:
+      - '&7Moc fajerwerku: 3'
+      - ''
+      - '&cSzansa: &e30%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: FIREWORK_ROCKET
+        amount: 64
+        meta:
+          ==: ItemMeta
+          meta-type: FIREWORK
+          power: 3
+    '30':
+      DisplayItem: TURTLE_HELMET
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 60
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      DisplayName: Hełm z żółwia
+      Lore:
+      - '&cSzansa: &e60%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: TURTLE_HELMET
+    '31':
+      DisplayItem: ARROW
+      DisplayAmount: 64
+      MaxRange: 100
+      Chance: 50
+      DisplayName: x64 Strzała
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Lore:
+      - '&cSzansa: &e50%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: ARROW
+        amount: 64
+    '32':
+      DisplayItem: SPECTRAL_ARROW
+      DisplayAmount: 48
+      MaxRange: 100
+      Chance: 40
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      DisplayName: x48 Widmowa strzała
+      Lore:
+      - '&cSzansa: &e40%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: SPECTRAL_ARROW
+        amount: 48
+    '33':
+      DisplayName: x3 §b§lKlucz §7§ldo zwykłej skrzyni
+      Lore:
+      - §7Jest to klucz do Zwykłej Skrzyni
+      - §7Skrzynie możesz znaleźć na /Spawn.
+      - ''
+      - '&cSzansa: &e40%'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: 3
+      MaxRange: 100
+      Chance: 40
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: TRIPWIRE_HOOK
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Klucz
+            "},{"bold":true,"italic":false,"color":"gray","text":"do zwykłej skrzyni"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Jest
+            to klucz do Zwykłej Skrzyni"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Skrzynie
+            możesz znaleźć na /Spawn."}],"text":""}'
+          enchants:
+            LUCK: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBL6q8MjsnMTi7qKoyLzORAQDwZ4+5KAAAAA==
+    '34':
+      DisplayName: §b§lKlucz §7§ldo §5§lEpickiej Skrzyni
+      Lore:
+      - §7Jest to klucz do §5Epickiej Skrzyni
+      - §7Skrzynie możesz znaleźć na /Spawn.
+      - ''
+      - '&cSzansa: &e30%'
+      DisplayItem: TRIPWIRE_HOOK
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 30
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: TRIPWIRE_HOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Klucz
+            "},{"bold":true,"italic":false,"color":"gray","text":"do "},{"bold":true,"italic":false,"color":"dark_purple","text":"Epickiej
+            Skrzyni"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Jest
+            to klucz do "},{"italic":false,"color":"dark_purple","text":"Epickiej
+            Skrzyni"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Skrzynie
+            możesz znaleźć na /Spawn."}],"text":""}'
+          enchants:
+            LUCK: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYOBgEHQuSqyqBBIlqcW6YIqBz7UgMzk7MTi7qKoyLzORAQBFVJhXKAAAAA==
+    '35':
+      DisplayName: '&e&l$1500'
+      DisplayItem: PAPER
+      DisplayAmount: 1
+      Lore:
+      - '&7Otrzymujesz &e&l$1500.'
+      - '&cSzansa: &e30%'
+      MaxRange: 100
+      Chance: 30
+      Commands:
+      - eco give %player% 1500
+      - broadcast &f%player% &fwygrał/a %reward%!
+    # - 'lp user %player% permission set crazycrates.blacklist.basic.3' -> This is the line where you would give the user the permission.
+    '36':
+      DisplayName: '&e&l+15 LVL'
+      DisplayItem: ENDER_EYE
+      DisplayAmount: 15
+      Lore:
+      - '&7Otrzymujesz &e&l+15 LVL.'
+      - '&cSzansa: &e30%'
+      MaxRange: 100
+      Chance: 30
+      Commands:
+      - xp give %player% 15l
+      - broadcast &f%player% &fwygrał/a %reward%!
+    '37':
+      DisplayItem: EXPERIENCE_BOTTLE
+      DisplayAmount: 48
+      DisplayName: x48 Butelka z XP'em
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      MaxRange: 100
+      Chance: 40
+      Lore:
+      - '&cSzansa: &e40%'
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: EXPERIENCE_BOTTLE
+        amount: 48
+    '38':
+      DisplayName: Shulker Box
+      DisplayItem: SHULKER_BOX
+      DisplayAmount: 1
+      MaxRange: 100
+      Lore:
+      - '&cSzansa: &e20%'
+      Chance: 20
+      Commands:
+      - broadcast &f%player% &fwygrał/a %reward%!
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: SHULKER_BOX
+# - 'lp user %player% permission set crazycrates.blacklist.basic.3' -> This is the line where you would give the user the permission.

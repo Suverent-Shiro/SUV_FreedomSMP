@@ -1,0 +1,128 @@
+name: §5Amulet zwiększonego skoku
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m-----------------------------------------------
+- §5🧪 Materiały eksploatacyjne
+- §5§o§m-----------------------------------------------
+- §7§oAmulety to specjalne zaklęte odłamki które po użyciu
+- §7§omogą ci przyznać efekt! Jest 5 znanych na świecie
+- §7§orodzaji amuletów a ten oferuje ci moc wyższego skoku!
+- §5§o§m-----------------------------------------------
+- '§aKróliczy skok:§b §fKliknij prawym przyciskiem myszy aby '
+- §fotrzymać efekt §azwiększonego skoku 2§b §fna §630s§f.
+material: PRISMARINE_SHARD
+glow: true
+disableStack: true
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 90
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: score:score-usage
+          type: DOUBLE
+          value: 15.0
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Feather_falling
+    level: 6
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-smithing-table: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+  cancel-stone-cutter: true
+variables: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    cooldownOptions:
+      cooldown: 45
+      isCooldownInTicks: false
+      cooldownMsg: ''
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: true
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    - 40
+    commands:
+    - SENDMESSAGE §fAktywowano §a§lamulet zwiększonego skoku
+    - ACTIONBAR Amulet zwiększonego skoku 30
+    - effect give %player% minecraft:jump_boost 30 1
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions:
+      ifNeedPlayerConfirmationCancel: false
+    placeholdersConditions: {}
+    variablesModification: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+customModelData: 53

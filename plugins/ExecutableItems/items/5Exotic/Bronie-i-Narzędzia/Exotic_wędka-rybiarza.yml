@@ -1,0 +1,78 @@
+name: §6§lWędka Rybiarza
+lore:
+- §6§lEgzotyczne§6 ☆☆☆☆☆
+- §6§o§m------------------------------------
+- §6⛏ §6§lNarzędzie
+- §6§o§m------------------------------------
+- §x§F§8§6§2§F§3❈ Naprawa
+- '§2🏹 Niezniszczalność: 6'
+- '§3🎣 Przynęta: 3'
+- '§a✦ Szczęście: 3'
+- §6§o§m------------------------------------
+- §7§oNikt na świecie nie zdaje się mieć
+- §7§oodpowiedzi na to kim był "Rybiarz"
+- §7§ojednak wiedzą że ktoś związany z rybami?
+- §6§o§m------------------------------------
+- §fNie posiada specjalnych właściwości
+material: FISHING_ROD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Luck_of_the_sea
+    level: 3
+  enchantment1:
+    enchantment: Unbreaking
+    level: 6
+  enchantment2:
+    enchantment: Lure
+    level: 3
+  enchantment3:
+    enchantment: Mending
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

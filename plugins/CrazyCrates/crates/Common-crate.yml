@@ -1,0 +1,193 @@
+Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+
+    # Make sure to check out the wiki for anything not explained here.
+  # https://github.com/Crazy-Crew/Crazy-Crates/wiki
+
+    # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  CrateType: CSGO
+  # Name of the Inventory if a GUI crate.
+  CrateName: '&7&lPospolita skrzynia'
+  # The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&fPodgląd &7&lPospolitej skrzyni'
+  # Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  # Max amount of crates that can be opened at once using /cc max-open
+  Max-Mass-Open: 10
+  # If the crate shows in the /cc GUI.
+  # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
+  InGUI: false
+  # Slot the item is in the GUI.
+  Slot: 21
+  # Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: true
+  # Message that is broadcast when opening the crate.
+  BroadCast: '%prefix%&6&l%player%&r &fotwiera &7&lPospolitą skrzynię&f.'
+  # Item the crate is in the GUI
+  Item: CHEST
+  # If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  # Name of the item in the GUI.
+  Name: '&a&lBasic Chest'
+  # The lore of the item in the GUI.
+  Lore:
+  - '&7To jest zwykła skrzynia.'
+  - '&7Użyj &6%Keys% &7aby otworzyć tą skrzynie.'
+  - '&7&l(&e&l!&7&l) Prawy przycisk myszy aby zobaczyć podgląd skrzynki.'
+  Preview:
+    # Turn on and off the preview for this crate.
+    Toggle: true
+    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 6
+    Glass:
+      # Turn the glass boarder in the preview on and off.
+      Toggle: true
+      # The name of the border item.
+      Name: ' '
+      # The item that shows in the boarder. Can be glass or any other item.
+      Item: GRAY_STAINED_GLASS_PANE
+  PhysicalKey:
+    # Name of the Key.
+    Name: '&bKlucz &fdo &7&lPospolitej skrzyni'
+    # Lore of the Key.
+    Lore:
+    - '&fTo jest klucz do &7&lPospolitej skrzyni'
+    - '&fSkrzynie możesz znaleźć w głównych miejscówkach.'
+    # The item the key is.
+    Item: TRIPWIRE_HOOK
+    # Makes the key look enchanted.
+    Glowing: true
+  # Settings for the holograms.
+  Hologram:
+    # Toggle on and off the holograms for the crates.
+    Toggle: true
+    # The height of the hologram above the crate.
+    Height: 1.5
+    # The message that will be displayed.
+    Message:
+    - '&7&lPospolita skrzynia'
+  # All the prizes that can be gotten in the Crate.
+  Prizes:
+    '1':
+      DisplayName: §6§lZemsta piglinosa
+      Lore:
+      - §6§lEgzotyczne §6☆☆☆☆☆
+      - §6§o§m-------------------------------------
+      - §6🗡 §6§lUzbrojenie
+      - §6🔰 §6§lKolekcja Blasku słońca
+      - §6§o§m-------------------------------------
+      - '§4🗡 ATK: 10 §c[Crit DMG: 18]'
+      - '§b⚡ SPD: Normalny'
+      - '§c☣ Crit Rate: 20%'
+      - ''
+      - '§2🏹 Niezniszczalność: 5'
+      - '§4🗡 Pogromca nieumarłych: 4'
+      - '§a✦ Szczęście: 3'
+      - '§6✧ Szerokie ostrze: 3'
+      - '§x§D§3§7§2§0§B🔥 Aspekt ognia: 2'
+      - §6§o§m-------------------------------------
+      - §7§oMieszkańcy §e§oWioski Spawnu§7§o wieżą że tym
+      - §7§omieczem kiedyś władał sam §6§oPiglinos§7§o...
+      - §7§oCiekawe ile w tym prawdy...
+      - §6§o§m-------------------------------------
+      - '§4Rage Mode: §fUżyj prawego przycisku myszy '
+      - §faby uwolnić swój rage mode.
+      - §fPrzywołuje piorun poczym otrzymujesz
+      - §fefekty szybkości, siły i absorpcji.
+      - '§bCzas trwania: 15 sekund'
+      DisplayItem: DIAMOND_SWORD
+      DisplayAmount: 1
+      DisplayFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_POTION_EFFECTS
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3578
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Zemsta
+            piglinosa"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Egzotyczne
+            "},{"bold":false,"italic":false,"color":"gold","text":"☆☆☆☆☆"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gold","text":"-------------------------------------"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"🗡
+            "},{"bold":true,"italic":false,"color":"gold","text":"Uzbrojenie"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"🔰
+            "},{"bold":true,"italic":false,"color":"gold","text":"Kolekcja Blasku
+            słońca"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gold","text":"-------------------------------------"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"🗡
+            ATK: 10 "},{"italic":false,"color":"red","text":"[Crit DMG: 18]"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"⚡
+            SPD: Normalny"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"☣
+            Crit Rate: 20%"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"🏹
+            Niezniszczalność: 5"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"🗡
+            Pogromca nieumarłych: 4"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"✦
+            Szczęście: 3"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"✧
+            Szerokie ostrze: 3"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D3720B","text":"🔥
+            Aspekt ognia: 2"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gold","text":"-------------------------------------"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Mieszkańcy
+            "},{"italic":true,"color":"yellow","text":"Wioski Spawnu"},{"italic":true,"color":"gray","text":"
+            wieżą że tym"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"mieczem
+            kiedyś władał sam "},{"italic":true,"color":"gold","text":"Piglinos"},{"italic":true,"color":"gray","text":"..."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Ciekawe
+            ile w tym prawdy..."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gold","text":"-------------------------------------"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Rage
+            Mode: "},{"italic":false,"color":"white","text":"Użyj prawego przycisku
+            myszy "}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"aby
+            uwolnić swój rage mode."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Przywołuje
+            piorun poczym otrzymujesz"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"efekty
+            szybkości, siły i absorpcji."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Czas
+            trwania: 15 sekund"}],"text":""}'
+          enchants:
+            FIRE_ASPECT: 2
+            LOOT_BONUS_MOBS: 3
+            DAMAGE_UNDEAD: 4
+            SWEEPING_EDGE: 3
+            DURABILITY: 5
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: -2.8
+              name: minecraft:generic.attack_speed
+              slot: HAND
+              uuid: acf945b7-b115-48cb-8f1c-b7084458e463
+              operation: 0
+            GENERIC_ATTACK_DAMAGE:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 9.0
+              name: minecraft:generic.attack_damage
+              slot: HAND
+              uuid: 39d61836-6027-44ba-9e75-8bc271ecb89a
+              operation: 0
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_POTION_EFFECTS
+          PublicBukkitValues: |-
+            {
+                "executableitems:ei-id": "exotic_blaskusłońca-zemsta-piglinosa",
+                "score:usage": 1
+            }

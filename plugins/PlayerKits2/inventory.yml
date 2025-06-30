@@ -1,0 +1,35 @@
+inventories:
+  main_inventory:
+    slots: 9
+    title: '#37c1e4&l« &b🗡 #37c1e4&l» Zestawy'
+    '0':
+      type: 'kit: start'
+  preview_inventory:
+    slots: 54
+    title: '#37c1e4&l« &b🗡 #37c1e4&l» Podgląd zestawu'
+    '9':
+      item:
+        id: ARROW
+        name: '&7Powrót'
+      open_inventory: previous
+  buy_requirements_inventory:
+    slots: 27
+    title: '#37c1e4&l« &b🗡 #37c1e4&l» Wymagania na kupno'
+    '13':
+      item:
+        id: BOOK
+        name: '&c&lWymagania'
+        lore:
+        - '%kit_requirements_message%'
+    '10':
+      item:
+        id: RED_STAINED_GLASS_PANE
+        name: '&cPowrót'
+        nbt:
+        - playerkits_buy|no
+    '16':
+      item:
+        id: GREEN_STAINED_GLASS_PANE
+        name: '&aKup'
+        nbt:
+        - playerkits_buy|yes

@@ -1,0 +1,44 @@
+{
+   "VergilSparda__Selection": {
+      "world-blacklist": false,
+      "display": "BEACON",
+      "permission": "customdrops.regions",
+      "first-corner": {
+         "world": "world",
+         "x": 91,
+         "y": 66,
+         "z": -50,
+         "pitch": 0,
+         "yaw": 0
+      },
+      "second-corner": {
+         "world": "world",
+         "x": 89,
+         "y": 66,
+         "z": -51,
+         "pitch": 0,
+         "yaw": 0
+      }
+   },
+   "vergilsparda__selection": {
+      "world-blacklist": false,
+      "display": "BEACON",
+      "permission": "customdrops.regions",
+      "first-corner": {
+         "world": "world",
+         "x": 91,
+         "y": 66,
+         "z": -50,
+         "pitch": 0,
+         "yaw": 0
+      },
+      "second-corner": {
+         "world": "world",
+         "x": 89,
+         "y": 66,
+         "z": -51,
+         "pitch": 0,
+         "yaw": 0
+      }
+   }
+}

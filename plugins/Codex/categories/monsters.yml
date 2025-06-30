@@ -1,0 +1,335 @@
+name: "&c&lPotwory"
+discover_title:
+  title: "&c&lCodex zaktualizowany"
+  subtitle: "&7Potwór: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+- "{centered}&f&m00                                                 00"
+- " "
+- "{centered}&c&lCodex zaktualizowany"
+- "{centered}&7Potwór: %name%"
+- " "
+- "{centered}&7Sprawdź za pomocą: &e/codex"
+- " "
+- "{centered}&f&m00                                                 00"
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  1:
+    name: "&a&lZombie / &aNiepospolite ☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Zombie są zwyczajnymi nieumarłymi potworami które"
+    - "&7zazwyczaj atakują w grupach."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: ZOMBIE
+    commands:
+    - ei give %player% Kupon_0global_10 5
+  2:
+    name: "&a&lSzkielet / &aNiepospolite ☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Szkielety są nieuramłymi potworami które posługują"
+    - "&7się łukiem aby atakować przeciwnika na dystans."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: SKELETON
+    commands:
+    - ei give %player% Kupon_0global_10 5
+  3:
+    name: "&a&lCreeper / &aNiepospolite ☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Aww man. Creepery są wrogimi potworami które po cichu"
+    - "&7 skradają się do gracza aby zrobić mu zasadzkę i wybuchnąć."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: CREEPER
+    commands:
+    - ei give %player% Kupon_0global_10 5
+  4:
+    name: "&a&lPająk / &aNiepospolite ☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Pająki są z reguły neutralne, jednak mogą one zaatakować"
+    - "&7 w nocy i w ciemnych miejscach. Także używa się ich oczu"
+    - "&7 do ważenia mikstur..."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: SPIDER
+    commands:
+    - ei give %player% Kupon_0global_10 5
+  5:
+    name: "&9&lPosuch / &9Klasyfikowane ☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Posuch jest wariantem zombie który spawnuje się tylko"
+    - "&7na pustyniach. Posuchy także nie palą się na słońcu"
+    - "&7przez co mogą być większym wyzwaniem."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&b- &9Klasyfikowane ☆☆☆ | Złoty Odłamek &f/ 30%"
+    discovered_on_mob_kill:
+      type: HUSK
+    commands:
+    - ei give %player% Kupon_0global_100 1
+  6:
+    name: "&9&lPiglin / &9Klasyfikowane ☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Pigliny są neutralnymi mobami z netheru! Są one głęboko zakorzenione w historii"
+    - "&eWioski Spawnu&7. Legendarny &6Piglinos &7sam był hybrydą człowieka i piglina, który"
+    - "&7rządził &eWioską Spawnu &7w starożytności. Obecnie pigliny są bardziej postrzegane jako"
+    - "&7potwory niż przyjazne dla ludzi stworzenia."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: PIGLIN
+    commands:
+    - essentials:bc test
+  7:
+    name: "&9&lZzobifikowany piglin / &9Klasyfikowane ☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Zzombifikowane pigliny lub też często zwane zombie piglinami,"
+    - "&7są neutralnymi nieumarłymi wariantami piglinów które zamieszkują"
+    - "&7nether. Jeżeli im nic nie zrobisz to cie nie będą bić..."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: ZOMBIFIED_PIGLIN
+    commands:
+    - ei give %player% Kupon_0global_100 1
+  8:
+    name: "&9&lSlime / &9Klasyfikowane ☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Slime'y są odbijającymi się kwadratowymi potworami które zamieszkują"
+    - "&7głębokie części podziemi lub mokre bagna. Atakują swojego wroga skacząc"
+    - "&7na niego. Po zabiciu dropią klejące kulki których można użyć do mechanizmów."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: SLIME
+    commands:
+    - ei give %player% Kupon_0global_100 1
+  9:
+    name: "&9&lJaskiniowy pająk / &9Klasyfikowane ☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Tak samo jak z pająkami, tylko że są mniejsze, wrogie"
+    - "&7to jeszcze w dodatku po ugryzieniu trujące... Nie lubię ich..."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: CAVE_SPIDER
+    commands:
+    - ei give %player% Kupon_0global_100 1
+  10:
+    name: "&9&lWiedźma / &9Klasyfikowane ☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Tak właściwie nie jest wyjaśnione dlaczego wiedźmy"
+    - "&7istnieją, jednak atakują one za pomocą mikstur."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: WITCH
+    commands:
+    - ei give %player% Kupon_0global_100 1
+  11:
+    name: "&5&lFantom / &5Elitarne ☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Fantomy są latającymi nieumarłymi potworami które pojawiają się"
+    - "&7tylko i wyłącznie w pewnych warunkach. A mianowicie gdy nie śpisz"
+    - "&7więcej niż 3 lub więcej dni. Atakują z powietrza więc mogą być"
+    - "&7irytującym wrogiem do zwalczenia."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: PHANTOM
+    commands:
+    - ei give %player% Kupon_0global_100 5
+  12:
+    name: "&5&lBrutalny piglin / &5Elitarne ☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Brutalne pigliny są wrogimi i potężniejszymi wariantami piglinów."
+    - "&7Pojawiają się jedynie w pozostałościach bastionów. Według legend"
+    - "&7w &eWiosce Spawnu &7stały się takie wrogie przez przegraną wielkiej"
+    - "&7wojny netherowej, a także śmiercią &6Piglinosa&7."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: PIGLIN_BRUTE
+    commands:
+    - ei give %player% Kupon_0global_100 5
+  13:
+    name: "&5&lPillager / &5Elitarne ☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Pillagerzy są tak właściwie illagerami wyposażonymi w kusze."
+    - "&7Napadają na wioski villagerów i posiadają swoje posterunki."  
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: PILLAGER
+    commands:
+    - ei give %player% Kupon_0global_100 5
+  14:
+    name: "&5&lBlaze / &5Elitarne ☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Blaze'y są płomiennymi potworami pochodzącymi z netherowych fortec."
+    - "&7Rzucają one ogniste kule które podpalają wszystko w co trafią. Potrafią"
+    - "&7też zadawać obrażenia z bliska gdy jesteś zbyt blisko ich płomiennych różdzek."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: BLAZE
+    commands:
+    - ei give %player% Kupon_0global_100 5
+  15:
+    name: "&5&lGuardian / &5Elitarne ☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Guardiany (lub też strażniki) są podobne do rozdymek tylko"
+    - "&7wystrzeliwują lasery zadające sporo obrażeń..."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: GUARDIAN
+    commands:
+    - ei give %player% Kupon_0global_100 5  
+  16:
+    name: "&5&lWitherowy szkielet / &5Elitarne ☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Witherowe szkielety są wysokimi wariantami szkieletów. W porównaniu"
+    - "&7do poprzednich szkieletów ten używa kamiennego miecza do walki i może"
+    - "&7on nałożyć efekt withera który może być śmiertelny dla ofiary."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: WITHER_SKELETON
+    commands:
+    - ei give %player% Kupon_0global_100 5 
+  17:
+    name: "&6&lPrzywoływacz / &6&lEgzotyczne &6☆☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Przywoływacz jest illagerem który narzuca zaklęcia aby atakować swych wrogów."
+    - "&7Żyją głównie w leśnych posiadłościach ale też uczestniczą w najazdach na wioski."
+    - "&7Jednym z ich zaklęć jest spawn 'Vexów' które są takimi małymi duszkami które przenikają"
+    - "&7nawet przez ściany. Po ich śmierci mogą wydropić totem nieśmiertelności."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: EVOKER
+    commands:
+    - ei give %player% Kupon_0global_1000 1 
+  18:
+    name: "&6&lEnderman / &6&lEgzotyczne &6☆☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Bardzo wysokie, czarne potwory które potrafią się teleportować. Tak można opisać"
+    - "&7endermany, czyli tajemnicze potwory pochodzące z endu. Nikt po za oficjalnymi członkami"
+    - "&7zarządu &5Ataraxii &7za bardzo nie wie o tym czym tak naprawde są. Wiadome jest to że"
+    - "&7endermany po zabiciu mogą wydropić specjalną ender perłę która umożliwia teleportację."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: ENDERMAN
+    commands:
+    - ei give %player% Kupon_0global_1000 1 
+  19:
+    name: "&6&lStarszy guardian / &6&lEgzotyczne &6☆☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Starszy strażnik jest potężniejszym i większym strażnikiem i zarazem"
+    - "&7największym morskim mobem. Atakuje on w ten sam sposób co zwykły strażnik"
+    - "&7jednak nakłada on efekt powolnego kopania na duży zasięg od jego położenia."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: ELDER_GUARDIAN
+    commands:
+    - ei give %player% Kupon_0global_1000 1  
+  20:
+    name: "&6&lWarden / &6&lEgzotyczne &6☆☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Warden jest potężnym podziemnym potworem o którym wiele nie wiadomo."
+    - "&7Pojawia się zazwyczaj w starożytnych miastach i potrafi on atakować"
+    - "&7falami dźwiękowymi które nie mogą zostać niczym zablokowane. Jego ataki"
+    - "&7są potężniejsze niż jakiegokolwiek moba jednak jest ślepy przez co musi"
+    - "&7polegać na wribracjach i dźwiękach z jego otoczenia, więc jeśli przejdziesz"
+    - "&7obok niego bardzo cicho, to warden może nawet nie wiedzieć że tu kiedykolwiek"
+    - "&7ktoś się znajdował..."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: WARDEN
+    commands:
+    - ei give %player% Kupon_0global_1000 1 
+  21:
+    name: "&6&lWither / &6&lEgzotyczne &6☆☆☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Wither jest stworzonym przez człowieka bardzo destrukcyjnym nieumrałym"
+    - "&7potworem połączonym z trzech głów wither szkieletów. Wither jest także"
+    - "&7uznawany jako ostateczny boss netheru. Potrafi on wystrzeliwać wybuchające"
+    - "&7czaszki w dosłownie wszystko co jest na jego drodzę. Jest on jednym z dwóch"
+    - "&7sposobów na uzyskanie gwiazdy netheru."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&fNie posiada specjalnych dropów."
+    discovered_on_mob_kill:
+      type: WITHER
+    commands:
+    - ei give %player% Kupon_0global_1000 1  
+  22:
+    name: "&9&lTułacz / &9Klasyfikowane ☆☆☆"
+    lore:
+    - "&6&l« &e✔ &6&l» Odblokowano!"
+    - "&7Tułacze to wariant szkieletów które zamieszkują w kilku śnieżnych"
+    - "&7biomach. Zachowują się podobnie do szkieletów jednak strzelają oni"
+    - "&7specjalnymi spowalniającymi strzałami. Tułacze także dropią specjalne"
+    - "&7zmrożone kości, które posiadają wartość kolekcjonerską."
+    - ""
+    - "&cSpecjalne dropy z tego potwora:"
+    - "&b- &5Elitarne ☆☆☆☆ | Zmrożona kość &f/ 17%"
+    discovered_on_mob_kill:
+      type: STRAY
+    commands:
+    - ei give %player% Kupon_0global_100 1
+    

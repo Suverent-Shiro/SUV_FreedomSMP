@@ -1,0 +1,61 @@
+name: §6§lEgzotyczny schemat ulepszenia
+lore:
+- §6§lEgzotyczne §6☆☆☆☆☆
+- §6§o§m--------------------------------------
+- §6§o✂§6 Surowce i materiały
+- §6§o§m--------------------------------------
+- §7§oSchemat do ulepszania §6§oegzotycznych
+- §7§oprzedmiotów. Podejdź do villagera przy
+- §7§osklepach aby ulepszyć §6§oegzotyczne §7§oprzedmioty.
+- §7§o§nNIE DZIAŁA TO NA WSZYSTKICH PRZEDMIOTACH.
+- §6§o§m--------------------------------------
+material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-grind-stone: true
+  cancel-anvil: true
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

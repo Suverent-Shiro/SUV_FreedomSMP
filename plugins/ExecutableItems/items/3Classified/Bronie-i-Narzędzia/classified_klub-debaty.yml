@@ -1,0 +1,88 @@
+name: §9Klub debaty
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m----------------------------------
+- §9🗡 Uzbrojenie
+- §9§o§m----------------------------------
+- '§4🗡 ATK: 11'
+- '§b⚡ SPD: Okropnie wolny'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§6✧ Szerokie ostrze: 3'
+- §9§o§m----------------------------------
+- §7§oWysokiej jakości claymore w dobrych
+- §7§orękach może być bardzo efektywny.
+- §7§oNie zbyt popularna alternatywa miecza.
+- §9§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: IRON_SWORD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Sweeping
+    level: 3
+  enchantment1:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+whitelistedWorlds: []
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.5
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: acf945b7-b115-48cb-8f1c-b7084458e463
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 10.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 39d61836-6027-44ba-9e75-8bc271ecb89a
+customModelData: 11

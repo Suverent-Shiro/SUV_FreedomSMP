@@ -1,0 +1,223 @@
+name: §5Okrucieństwo
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m-------------------------------------
+- §5🗡 Uzbrojenie
+- §5🔰 Kolekcja Otchłani
+- §5§o§m-------------------------------------
+- '§4🗡 ATK: 12'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§6☠§5§o §6StatTrak™: §f%var_counter_int% Graczy §6/ §f%var_mcounter_int% Mobów'
+- ''
+- '§2🏹 Niezniszczalność: 5'
+- '§4🗡 Pogromca nieumarłych: 3'
+- '§6✧ Szerokie ostrze: 2'
+- '§x§D§3§7§2§0§B🔥 Aspekt ognia: 2'
+- §5§o§m-------------------------------------
+- §7§oSiekiera Piglinów brutali używana
+- §7§opodczas wielkiej wojny netherowej.
+- §7§oSą już popularniejsze opcje, jednak
+- §7§onic nie przebije tej... Kosztem ceny.
+- §5§o§m-------------------------------------
+- '§4Krwiożercza wymiana: §fOd razu po '
+- §fzabraniu tej broni do ręki aktywuje.
+- §fsię §4Krwiożercza wymiana§f.
+- '§fOtrzymujesz §4+🗡 ATK: 5 §fkosztem twojej'
+- '§filości serc §4-❤ HP: 6§f.'
+- '§bCzas trwania: Nieskończony'
+- §5§o§m-------------------------------------
+- §6Ten przedmiot nalicza zabójstwa za pomocą
+- §6StatTrak™
+material: NETHERITE_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Fire_aspect
+    level: 2
+  enchantment1:
+    enchantment: Smite
+    level: 3
+  enchantment2:
+    enchantment: Sweeping
+    level: 2
+  enchantment3:
+    enchantment: Unbreaking
+    level: 5
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-item-burn: true
+  cancel-enchant-anvil: true
+  cancel-item-delete-by-lightning: true
+variables:
+  var1:
+    variableName: mcounter
+    type: NUMBER
+    default: 0.0
+  var0:
+    variableName: counter
+    type: NUMBER
+    default: 0.0
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_KILL_PLAYER
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    commands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    targetCommands: []
+    targetConditions: {}
+    variablesModification:
+      varUpdt0:
+        variableName: counter
+        type: MODIFICATION
+        modification: 1.0
+  activator1:
+    name: '&eActivator'
+    option: PLAYER_KILL_ENTITY
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    commands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedEntities: []
+    entityCommands: []
+    entityConditions: {}
+    variablesModification:
+      varUpdt0:
+        variableName: mcounter
+        type: MODIFICATION
+        modification: 1.0
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: acf945b7-b115-48cb-8f1c-b7084458e463
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 16.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 39d61836-6027-44ba-9e75-8bc271ecb89a
+  attribute2:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: -6.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.max_health
+    uuid: 8e4020da-f48c-4d36-a71a-2c41da49d7dd

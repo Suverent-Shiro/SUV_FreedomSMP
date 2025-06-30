@@ -1,0 +1,17 @@
+Name: '&5Klucz do Elitarnej skrzyni'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&5Klucz do Elitarnej skrzyni'
+  Lore:
+  - '&5Elitarne ☆☆☆☆'
+  - '&5&o&m----------------------------------'
+  - '&5🎁 Klucz do skrzyni'
+  - '&5&o&m----------------------------------'
+  - '&7&oKlucz do skrzyni. Jest on przeznaczony'
+  - '&7&odo &5&oSkrzyni elitarnej&7&o. Skrzynie możesz'
+  - '&7&oznaleźć w głównych miejscówkach takie'
+  - '&7&ojak &e&oWioska Spawnu&7&o, &8&oKamienne Wybrzeże&7&o,'
+  - '&a&oMiasto Wolności&7&o lub &b&oKrólestwo Agharii&7&o.'
+  - '&5&o&m----------------------------------'
+  - '&fNie posiada specjalnych właściwości'

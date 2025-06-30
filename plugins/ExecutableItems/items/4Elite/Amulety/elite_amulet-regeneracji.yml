@@ -1,0 +1,116 @@
+name: §5Ulepszony amulet regeneracji
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------
+- §5🧪 Materiały eksploatacyjne
+- §5§o§m----------------------------------
+- §7§oWielorazowy amulet który cię leczy.
+- §5§o§m----------------------------------
+- '§cRegeneracja: §fKliknij prawym przyciskiem'
+- §fmyszy aby otrzymać efekt §cregeneracji
+- §fna §630s§f.
+material: PRISMARINE_SHARD
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 30
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+variables:
+  var0:
+    variableName: usage
+    type: NUMBER
+    default: 30.0
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_ALL_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    cooldownOptions:
+      cooldown: 90
+      isCooldownInTicks: false
+      cooldownMsg: '&cCooldown! Możesz ponownie tego użyć za: &e%time_S%&6s'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    - 40
+    commands:
+    - effect give %player% regeneration 30 1
+    - ACTIONBAR Amulet regeneracji 30
+    - SENDEMSSAGE §bAktywowano amulet
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions:
+      ifNeedPlayerConfirmationCancel: false
+    placeholdersConditions: {}
+    variablesModification: {}

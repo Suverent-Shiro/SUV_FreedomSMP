@@ -1,0 +1,94 @@
+name: §9Złoty kilof górnika
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m------------------------------------------
+- §9⛏ Narzędzie
+- §9§o§m------------------------------------------
+- '§4🗡 ATK: 2'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 20'
+- '§9⛏ Wydajność: 4'
+- §9§o§m------------------------------------------
+- §7§oZłoty i wytrzymały kilof górnika ze §x§E§1§E§1§9§8§oZłotej osady§7§o.
+- §7§oMimo bycia stworzonym ze złota jest on bardzo
+- §7§owytrzymały. Jednak wciąż to złoto, nie wykopie
+- §7§oon nawet żelaza...
+- §9§o§m------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: GOLDEN_PICKAXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 4
+  enchantment1:
+    enchantment: Unbreaking
+    level: 20
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-grind-stone: true
+  cancel-stone-cutter: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_speed
+    uuid: cde6d156-648c-4a0f-b31f-62b98d1a1463
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_damage
+    uuid: 8ee66fc8-6419-440d-8174-383b7cb9bcd6

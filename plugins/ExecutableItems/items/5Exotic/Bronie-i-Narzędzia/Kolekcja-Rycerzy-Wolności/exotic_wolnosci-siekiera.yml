@@ -1,0 +1,92 @@
+name: §6§lSiekiera rycerzy wolności
+lore:
+- §6§lEgzotyczne §6☆☆☆☆☆
+- §6§o§m-----------------------------------
+- §6⛏ §6§lNarzędzie
+- §6🔰 §6§lKolekcja Rycerzy Wolności
+- §6§o§m-----------------------------------
+- '§4🗡 ATK: 6'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 8'
+- '§9⛏ Wydajność: 7'
+- §6§o§m-----------------------------------
+- §a§oMiasto Wolności §7§ojest dużym eksporterem
+- §7§onarzędzi i broni na cały świat, dlatego
+- §7§oich jakość jest zazwyczaj bardzo
+- §7§odobra. Tak w tym przypadku.
+- §6§o§m-----------------------------------
+- §fNie posiada specjalnych właściwości.
+material: DIAMOND_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 7
+  enchantment1:
+    enchantment: Unbreaking
+    level: 8
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+whitelistedWorlds: []
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 3a9a0c46-7f59-4214-b4b5-fbbd3110b3c0
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 5.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 9cc45f31-b032-4826-9998-7859ea0a4dd4
+customModelData: 32

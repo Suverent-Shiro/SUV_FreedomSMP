@@ -1,0 +1,74 @@
+name: §aPiwko 5% 0,5l
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m-----------------------------------------------
+- §a🍖 Jedzenie
+- §a§o§m-----------------------------------------------
+- §7§oZwykłe dobre piwko 5%. Ten napój alkoholowy jest
+- §7§omniej sprzedwany niż jego bez procentowy odpowiednik
+- §7§ojednak wciąż utrzymuje swoje miejsce jako jeden z
+- '§7§onajbardziej sprzedawanych napojów piwnych '
+- §7§ona całym świecie! Pochodzi on z §8§oKamiennego Wybrzeża§7§o!
+- §a§o§m-----------------------------------------------
+- §fNie posiada specjalnych właściwości
+material: POTION
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: Potion
+    type: STRING
+    value: minecraft:thick
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+  cancel-rename-anvil: true
+  cancel-smithing-table: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+potionSettings:
+  potionType: WATER
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects: {}
+attributes: {}

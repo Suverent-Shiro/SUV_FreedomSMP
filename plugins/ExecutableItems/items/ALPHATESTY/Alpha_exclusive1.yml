@@ -1,0 +1,55 @@
+name: §4§lPokazowy miecz ekskluzywny
+lore:
+- §4🗡§4§l Broń ekskluzywna§4 ★★★★★
+- §4§o§m----------------------------------
+- §4🔰 Kolekcja Pokazowa
+- §4§o§m----------------------------------
+- '§4🗡 ATK: 9'
+- '§b⚡ SPD: Szybki'
+- §4§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: NETHERITE_SWORD
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: true
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

@@ -1,0 +1,73 @@
+name: §7Startowe spodnie
+lore:
+- §7Pospolite ☆
+- §7§o§m----------------------------------
+- §7🛡 Zbroja
+- §7🔰 Kolekcja Startowa
+- §7§o§m----------------------------------
+- '§9🛡 Pkt. zbroji: §42§9 / §b0§9 / §50'
+- ''
+- '§2🏹 Niezniszczalność: 1'
+- §7§o§m----------------------------------
+- '§7§oZwykłe spodnie startowe. Każdy musi od '
+- §7§oczegoś zacząć co nie?
+- §7§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: LEATHER_LEGGINGS
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+armorColor: 10511680
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-anvil: true
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: EYE

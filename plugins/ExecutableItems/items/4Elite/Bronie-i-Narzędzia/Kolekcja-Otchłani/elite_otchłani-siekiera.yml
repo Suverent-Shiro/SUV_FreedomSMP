@@ -1,0 +1,137 @@
+name: §5Siekiera otchłani
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------------
+- §5⛏ Narzędzie
+- §5🔰 Kolekcja Otchłani
+- §5§o§m----------------------------------------
+- '§4🗡 ATK: 4'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 8'
+- '§9⛏ Wydajność: 3'
+- §5§o§m----------------------------------------
+- §7§oW netherze nie bardzo są potrzebne siekiery
+- §7§ojako narzędzie. Dlatego nie cechują się
+- §7§owytrzymałością.
+- §5§o§m----------------------------------------
+- '§eSzybkie dłonie: §fUżyj prawego przycisku myszy '
+- §faby otrzymać efekt pośpiechu.
+- §fOtrzymujesz efekt pośpiechu (ang. haste)
+- '§bCzas trwania: 15 sekund'
+material: GOLDEN_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 3
+  enchantment1:
+    enchantment: Unbreaking
+    level: 8
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+variables: {}
+activators:
+  activator0:
+    name: Szybkie dlonie
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 20
+      isCooldownInTicks: false
+      cooldownMsg: ''
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cCooldown! Możesz ponownie tego użyć za: &e%time_S%&6s'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    commands:
+    - effect give %player% haste 15 0
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions:
+      ifNeedPlayerConfirmationCancel: false
+    placeholdersConditions: {}
+    variablesModification: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 3a9a0c46-7f59-4214-b4b5-fbbd3110b3c0
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HAND
+    name: ''
+    uuid: 9cc45f31-b032-4826-9998-7859ea0a4dd4

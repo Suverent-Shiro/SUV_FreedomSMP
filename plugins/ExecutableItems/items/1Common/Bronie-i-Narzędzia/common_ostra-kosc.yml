@@ -1,0 +1,78 @@
+name: §7Naostrzona kość
+lore:
+- §7Pospolite ☆
+- §7§o§m----------------------------------
+- §7🗡 Uzbrojenie
+- §7§o§m----------------------------------
+- '§4🗡 ATK: 3'
+- '§b⚡ SPD: Bardzo szybki'
+- §7§o§m----------------------------------
+- §7§oNaostrzona kość, nie jest zbyt dobrą
+- §7§obronią ale potrafi być całkiem ostra.
+- §7§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: BONE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: -1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+customModelData: 1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-smithing-table: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -1.8
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 6c023813-0b2e-464b-9861-2c53871fbd58
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 49a499ab-f9d8-49c3-ac0b-7629a51b5581

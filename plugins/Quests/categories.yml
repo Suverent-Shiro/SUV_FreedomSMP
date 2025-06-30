@@ -1,0 +1,41 @@
+# -----------------------------------------------------------
+#  Categories
+#  ----------
+#
+#  Categories are a way of grouping quests.
+#  When a player uses /quests, a menu of categories will be presented to them.
+#  When a player clicks on a category, a list of quests under that category will show.
+#  If categories are disabled, all quests will be shown under one big GUI.
+#  Players can access specific categories by command using /quests c [category].
+#  If a quest does not have a category, it will not be shown.
+# -----------------------------------------------------------
+categories:
+  Gornictwo:
+    display:
+      name: "&#57e437&l« &2⛏ &#57e437&l» Górnictwo"
+      lore:
+        - "&7Jeżeli uwielbiasz kopać, ta kategoria"
+        - "&7jest idealna dla ciebie! Pokaż że to ty rządzisz"
+        - "&7w kopaniu diamentów! &7&oi innych bloków"
+      type: "IRON_PICKAXE"   
+  Rolnictwo:
+    display:
+      name: "&#57e437&l« &2🎣 &#57e437&l» Rolnictwo"
+      lore:
+        - "&7Lubisz mieć wiel pól uprawnych? Nie dość że zarabiasz"
+        - "&7kupony, to jeszcze questy robisz! Żyć, nie umierać!"
+      type: "WHEAT"   
+  Miejscowki:
+    display:
+      name: "&#E4DC30&l« &e☆ &#E4DC30&l» Dążenie do miejscówek"
+      lore:
+        - "&7To gdzie te miasta? W tych questach możesz odblokować"
+        - "&7wskazówki aby odnaleźć wszystkie miejscówki na serwerze!"
+      type: "NETHER_STAR" 
+  Daily:
+    display:
+      name: "&#E4306F&l« &d🏹 &#E4306F&l» Daily questy"
+      lore:
+        - "&7Te uczucie gdy grałeś/aś cały dzień i po"
+        - "&7wyłączeniu komputera przypominają ci się daily..."
+      type: "EXPERIENCE_BOTTLE" 

@@ -1,0 +1,76 @@
+name: §5Żółwie serce
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m---------------------------------------------------
+- §5🛡 Zbroja
+- §5§o§m---------------------------------------------------
+- '§9🛡 Pkt. zbroji: §42§9 / §b0§9 / §50'
+- ''
+- '§2🏹 Niezniszczalność: 5'
+- §5§o§m---------------------------------------------------
+- '§7§oLegendarny hełm który otacza cię mocą blasku księżyca. '
+- '§7§oNosząc go możesz poczuć jakbyś przemieżał/a przez '
+- §7§oniebo pełne gwiazd...
+- §5§o§m---------------------------------------------------
+- §9Wieczne oddychanie:§b §fZałożenie przemiotu na głowę aktywuje
+- §foddychanie pod wodą.
+- '§bCzas trwania: §fNieskończone'
+material: TURTLE_HELMET
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 5
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-smithing-table: true
+  cancel-stone-cutter: true
+  cancel-enchant: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: EYE

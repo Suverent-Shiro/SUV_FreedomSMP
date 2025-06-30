@@ -1,0 +1,72 @@
+name: §5Zmrożona kość
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------------------
+- §5💰 Specjalna waluta
+- §5§o§m----------------------------------------------
+- §7§oZamarznięta kość która posiada nawet kawałki lodu
+- §7§ona sobie. Możesz je znaleźć zwykle na zimnych
+- §7§oterenach ponieważ dropią one z tułaczy. Na pierwszy
+- '§7§orzut oka są to zwykłe kości jednak posiadają one '
+- §7§odużą wartość kolekcjonerską ze względu na swoje
+- §7§ospecjalne właściwości. Zaoferuj ją jakiemuś
+- §7§okolekcjonerowi a otrzyamasz nawet sporą sumkę!
+- §5§o§m----------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: BONE
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: true
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+  cancel-grind-stone: true
+  cancel-item-frame: true
+  cancel-smithing-table: true
+  cancel-item-craft-no-custom: true
+  cancel-enchant: true
+  cancel-anvil: true
+  cancel-armorstand: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+customModelData: 71

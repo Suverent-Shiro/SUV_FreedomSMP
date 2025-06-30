@@ -1,0 +1,90 @@
+name: §aZwyczajna kosa
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m----------------------------------------
+- §a🗡 Uzbrojenie
+- §a§o§m----------------------------------------
+- '§4🗡 ATK: 3'
+- '§b⚡ SPD: Bardzo szybki'
+- ''
+- '§2🏹 Niezniszczalność: 1'
+- §a§o§m----------------------------------------
+- §7§oKosy są kolejną bronią wytworzoną w §b§oKrainie
+- §b§oAgharii§7§o, ta broń jest strasznie szybka i mobilna
+- §7§ojednak nie zadaje ona dużych obrażeń. Jest
+- §7§oto dosłownie odwrotność Claymore'ów.
+- §a§o§m----------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: IRON_HOE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+customModelData: 10
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-stone-cutter: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: f27895b3-6030-406f-9507-5c966056b26c
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -1.8
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: ed027043-f38a-435d-be19-4eb9524344d4

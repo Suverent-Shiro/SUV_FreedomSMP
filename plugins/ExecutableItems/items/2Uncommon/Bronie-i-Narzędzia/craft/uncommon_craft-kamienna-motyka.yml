@@ -1,0 +1,82 @@
+name: §aZwyczajna kamienna motyka
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m-----------------------------------
+- §a⛏ Narzędzie
+- §a§o§m-----------------------------------
+- '§4🗡 ATK: 1'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 2'
+- §a§o§m-----------------------------------
+- '§7§oZwyczajny scraftowana kamienna motyka. '
+- §a§o§m-----------------------------------
+- §fNie posiada specjalnych właściwości
+material: STONE_HOE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 2
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 384b946a-86cb-418f-930d-d0f9db2d6abc
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 0.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: eea34dc4-778b-445f-8a73-9b45f35b0bdd

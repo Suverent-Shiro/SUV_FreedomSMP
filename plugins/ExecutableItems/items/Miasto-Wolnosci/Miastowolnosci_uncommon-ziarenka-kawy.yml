@@ -1,0 +1,66 @@
+name: §aZiarna kawy
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m-------------------------------------------
+- §a§o✂§a Surowce i materiały
+- §a§o§m-------------------------------------------
+- §7§oZiarenka kawy z §a§oMiasta Wolności§7§o. W §a§oMieście Wolności
+- §7§okawa jest jednym z najbardziej znanych aspektów
+- §7§otego miejsca. Ich kawa jest najwyższej jakości
+- §7§ona całym świecie a w samym mieście znajdują się
+- §7§oaż 4 kawiarnie!
+- §a§o§m-------------------------------------------
+- §fNie posiada specjalnych właściwości
+material: COCOA_BEANS
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-item-craft-no-custom: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+  cancel-item-place: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

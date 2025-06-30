@@ -1,0 +1,66 @@
+name: §aKebab w bułce z budki
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m-----------------------------------
+- §a🍖 Jedzenie
+- §a§o§m-----------------------------------
+- '§x§B§A§7§3§2§3🍖 FOOD: 5 punktów głodu'
+- '§e☻ SAT: 3 puntky saturacji'
+- §a§o§m-----------------------------------
+- §7§oZwykły kebab w bułce z kurczakiem.
+- §7§oZazwyczaj sprzedawany w jakiś budkach
+- §7§olub czymś innym tego typu. Nie jest za
+- §7§odobry ale jest zjadalny.
+- §a§o§m-----------------------------------
+- §fNie posiada specjalnych właściwości
+material: BREAD
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-rename-anvil: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

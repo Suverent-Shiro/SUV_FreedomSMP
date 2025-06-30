@@ -1,0 +1,111 @@
+name: §5Zaklęta tarcza nieskończonego złota
+lore:
+- §5Elitarne ☆☆☆
+- §5§o§m--------------------------------------------------
+- §5🗡 Uzbrojenie
+- §5§o§m--------------------------------------------------
+- '§2🏹 Niezniszczalność: 3'
+- §5§o§m--------------------------------------------------
+- §7§oTarcza produkcji §x§E§1§E§1§9§8§oZłotej osady§7§o. W porównaniu z resztą
+- §7§ozbroji pod tytułem "nieskończonego złota" ta tarcza
+- §7§onie jest uzbrojeniem budżetowym. Jest ona wytrzymała
+- §7§oi zdobiona złotem. Ta wersja posiada możliwości szybszego
+- §7§ochodzenia gdy posiadasz tą tarczę założoną.
+- §5§o§m--------------------------------------------------
+- '§bWięcej staminy: §fGdy trzymasz ten item w drugiej ręce'
+- §fjesteś odrobine szybszy/a
+material: SHIELD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+  '1':
+    key: BlockEntityTag
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: id
+          type: STRING
+          value: minecraft:banner
+        '1':
+          key: Base
+          type: INT
+          value: 4
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-grind-stone: true
+  cancel-stone-cutter: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+bannerSettings:
+  color: 16701501
+  patterns:
+    pattern0:
+      subPattern0:
+        string: color
+        object: ORANGE
+      subPattern1:
+        string: pattern
+        object: gru
+    pattern1:
+      subPattern0:
+        string: color
+        object: YELLOW
+      subPattern1:
+        string: pattern
+        object: bo
+attributes:
+  attribute0:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 0.025
+    slot: OFF_HAND
+    uuid: 30c001a0-8985-4ccf-8540-79a6e5555cd4

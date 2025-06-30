@@ -1,0 +1,91 @@
+name: §5Siekiera blasku słońca
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m-----------------------------------
+- §5⛏ Narzędzie
+- §5🔰 Kolekcja Blasku słońca
+- §5§o§m-----------------------------------
+- '§4🗡 ATK: 5'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§9⛏ Wydajność: 3'
+- §5§o§m-----------------------------------
+- §7§oW §e§oKrainie Spawnowej§7§o nie spotyka się dużo
+- §7§odrzew dlatego siekiery nie są tutaj
+- §7§oszczególnie dobre. Ta jednak za swą
+- §7§ocenę spełnia swoją robotę.
+- §5§o§m-----------------------------------
+- §fNie posiada specjalnych właściwości
+material: IRON_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+keepDefaultAttributes: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 3
+  enchantment1:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 3a9a0c46-7f59-4214-b4b5-fbbd3110b3c0
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 4.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 9cc45f31-b032-4826-9998-7859ea0a4dd4

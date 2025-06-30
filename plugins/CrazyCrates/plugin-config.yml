@@ -1,0 +1,10 @@
+# Whether you want CrazyCrates to shut up or not, This option is ignored by errors.
+verbose_logging: true
+# Sends anonymous statistics about how the plugin is used to bstats.org.
+# bstats is a service for plugin developers to find out how the plugin being used,
+# This information helps us figure out how to better improve the plugin.
+toggle_metrics: true
+# The prefix used in commands
+command_prefix: '&7[&3&lProject: &7Prototype] '
+# The prefix used in console
+console_prefix: '&7[&3&lProject: &7Prototype] '

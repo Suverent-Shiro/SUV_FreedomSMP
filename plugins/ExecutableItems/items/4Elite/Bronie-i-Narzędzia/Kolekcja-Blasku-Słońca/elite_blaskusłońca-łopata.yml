@@ -1,0 +1,90 @@
+name: §5Łopata blasku słońca
+lore:
+- §5Elitarne§9 §5☆☆☆☆
+- §5§o§m----------------------------------
+- §5⛏ Narzędzie
+- §5🔰 Kolekcja Blasku słońca
+- §5§o§m----------------------------------
+- '§4🗡 ATK: 3'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 4'
+- '§9⛏ Wydajność: 4'
+- §5§o§m----------------------------------
+- §7§oW §e§oKrainie Spawnowej§7§o piasku jest bardzo
+- §7§odużo, dlatego pożądna łopata może się
+- §7§oprzydać.
+- §5§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: DIAMOND_SHOVEL
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+cancelEventIfNoPermission: false
+keepDefaultAttributes: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 4
+  enchantment1:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: a0bbeed9-cf7e-4d9c-8436-40463a8f65ff
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: a1838712-2a4d-49ff-9280-bfc1cf10d4db

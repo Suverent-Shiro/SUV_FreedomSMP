@@ -1,0 +1,96 @@
+name: §9Ulepszone wysokiej jakości buty
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m------------------------------------
+- §9🛡 Zbroja
+- §9§o§m------------------------------------
+- '§9🛡 Pkt. zbroji: §42§9 / §b0§9 / §50'
+- ''
+- '§2🏹 Niezniszczalność: 5'
+- '§3❈ Ochrona: §4🗡 2§3 / §6🔥 0§3 / §c💥 0§3 / §2🏹 1'
+- §9§o§m------------------------------------
+- '§7§oUzbrojona w diamenty ulepszona wersja '
+- '§7§ozwykłej żelaznej zbroji z wyższej półki. '
+- §9§o§m------------------------------------
+- §fNie posiada specjalnych właściwości
+material: IRON_BOOTS
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+  '1':
+    key: Trim
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: material
+          type: STRING
+          value: minecraft:diamond
+        '1':
+          key: pattern
+          type: STRING
+          value: minecraft:host
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: true
+enchantments:
+  enchantment0:
+    enchantment: Projectile_protection
+    level: 1
+  enchantment1:
+    enchantment: Protection
+    level: 2
+  enchantment2:
+    enchantment: Unbreaking
+    level: 5
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: EYE

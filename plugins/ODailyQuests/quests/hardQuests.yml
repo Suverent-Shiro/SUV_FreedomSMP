@@ -1,0 +1,232 @@
+# ==============================================================
+#                        HARD QUESTS FILE
+# ==============================================================
+# Quests must be numbered and increment from 1 to 1.
+# Please be attentive to the indentation and respect the scheme.
+# This could cause several bugs.
+# ==============================================================
+# AVAILABLE QUESTS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/quests-types
+# ==============================================================
+# AVAILABLE REWARDS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/rewards-types
+# ==============================================================
+# AVAILABLE ENTITY TYPES :
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/Entity.html
+# ==============================================================
+# AVAILABLE ITEM TYPES :
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# ==============================================================
+# AVAILABLE PLUGIN PLACEHOLDERS FOR QUESTS DESCRIPTIONS :
+# %progress% is replaced by the progression of the quest.
+# %required% is replaced by the required amount to complete the quest.
+# ==============================================================
+# More tips available on Wiki :
+# https://ordwenplugins.gitbook.io/odailyquests/
+# Need help ? https://discord.com/invite/NPAUE7kTgJ
+# For more affected objects or types, please make suggestion.
+# ==============================================================
+#
+# &c&l« &4☆☆☆ &c&l»
+quests:
+  #1:
+  #  name: "&c&l« &4☆☆☆ &c&l» Jeszcze więcej cobbla!"
+  #  menu_item: COBBLESTONE
+  #  description:
+  #    - "&eWykop 128 bruku."
+  #    - "&bNagrody:"
+  #    - "&b       - &7Kupon spadającej gwiazdy &ax300."
+  #  quest_type: BREAK
+  #  required_item: COBBLESTONE
+  #  required_amount: 128
+  #  reward:
+  #    reward_type: COMMAND
+  #    commands:
+  #      - "ei give %player% Kupon_0global_100 3"
+  1:
+    name: "&c&l« &4☆☆☆ &c&l» Jeszcze więcej złota!"
+    menu_item: GOLD_BLOCK
+    description:
+      - "&eZdobądź 32 sztabek złota."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax300."
+      - "&b       - &fSztabka złota &ax8."
+    quest_type: GET
+    required_item: GOLD_INGOT
+    required_amount: 32
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 3"
+        - "minecraft:give %player% gold_ingot 8"
+  3:
+    name: "&c&l« &4☆☆☆ &c&l» INWAZJA! Najeżdżają na nas!"
+    menu_item: ENDER_PEARL
+    description:
+      - "&cZabij &64 &cendermany."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax500."
+      - "&b       - &fPerła endu &ax3."
+    quest_type: KILL
+    required_entity: ENDERMAN
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 5"
+        - "minecraft:give %player% minecraft:ender_pearl 3"
+  4:
+    name: "&c&l« &4☆☆☆ &c&l» Diamenty!"
+    menu_item: DIAMOND_BLOCK
+    description:
+      - "&eZdobądź &616 &ediamentów."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax300."
+      - "&b       - &fDiament &ax4."
+    quest_type: GET
+    required_item: DIAMOND
+    required_amount: 16
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 3"
+        - "minecraft:give %player% diamond 4"
+  5:
+    name: "&c&l« &4☆☆☆ &c&l» Salon fryzjerski."
+    menu_item: WHITE_WOOL
+    description:
+      - "&eOstrzyż &68 &eowiec."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax300."
+    quest_type: SHEAR
+    required_entity: SHEEP
+    required_amount: 8
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 3"
+  6:
+    name: "&c&l« &4☆☆☆ &c&l» To nie jest cocogoat!"
+    menu_item: BROWN_MUSHROOM
+    description:
+      - "&eOstrzyż &62 &ekrowy grzybowe."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax400."
+    quest_type: SHEAR
+    required_entity: MUSHROOM_COW
+    required_amount: 2
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 4"
+  7:
+    name: "&c&l« &4☆☆☆ &c&l» Potrzeba więcej rybek!"
+    menu_item: COD
+    description:
+      - "&eZłów &612 jakichkolwiek przedmiotów."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax300."
+    quest_type: FISH
+    required_amount: 12
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 3"
+  8:
+    name: "&c&l« &4☆☆☆ &c&l» A co tak pachnie?"
+    menu_item: COOKED_BEEF
+    description:
+      - "&eUgotuj/przepal &648 &cjakichkolwiek przedmiotów."
+      - "&eAby zaliczyć quest, wyciągnij przedmioty z pieca."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax300."
+    quest_type: COOK
+    required_amount: 48
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 3"
+  9:
+    name: "&c&l« &4☆☆☆ &c&l» Daj mi spać!"
+    menu_item: PHANTOM_MEMBRANE
+    description:
+      - "&cZabij &63 &cfantomy."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax500."
+    quest_type: KILL
+    required_entity: PHANTOM
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 5"
+  10:
+    name: "&c&l« &4☆☆☆ &c&l» NO ILE TYCH PAJĄKÓW?!"
+    menu_item: STRING
+    description:
+      - "&cZabij &68 &cpająków."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax300."
+    quest_type: KILL
+    required_entity: SPIDER
+    required_amount: 8
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 3"
+  11:
+    name: "&c&l« &4☆☆☆ &c&l» Więcej jajek!"
+    menu_item: EGG
+    description:
+      - "&eZdobądź 16 jajków."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax300."
+    quest_type: GET
+    required_item: EGG
+    required_amount: 16
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 3"  
+  12:
+    name: "&c&l« &4☆☆☆ &c&l» Żelazo!"
+    menu_item: IRON_INGOT
+    description:
+      - "&eZdobądź 24 sztabek żelaza."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax250."
+    quest_type: GET
+    required_item: IRON_INGOT
+    required_amount: 24
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_10 25"
+  13:
+    name: "&c&l« &4☆☆☆ &c&l» A może całe wiadro wam przynieść?"
+    menu_item: ZOMBIE_HEAD
+    description:
+      - "&cZabij &68 &cposuchów."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax300."
+    quest_type: KILL
+    required_entity: HUSK
+    required_amount: 8
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 3"
+  14:
+    name: "&c&l« &4☆☆☆ &c&l» Idź z tym trójzębem!"
+    menu_item: ZOMBIE_HEAD
+    description:
+      - "&cZabij &68 &ctopielców."
+      - "&bNagrody:"
+      - "&b       - &7Kupon spadającej gwiazdy &ax400."
+    quest_type: KILL
+    required_entity: DROWNED
+    required_amount: 8
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "ei give %player% Kupon_0global_100 4"

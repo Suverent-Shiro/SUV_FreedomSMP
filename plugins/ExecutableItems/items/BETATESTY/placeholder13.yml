@@ -1,0 +1,87 @@
+name: §5Buty rycerzy wolności
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------
+- §5🛡 Zbroja
+- §5🔰 Kolekcja Rycerzy Wolności
+- §5§o§m----------------------------------
+- '§9🛡 Pkt. zbroji: §43§9 / §b2§9 / §50'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§3❈ Ochrona: §4🗡 4§3 / §6🔥 0§3 / §c💥 3§3 / §2🏹 4'
+- '§b🪶 Łagodny upadek: 3'
+- §5§o§m----------------------------------
+- §7§oUlepszona wersja oryginalnej zbroji
+- §7§oRycerzy Wolności którzy oryginalnie
+- §7§owalyczli o wolność §a§oMiasta Wolności §7§otakie
+- §7§ojakie znamy dzisiaj.
+- §5§o§m----------------------------------
+- '§aKrólicze łapy: §fGdy założysz buty kliknij'
+- §b§nSPACJA§f+§b§nSHIFT§f aby wykonać podwójny
+- §fskok! Możesz tego użyć co 2 sekundy!
+- §c§nUWAGA!§c Jak skaczesz z wysokości, to
+- §cmogą cię troche nogi zaboleć!
+material: DIAMOND_BOOTS
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Blast_protection
+    level: 3
+  enchantment1:
+    enchantment: Feather_falling
+    level: 3
+  enchantment2:
+    enchantment: Projectile_protection
+    level: 4
+  enchantment3:
+    enchantment: Protection
+    level: 4
+  enchantment4:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: EYE

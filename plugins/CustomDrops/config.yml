@@ -1,0 +1,30 @@
+Global-Drop-Defaults:
+  permission: customdrops.drop
+  xp: -1
+  # Fortune/Looting
+  enchant-multiplier: false
+  auto-inventory: false
+  auto-add-global-region: true
+  # Syntax: ["test", "test1"]
+  auto-add-regions-by-id: []
+
+BlockDrop-Defaults:
+  placed-drops: false
+  silktouch: false
+  vanilla-drops: false
+
+MobDrop-Defaults:
+  natural-death-drops: true
+
+Loot-Defaults:
+  permission: customdrops.loot
+  chance: 100
+
+Region-Defaults:
+  permission: customdrops.regions
+  # List of valid material names: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  display-material: BEACON
+  ignore-blacklist: false
+
+Files:
+  placed-drop-conversion: true

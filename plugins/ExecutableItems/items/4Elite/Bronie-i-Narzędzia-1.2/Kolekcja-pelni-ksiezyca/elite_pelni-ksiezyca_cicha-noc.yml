@@ -1,0 +1,91 @@
+name: §5Cicha noc
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m--------------------------------------------------------
+- §5🗡 Uzbrojenie
+- §5🔰 Kolekcja Pełni księżyca
+- §5§o§m--------------------------------------------------------
+- '§4🏹 Przebicie: 5'
+- §6⚡ Wielostrzał
+- '§b⚡ Szybkie ładowanie: 2'
+- '§2🏹 Niezniszczalność: 4'
+- §5§o§m--------------------------------------------------------
+- '§7§oSpokojnej nocy... Spokojnych, miłych snów... Prześpij tę noc jak '
+- '§7§ow najwygodniejszym łóżku... A rano, gdy ptaki zaczną ćwierkać, '
+- §7§onawet nie zauważysz, że to była... §b§oCicha noc§7§o...
+- §5§o§m--------------------------------------------------------
+- '§bWięcej staminy: §fGdy trzymasz ten item jesteś odrobine szybszy/a'
+material: CROSSBOW
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: Charged
+    type: BYTE
+    value: 0
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Multishot
+    level: 1
+  enchantment1:
+    enchantment: Piercing
+    level: 5
+  enchantment2:
+    enchantment: Quick_charge
+    level: 2
+  enchantment3:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 0.025
+    slot: HAND
+    uuid: acd8db9c-8fe4-40cd-8cd0-a4bba40ad61d

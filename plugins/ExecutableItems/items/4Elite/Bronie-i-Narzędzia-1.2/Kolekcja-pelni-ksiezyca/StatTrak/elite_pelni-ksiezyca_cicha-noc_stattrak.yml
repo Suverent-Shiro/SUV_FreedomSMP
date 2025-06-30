@@ -1,0 +1,204 @@
+name: §6StatTrak™ §5Cicha noc
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m--------------------------------------------------------
+- §5🗡 Uzbrojenie
+- §5🔰 Kolekcja Pełni księżyca
+- §5§o§m--------------------------------------------------------
+- '§6☠§5§o §6StatTrak™: §f%var_counter_int% Graczy §6/ §f%var_mcounter_int% Mobów'
+- ''
+- '§4🏹 Przebicie: 5'
+- §6⚡ Wielostrzał
+- '§b⚡ Szybkie ładowanie: 2'
+- '§2🏹 Niezniszczalność: 4'
+- §5§o§m--------------------------------------------------------
+- '§7§oSpokojnej nocy... Spokojnych, miłych snów... Prześpij tę noc jak '
+- '§7§ow najwygodniejszym łóżku... A rano, gdy ptaki zaczną ćwierkać, '
+- §7§onawet nie zauważysz, że to była... §b§oCicha noc§7§o...
+- §5§o§m--------------------------------------------------------
+- '§bWięcej staminy: §fGdy trzymasz ten item jesteś odrobine szybszy/a'
+- §5§o§m--------------------------------------------------------
+- §6Ten przedmiot nalicza zabójstwa za pomocą StatTrak™
+material: CROSSBOW
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: Charged
+    type: BYTE
+    value: 0
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Multishot
+    level: 1
+  enchantment1:
+    enchantment: Piercing
+    level: 5
+  enchantment2:
+    enchantment: Quick_charge
+    level: 2
+  enchantment3:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+  cancel-stone-cutter: true
+variables:
+  var1:
+    variableName: mcounter
+    type: NUMBER
+    default: 0.0
+  var0:
+    variableName: counter
+    type: NUMBER
+    default: 0.0
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_KILL_PLAYER
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    commands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    targetCommands: []
+    targetConditions: {}
+    variablesModification:
+      varUpdt0:
+        variableName: counter
+        type: MODIFICATION
+        modification: 1.0
+  activator1:
+    name: '&eActivator'
+    option: PLAYER_KILL_ENTITY
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    commands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedEntities: []
+    entityCommands: []
+    entityConditions: {}
+    variablesModification:
+      varUpdt0:
+        variableName: mcounter
+        type: MODIFICATION
+        modification: 1.0
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 0.025
+    slot: HAND
+    uuid: acd8db9c-8fe4-40cd-8cd0-a4bba40ad61d

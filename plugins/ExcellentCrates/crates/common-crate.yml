@@ -1,0 +1,3 @@
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true

@@ -1,0 +1,114 @@
+name: §6§lTotem nieśmiertelności Piglinosa
+lore:
+- §6§lEgzotyczne §6☆☆☆☆☆
+- §6§o§m---------------------------------------
+- §6🧪 §6§lMateriały eksploatacyjne
+- §6§o§m---------------------------------------
+- §7§oTotem nieśmiertelności stosowany niegdyź
+- §7§ostosowany przez samego §6§oPiglinosa§7§o.
+- §6§o§m---------------------------------------
+- '§eTo nie koniec§f: Aktywuje się podczas umierania.'
+material: TOTEM_OF_UNDYING
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 5
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+variables:
+  var0:
+    variableName: USAGE
+    type: NUMBER
+    default: 5.0
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_DEATH
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - 40
+    - -1
+    commands:
+    - SENDMESSAGE §eOszukałeś/aś śmierć!
+    - AROUND 15 false Strike
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions:
+      ifNeedPlayerConfirmationCancel: false
+    placeholdersConditions: {}
+    detailedDamageCauses: []
+    variablesModification: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

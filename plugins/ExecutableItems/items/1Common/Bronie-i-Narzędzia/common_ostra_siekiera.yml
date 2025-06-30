@@ -1,0 +1,78 @@
+name: §7Naostrzona drewniana siekiera
+lore:
+- §7Pospolite ☆
+- §7§o§m----------------------------------
+- §7🗡 Uzbrojenie
+- §7§o§m----------------------------------
+- '§4🗡 ATK: 5'
+- '§b⚡ SPD: Bardzo wolny'
+- §7§o§m----------------------------------
+- §7§oDrewniana lekko naostrzona siekierka.
+- §7§oW dobrych rękach może być zabójcza.
+- §7§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: WOODEN_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 4.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 9cc45f31-b032-4826-9998-7859ea0a4dd4
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.2
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 3a9a0c46-7f59-4214-b4b5-fbbd3110b3c0

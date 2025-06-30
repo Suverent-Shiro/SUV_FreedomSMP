@@ -1,0 +1,76 @@
+name: §4§lFragment tokenu dziennych zadań
+lore:
+- §4§lEkskluzywne§4 ★★★★★
+- §4§o§m------------------------------------------------------
+- §4💰 Specjalna waluta
+- §4§o§m------------------------------------------------------
+- §7§oJest to fragment "§4§l§oTokenu dziennych zadań§7§o". Gdy uzyskasz
+- §7§o4 takie fragmenty to możesz je wymienić u Specjalisty zadań
+- §7§ona jeden pełny §4§l§oToken dziennych zadań§7§o. Te fragmenty
+- §7§omożna zdobyć za pomocą wykonywania dziennych zadań
+- §7§ooznaczonymi x3 gwiadzkami.§4§l§o §4§l«§4 ☆☆☆§4§l »
+- §4§o§m------------------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: PRISMARINE_SHARD
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Feather_falling
+    level: 6
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-item-delete-by-cactus: true
+  cancel-item-craft: true
+  cancel-stone-cutter: true
+  cancel-item-delete-by-lightning: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+  cancel-item-burn: true
+  cancel-item-craft-no-custom: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

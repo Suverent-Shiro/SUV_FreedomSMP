@@ -1,0 +1,163 @@
+name: §5Deszczowe chmury
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m-----------------------------------------------------
+- §5🗡 Uzbrojenie
+- §5§o§m-----------------------------------------------------
+- '§4🗡 ATK: 7'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§b⚡ Prąd odpływowy: 3'
+- '§d⚜ Lojalność: 2'
+- §5§o§m-----------------------------------------------------
+- '§7§oUwielbiasz latać? Z tym trójzębem to czysta przyjemność! '
+- §7§oPrzywołaj deszcz, aby wznieść się aż nad chmury!
+- §5§o§m-----------------------------------------------------
+- §9Niech stanie się deszcz:§f Wsadź ten trójząb do twojej drugiej
+- §fręki i §bprawym przyciskiem myszy §faby przywołać deszcz na
+- §fcałym świecie.
+- §c§nMOŻNA UŻYĆ MAKSYMALNIE 4 RAZY DZIENNIE!
+material: TRIDENT
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: -1
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Loyalty
+    level: 2
+  enchantment1:
+    enchantment: Riptide
+    level: 3
+  enchantment2:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    usePerDay:
+      maxUsePerDay: 4
+      messageIfMaxReached: '&4Możesz tego użyć maksymalnie 4 razy dziennie!'
+      cancelEventIfMaxReached: false
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    cooldownOptions:
+      cooldown: 720
+      isCooldownInTicks: false
+      cooldownMsg: ''
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 720
+      isCooldownInTicks: false
+      cooldownMsg: ''
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns:
+      cd0:
+        executableItem: exotic_Deszczowy-trojzab
+        activators:
+        - activator0
+        cooldown: 720
+        isCooldownInTicks: false
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - 40
+    commands:
+    - minecraft:weather rain
+    - SENDMESSAGE &bPrzywołano deszcz
+    - bc &fNiech to zaklęcie ujrzy światło dzienne... Niech &9deszcz spadnie na świat...
+    playerConditions:
+      ifInWorldMsg: '&cNie możesz aktywować deszczu będąc w Netherze!'
+      ifHasExecutableItemsMsg: '&cAby przywołać deszcz wsadź trójząb do twojej drugiej
+        ręki'
+    worldConditions:
+      ifWeather:
+      - CLEAR
+      ifWeatherMsg: '&cJest już deszcz na świecie...'
+    itemConditions: {}
+    customConditions:
+      ifNeedPlayerConfirmationCancel: false
+    placeholdersConditions: {}
+    variablesModification: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_speed
+    uuid: a8c14abd-e21a-4249-a059-2eef10d2dfb3
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 6.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_damage
+    uuid: d3429ebe-07ae-4c28-9684-b3aa211de784

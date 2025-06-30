@@ -1,0 +1,203 @@
+name: §6StatTrak™ §5Trójząb z wyższej półki
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m-------------------------------------
+- §5🗡 Uzbrojenie
+- §5§o§m-------------------------------------
+- '§4🗡 ATK: 9'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§6☠§5§o §6StatTrak™: §f%var_counter_int% Graczy §6/ §f%var_mcounter_int% Mobów'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§1🔱 Przebicie trójzębu: 2'
+- '§d⚜ Lojalność: 1'
+- §5§o§m-------------------------------------
+- '§7§oTrójząb z wyższej półki. Oferuje on '
+- §7§owiększą wytrzymałość i większe obrażenia
+- §7§ona morskie potwory.
+- §5§o§m-------------------------------------
+- §fNie posiada specjalnych właściwości
+- §5§o§m-------------------------------------
+- §6Ten przedmiot nalicza zabójstwa za pomocą
+- §6StatTrak™
+material: TRIDENT
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Impaling
+    level: 2
+  enchantment1:
+    enchantment: Loyalty
+    level: 1
+  enchantment2:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+variables:
+  var1:
+    variableName: mcounter
+    type: NUMBER
+    default: 0.0
+  var0:
+    variableName: counter
+    type: NUMBER
+    default: 0.0
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_KILL_PLAYER
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    commands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    targetCommands: []
+    targetConditions: {}
+    variablesModification:
+      varUpdt0:
+        variableName: counter
+        type: MODIFICATION
+        modification: 1.0
+  activator1:
+    name: '&eActivator'
+    option: PLAYER_KILL_ENTITY
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    commands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedEntities: []
+    entityCommands: []
+    entityConditions: {}
+    variablesModification:
+      varUpdt0:
+        variableName: mcounter
+        type: MODIFICATION
+        modification: 1.0
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 8.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: d3429ebe-07ae-4c28-9684-b3aa211de784
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: a8c14abd-e21a-4249-a059-2eef10d2dfb3

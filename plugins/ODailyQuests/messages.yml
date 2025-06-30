@@ -1,0 +1,70 @@
+# NEVER DELETE A %variable%
+# Messages support HEX colours codes.
+
+player_help: |
+  &a&nPlayer commands:
+  &e/dq me &a: see your own quests
+  &e/dq reroll <index> &a: reroll a quest (requires permission)
+  &e/dq show <global/easy/medium/hard> &a: see the quests of a category
+admin_help: |
+  &c&nAdmin commands:
+  &e/dqa complete <player> <index> &a: complete a player quest
+  &e/dqa reset <quests/total> <player> &a: draw new quests for a player, or reset his total number of achieved quests.
+  &e/dqa add total <player> <amount> &a: add a number of achieved quests to a player.
+  &e/dqa reroll <player> <index> &a: draw a new quest for a player, at a specific index.
+  &e/dqa show <player> &a: see quests of a player
+no_permission: '&cYou don''t have permission.'
+no_permission_category: '&cYou don''t have permission to see this category.'
+player_only: '&cOnly player can execute this command.'
+invalid_category: '&cInvalid quest category.'
+invalid_player: '&cThis player doesn''t exist, or is offline.'
+invalid_quest_id: '&cYou must specify a valid quest ID.'
+invalid_quest_index: '&cThe specified index is invalid.'
+invalid_amount: '&cThe specified amount is invalid.'
+categorized_enabled: '&cCategorized quests are enabled, the global menu is not available.'
+categorized_disabled: '&cCategorized quests are disabled, only the global menu is
+  available.'
+global_disabled: '&cGlobal quests are disabled, only the categorized menus are available.'
+already_achieved: '&cTen quest został już wykonany.'
+hologram_categorized_enabled: '&cCategorized quests are enabled, impossible to create
+  the global hologram.'
+hologram_categorized_disabled: '&cCategorized quests are disabled, impossible to create
+  the categorized holograms.'
+hologram_deleted: '&aHologram successfully deleted.'
+hologram_invalid_index: '&cInvalid index for the hologram.'
+quests_in_progress: '&eWciąż masz codzienne zadania do ukończenia !'
+all_quests_achieved_connect: '&aWykonałeś/aś swoje wszystkie dzienne zadania !'
+quests_renewed: '&aMasz nowe dzienne zadania do ukończenia !'
+quests_renewed_admin: '&eYou have reset the quests of %target%.'
+quest_rerolled: '&aYou have rerolled your quest number %index% !'
+quest_rerolled_admin: '&eYou have rerolled the quest number %index% of %target%.'
+add_total_admin: '&eYou have added %amount% to %target%''s total number of completed
+  quests.'
+add_total_target: '&eAn admin has added %amount% to your total number of completed
+  quests.'
+quest_achieved: '&aUkończono quest &e%questName%&a, gratulacje !'
+all_quests_achieved: '&aUkończono wszystkie dzienne zadania, gratulacje !'
+easy_reward: '&aUkończyłeś/aś wszystkie łatwe zadania!'
+medium_reward: '&aUkończyłeś/aś wszystkie średnie zadania!'
+hard_reward: '&aUkończyłeś/aś wszystkie trudne zadania!'
+not_enough_items: '&cNie posiadasz wystarczającej ilości aby zakończyć ten quest.'
+total_amount_reset: '&eTwoja łączna ilość questów została zresetowana przez administratora.'
+total_amount_reset_admin: '&e%target%''s total number of completed quests has been
+  reset by an admin.'
+world_disabled: '&cNie możesz ukończyć questa w tym świecie.'
+not_required_world: '&cYou can''t complete this quest in this world.'
+reward_command: '&aOtrzymałeś/aś nagrody za pomocą komend.'
+reward_exp_levels: '&aYou receive &e%rewardAmount% &bEXP &alevels.'
+reward_exp_points: '&aYou receive &e%rewardAmount% &bEXP &apoints.'
+reward_money: '&aYou receive &e%rewardAmount% &b$&a.'
+reward_points: '&aYou receive &e%rewardAmount% &bpoints&a.'
+reward_coins_engine: '&aYou receive &e%rewardAmount% &b%currencyName%&a.'
+new_day: '&6Jest już nowy dzień!'
+too_far: '&cJesteś zbyt daleko od wymaganej lokacji.'
+bad_world: '&cTo nie ten świat!'
+placeholder_api_not_enabled: '&cThe PlaceholderAPI plugin is not enabled. Please inform
+  an administrator.'
+placeholder_not_number: '&cThe placeholder %placeholder% is not a number. Please inform
+  an administrator.'
+cannot_complete_quest_with_off_hand: '&cWszystkie przedmioty muszą być w twoim ekwipunku
+  a nie w twojej drugiej ręce!'

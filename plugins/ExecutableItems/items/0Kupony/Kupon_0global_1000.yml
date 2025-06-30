@@ -1,0 +1,60 @@
+name: §7§lKupon Spadającej Gwiazdy / x1000
+lore:
+- §6§lEgoztyczne §6☆☆☆☆☆
+- §6§o§m--------------------------------------------
+- §6💰 Waluta serwerowa
+- §6§o§m--------------------------------------------
+- §2💵§2§o §2Wartość:§a x1000 Kuponów spadającej gwiazdy
+- '§2🪙§2§o §2Ilość kuponów: §ax1000 Kuponów'
+- §6§o§m--------------------------------------------
+- '§7§oGlobalny kupon, który można rozmienić na wszystkie '
+- §7§oinne i użyć w miejscówkach bez krain.
+material: PAPER
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+customModelData: 2
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-anvil: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

@@ -1,0 +1,80 @@
+Command:
+  Help:
+    List:
+    - <noprefix>
+    - '  <yellow><b>%name%</b></yellow><gray> - </gray><yellow><b>Commands:</b></yellow>'
+    - ' '
+    - <gray>  <red><b><></b></red> - Required, <green><b>[]</b></green> - Optional.</gray>
+    - ' '
+    - '%entry%'
+    - ' '
+    Entry: '  <yellow>/%command_label%</yellow> <orange>%command_usage%</orange><gray> - %command_description%</gray>'
+    Desc: Show help page.
+  CheckPerm:
+    Desc: Print player permission info.
+    Usage: <player>
+  Reload:
+    Desc: Reload the plugin.
+    Done: <light_gray>Plugin <light_green>reloaded</light_green>!</light_gray>
+Time:
+  Day: '%amount%d.'
+  Hour: '%amount%h.'
+  Min: '%amount%min.'
+  Sec: '%amount%sec.'
+  Delimiter: ' '
+Other:
+  'Yes': <green>Yes</green>
+  'No': <red>No</red>
+  Enabled: <green>Enabled</green>
+  Disabled: <red>Disabled</red>
+  Any: Any
+  None: None
+  Never: Never
+  OneTimed: One-Timed
+  Unlimited: Unlimited
+  Infinity: ∞
+Error:
+  Invalid_Player: <red>Player not found.</red>
+  Invalid_World: <red>Invalid world.</red>
+  Invalid_Number: <red>%value% is not a valid number.</red>
+  NoPermission: <red>You don't have permissions to do that!</red>
+  Command:
+    NotYourself: <red>This command can not be used on yourself.</red>
+    PlayerOnly: <red>This command is for players only.</red>
+    Usage:
+    - <noprefix>
+    - '<red>Error: </red><gray>Wrong arguments!</gray>'
+    - '<red>Usage: </red><yellow>/%command_label%</yellow> <orange>%command_usage%</orange>'
+    - ' '
+Editor:
+  Action:
+    Exit:
+    - <noprefix>
+    - ''
+    - <gray>Click <click:run_command:'/#exit'><hover:show_text:'<gray>Click to cancel</gray>'><green>[Here]</green></hover></click> to leave input mode.</gray>
+  Input:
+    Header:
+      Main: <green><b>Input Mode</b></green>
+      Error: <red><b>ERROR</b></red>
+    Error:
+      NotInteger: <gray>Expecting <red>whole</red> number!</gray>
+      Generic: <gray>Invalid value!</gray>
+  Generic:
+    Close:
+      Name: <red>(✕) Exit</red>
+      Lore: []
+    Return:
+      Name: <gray>(↓) </gray><white>Return</white>
+      Lore: []
+    NextPage:
+      Name: <white>Next Page</white><gray> (→)</gray>
+      Lore: []
+    PreviousPage:
+      Name: <gray>(←) </gray><white>Previous Page</white>
+      Lore: []
+Number:
+  Thousand: k
+  Million: m
+  Billion: b
+  Trillion: t
+  Quadrillion: q

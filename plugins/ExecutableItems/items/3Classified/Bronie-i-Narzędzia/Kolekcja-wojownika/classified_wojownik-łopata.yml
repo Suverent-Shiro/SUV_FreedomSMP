@@ -1,0 +1,88 @@
+name: §9Łopata wojownika
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m----------------------------------
+- §9⛏ Narzędzie
+- §9🔰 Kolekcja Wojowników
+- §9§o§m----------------------------------
+- '§4🗡 ATK: 3'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§9⛏ Wydajność: 2'
+- §9§o§m----------------------------------
+- §7§oŁopata ze średniej półki. Za swoją
+- §7§onie drogę cenę jest popularna wśród
+- §7§owojowników.
+- §9§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: STONE_SHOVEL
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 2
+  enchantment1:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: a0bbeed9-cf7e-4d9c-8436-40463a8f65ff
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: a1838712-2a4d-49ff-9280-bfc1cf10d4db

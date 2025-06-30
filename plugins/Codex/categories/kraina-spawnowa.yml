@@ -1,0 +1,82 @@
+---
+name: "&a&lOdkryte miejscówki - &e&lKraina Spawnowa"
+discover_title:
+  title: "&c&lCodex zaktualizowany"
+  subtitle: "&7Miejscówka: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+  - "{centered}&f&m00                                                 00"
+  - " "
+  - "{centered}&c&lCodex zaktualizowany"
+  - "{centered}&7Miejscówka: %name%"
+  - " "
+  - "{centered}&7Sprawdź za pomocą: &e/codex"
+  - " "
+  - "{centered}&f&m00                                                 00"
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  "1":
+    name: "&e&lWioska Spawnu"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&fLokalizacja: &eX&f: 125 &eZ&f: -30"
+      - "&e&o&m-------------------------------------------------------------"
+      - "&e&lWioska Spawnu &7jest idealnym miejscem dla początkujących podróżników."
+      - "&7Te miejsce mimo bycia pustynną wioską ze zwzględu na historię związaną z"
+      - "&6Piglinosem &7jest stolicą &eKrainy Spawnowej &7i gości ono idealne miejsce"
+      - "&7do mieszkania i wypoczynku... I ciepłego klimatu!"
+      - "&e&o&m-------------------------------------------------------------"
+      - "&e&lWioska Spawnu &fnależy i jest stolicą &eKrainy Spawnowej"
+      - "&7W &e&lWiosce Spawnu &7używa się &eKuponów Blasku Słońca &f/ &e1 KBS &f= &72 KSP"
+    discovered_on_region: wioskaspawnu_statue
+    commands:
+      - ei give %player% Kupon_0global_100 1
+  "2":
+    name: "&6&lZaschła Osada"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&fLokalizacja: &eX&f: -504 &eZ&f: -74"
+      - "&e&o&m------------------------------------------------------------"
+      - "&6&lZaschła Osada &7jest małą osadą niedaleko &e&lWioski Spawnu."
+      - "&7Ta malutka osada pomimo jej wielkości posiada kilka ciekawych rzeczy"
+      - "&7takich jak, szeryf lub spawnowa kolejka wagonikowa! &6&lZaschła Osada"
+      - "&7leży przy granicy &eKrainy Spawnowej &7i jest położona na messie."
+      - "&e&o&m------------------------------------------------------------"
+      - "&6&lZaschła Osada &fnależy do &eKrainy Spawnowej"
+      - "&7W &6&lZaschłej Osadzie &7używa się &eKuponów Blasku Słońca &f/ &e1 KBS &f= &72 KSP"      
+    discovered_on_region: zaschlaosada_statue
+    commands:
+      - ei give %player% Kupon_0global_100 1
+  "3":
+    name: "&8&lKamienne Wybrzeże"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&fLokalizacja: &eX&f: 258 &eZ&f: 639"
+      - "&e&o&m----------------------------------------------------------------"
+      - "&cOpis tymczasowo niedostępny."
+      - "&e&o&m----------------------------------------------------------------"
+      - "&8&lKamienne Wybrzeże &fnależy do &eKrainy Spawnowej"
+      - "&7W &8&lKamiennym Wybrzeżu &7używa się &8Kuponów Ciężkiej Pracy &f/ &81 KCP &f= &710 KSP" 
+    discovered_on_region: kamiennewybrzeze_statue
+    commands:
+      - ei give %player% Kupon_0global_100 1
+  "4":
+    name: "&e&lZłota Osada"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&fLokalizacja: &eX&f: -661 &eZ&f: 357"
+      - "&e&o&m------------------------------------------------------------"
+      - "&e&lZłota Osada &7jest małą osadą niedaleko &6&lZaschłej Osady."
+      - "&7W tej osadzie wyroby ze złota to codzienność. Znajduje się tam"
+      - "&7także kopalnia złota! W końcu &e&lZłota Osada &7słynie z tego złota!"
+      - "&e&o&m------------------------------------------------------------"
+      - "&e&lZłota Osada &fnależy do &eKrainy Spawnowej"
+      - "&7W &e&lZłotej Osadzie &7używa się &eKuponów Blasku Słońca &f/ &e1 KBS &f= &72 KSP"  
+    discovered_on_region: zlotaosada_statue
+    commands:
+      - ei give %player% Kupon_0global_100 1

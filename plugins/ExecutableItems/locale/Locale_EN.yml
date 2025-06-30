@@ -1,0 +1,34 @@
+receiveItem: '&7[&#37c1e4Freedom&6SMP&7] &aOtrzymałeś/aś &a%quantity%x &e%item%'
+fullInventory: '&8[&4Executable&7Items&8] &cYour inventory is full, &e%item% &cgot
+  dropped.'
+timeLeft: '&&7[&#37c1e4Freedom&6SMP&7] &cPoczekaj &e%time_S%s &caby użyć specjalnej
+  możliwości przedmiotu!'
+requirePermission: '&8[&4Executable&7Items&8] &cYou do not have the permission to
+  use &e%item%&c!'
+giveMessage: '&8[&aExecutable&7Items&8] &aYou have given &e&n%player%&r &a%quantity%x
+  &e%item%'
+use: '&6Pozostałe użycia: '
+noHit: '&7[&#37c1e4Freedom&6SMP&7] &cŻaden gracz nie został uderzony'
+noEntityHit: '&7[&#37c1e4Freedom&6SMP&7] &cŻadne stworzenie nie zostało uderzone'
+cancelCraft: '&7[&#37c1e4Freedom&6SMP&7] &cNie możesz użyć co najmniej 1 itemu do
+  craftowania!'
+pickupLimitMessage: '&7[&#37c1e4Freedom&6SMP&7] &cNie możesz mieć więcej niż %limit%
+  jakiegoś itemu!'
+disableWorld: '&8[&4Executable&7Items&8] &cYou cant use &e%item%&c in this world!'
+requiredEIFirstPart: '&4Required ExecutableItem(s): '
+requiredEIQuantity: ' &cx &6'
+requiredEISeparator: '&c | '
+requiredItemsFirstPart: '&4Required Item(s): '
+requiredItemsQuantity: ' &cx &6'
+requiredItemsSeparator: '&c | '
+requiredLevel: '&7[&#37c1e4Freedom&6SMP&7] &cMusisz posiadać minimalnie &6&l%level%&c
+  poziom aby użyć tego itemu!'
+waitProjectile: '&cYou must wait for the projectile to hit something!'
+invalidOwner: '&8[&4Executable&7Items&8] &cThis item can only be used by the player
+  that owns this item!'
+errorUPDItem: '&7[&4Executable&7Items] &cYou'
+errorUPDActivator: '&8[&4Executable&7Items&8]&c You'
+customCommandDamageKillMessage: '%player% destroyed %target% with %item%'
+noOwner: '&cNo owner'
+refreshValid: '&2&l[ExecutableItems] &aExecutableItem(s) &e%id% &ain the inventory
+  of player(s) &e%player% &ais/are correctly reset !'

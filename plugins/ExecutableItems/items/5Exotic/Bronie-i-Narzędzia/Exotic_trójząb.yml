@@ -1,0 +1,91 @@
+name: §6§lEgzotyczny trójząb
+lore:
+- §6§lEgzotyczne§6 ☆☆☆☆☆
+- §6§o§m-----------------------------------
+- §6🗡 Uzbrojenie
+- §6§o§m-----------------------------------
+- '§4🗡 ATK: 9'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 4'
+- '§1🔱 Przebicie trójzębu: 3'
+- '§d⚜ Lojalność: 2'
+- §6§o§m-----------------------------------
+- '§7§oTrójząb z wyższej półki. Oferuje on '
+- §7§owiększą wytrzymałość i większe obrażenia
+- §7§ona morskie potwory.
+- §6§o§m-----------------------------------
+- §fNie posiada specjalnych właściwości
+material: TRIDENT
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Impaling
+    level: 3
+  enchantment1:
+    enchantment: Loyalty
+    level: 2
+  enchantment2:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 8.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: d3429ebe-07ae-4c28-9684-b3aa211de784
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: a8c14abd-e21a-4249-a059-2eef10d2dfb3

@@ -1,0 +1,64 @@
+name: §aTarcza średniowieczna
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m----------------------------------
+- §a🗡 Uzbrojenie
+- §a§o§m----------------------------------
+- §fNie posiada dodatkowych statystyk
+- §a§o§m----------------------------------
+- §7§oStara dobra tarcza. Używali jej rycerze
+- §7§ojakieś 800 lat temu... Wciąż niezawodna.
+- §a§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: SHIELD
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: true
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: true
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+bannerSettings:
+  color: 4673362
+  patterns: {}
+attributes: {}

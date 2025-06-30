@@ -1,0 +1,85 @@
+name: §5Napierśnik rycerzy wolności
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------
+- §5🛡 Zbroja
+- §5🔰 Kolekcja Rycerzy Wolności
+- §5§o§m----------------------------------
+- '§9🛡 Pkt. zbroji: §48§9 / §b2§9 / §50'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§3❈ Ochrona: §4🗡 4§3 / §6🔥 0§3 / §c💥 3§3 / §2🏹 4'
+- §5§o§m----------------------------------
+- §7§oUlepszona wersja oryginalnej zbroji
+- §7§oRycerzy Wolności którzy oryginalnie
+- §7§owalyczli o wolność §a§oMiasta Wolności
+- §7§otakiego jakie znamy dzisiaj.
+- §5§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: DIAMOND_CHESTPLATE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: true
+enchantments:
+  enchantment0:
+    enchantment: Projectile_protection
+    level: 4
+  enchantment1:
+    enchantment: Protection
+    level: 4
+  enchantment2:
+    enchantment: Unbreaking
+    level: 3
+  enchantment3:
+    enchantment: Blast_protection
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: true
+  trimMaterial: EMERALD
+  pattern: RAISER

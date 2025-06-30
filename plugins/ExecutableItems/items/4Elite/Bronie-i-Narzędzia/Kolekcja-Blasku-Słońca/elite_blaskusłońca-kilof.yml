@@ -1,0 +1,96 @@
+name: §5Kilof blasku słońca
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------
+- §5⛏ Narzędzie
+- §5🔰 Kolekcja Blasku słońca
+- §5§o§m----------------------------------
+- '§4🗡 ATK: 4'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§9⛏ Wydajność: 4'
+- '§a✦ Szczęście: 2'
+- §5§o§m----------------------------------
+- §7§oGórnicy §e§oWioski Spawnu §7§ouwielbiają ten kilof.
+- §7§oJest on najpopularniejszą opcją na
+- §7§orynku §e§oKrainy Spawnowej§7§o. Mówią także że
+- §7§okilof przynosi szczęście?
+- §5§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: DIAMOND_PICKAXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+keepDefaultAttributes: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 4
+  enchantment1:
+    enchantment: Unbreaking
+    level: 3
+  enchantment2:
+    enchantment: Fortune
+    level: 2
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-stone-cutter: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_speed
+    uuid: cde6d156-648c-4a0f-b31f-62b98d1a1463
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_damage
+    uuid: 8ee66fc8-6419-440d-8174-383b7cb9bcd6

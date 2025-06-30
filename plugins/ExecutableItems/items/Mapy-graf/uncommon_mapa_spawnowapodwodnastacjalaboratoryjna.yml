@@ -1,0 +1,70 @@
+name: §aKawałek mapy §9Spawnowej Podwodnej Stacji Laboratoryjnej
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m----------------------------------------------------
+- §a§o✂§a Surowce i materiały
+- §a§o§m----------------------------------------------------
+- '§c✘ Szacowana lokacja na mapie: §f~ X: 500 Z: -20'
+- §a§o§m----------------------------------------------------
+- '§7§oMapa ukazująca kawałek§a §9Spawnowej Podwodnej Stacji '
+- '§9Laboratoryjnej§7§o. Może się przydać gdy odkrywasz nowe '
+- §7§omiejscówki.
+- §a§o§m----------------------------------------------------
+- §fNie posiada specjalnych właściwości
+material: FILLED_MAP
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: map
+    type: INT
+    value: 112
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-stone-cutter: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

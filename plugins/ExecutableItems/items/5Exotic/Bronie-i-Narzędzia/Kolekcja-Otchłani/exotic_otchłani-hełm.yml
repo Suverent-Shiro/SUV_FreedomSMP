@@ -1,0 +1,86 @@
+name: §6§lHełm otchłani
+lore:
+- §6§lEgzotyczne §6☆☆☆☆☆
+- §6§o§m----------------------------------
+- §6🛡 §6§lZbroja
+- §6🔰 §6§lKolekcja Otchłani
+- §6§o§m----------------------------------
+- '§9🛡 Pkt. zbroji: §43§9 / §b3§9 / §51'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- '§3❈ Ochrona: §4🗡 4§3 / §6🔥 9§3 / §c💥 4§3 / §2🏹 0'
+- §6§o§m----------------------------------
+- §7§oLegendarna zbroja z otchłani.
+- §7§oPochodzi z netheru i jest idealnie
+- §7§oprzystosowana do warunków w netherze.
+- §6§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: NETHERITE_HELMET
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: true
+enchantments:
+  enchantment0:
+    enchantment: Fire_protection
+    level: 9
+  enchantment1:
+    enchantment: Blast_protection
+    level: 4
+  enchantment2:
+    enchantment: Protection
+    level: 4
+  enchantment3:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+  cancel-item-burn: true
+whitelistedWorlds: []
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: true
+  trimMaterial: REDSTONE
+  pattern: WILD

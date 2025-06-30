@@ -1,0 +1,63 @@
+name: §b§lKupon Pokoju
+lore:
+- §6§lEgoztyczne §6☆☆☆☆☆
+- §6§o§m--------------------------------------------
+- §6💰 Waluta serwerowa
+- §6§o§m--------------------------------------------
+- §2💵§2§o §2Wartość:§a x15 Kuponów spadającej gwiazdy
+- §6§o§m--------------------------------------------
+- §7§oKupon Królestwa Agharii. Można go użyć w całej
+- §7§oKrainie Agharii!
+material: PAPER
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+customModelData: 6
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-item-delete-by-lightning: true
+  cancel-item-craft: true
+  cancel-anvil: true
+  cancel-enchant-anvil: true
+  cancel-item-burn: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

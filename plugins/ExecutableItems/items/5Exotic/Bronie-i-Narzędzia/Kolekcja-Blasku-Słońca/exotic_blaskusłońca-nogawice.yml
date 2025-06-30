@@ -1,0 +1,84 @@
+name: §6§lNogawice blasku słońca
+lore:
+- §6§lEgzotyczne §6☆☆☆☆☆
+- §6§o§m----------------------------------
+- §6🛡 §6§lZbroja
+- §6🔰 §6§lKolekcja Blasku słońca
+- §6§o§m----------------------------------
+- '§9🛡 Pkt. zbroji: §46§9 / §b2§9 / §50'
+- ''
+- '§2🏹 Niezniszczalność: 4'
+- '§3❈ Ochrona: §4🗡 4§3 / §6🔥 6§3 / §c💥 0§3 / §2🏹 3'
+- §6§o§m----------------------------------
+- §7§oCzęść zbroji blasku słońca. Najlepsza
+- §7§ozbroja na rynku§e§o Wioski Spawnu§7§o jaką
+- §7§omożna zdobyć.
+- §6§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: DIAMOND_LEGGINGS
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: true
+enchantments:
+  enchantment0:
+    enchantment: Fire_protection
+    level: 6
+  enchantment1:
+    enchantment: Projectile_protection
+    level: 3
+  enchantment2:
+    enchantment: Protection
+    level: 4
+  enchantment3:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-anvil: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: true
+  trimMaterial: GOLD
+  pattern: SNOUT

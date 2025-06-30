@@ -1,0 +1,72 @@
+name: §5Wędka rybaka
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------
+- §5⛏ Narzędzie
+- §5§o§m----------------------------------
+- '§2🏹 Niezniszczalność: 4'
+- '§3🎣 Przynęta: 1'
+- '§a✦ Szczęście: 3'
+- §5§o§m----------------------------------
+- §7§oTaką to można pomażyć łowić ryby...
+- §5§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: FISHING_ROD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Luck_of_the_sea
+    level: 3
+  enchantment1:
+    enchantment: Unbreaking
+    level: 4
+  enchantment2:
+    enchantment: Lure
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

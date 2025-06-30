@@ -1,0 +1,10 @@
+name: eksportowytowar
+kits:
+  start:
+    cooldown: 1719611299723
+    one_time: true
+    bought: false
+  day0:
+    cooldown: 1719622310583
+    one_time: true
+    bought: false

@@ -1,0 +1,10 @@
+name: SamiQLubiGofry
+kits:
+  start:
+    cooldown: 1719600382440
+    one_time: true
+    bought: false
+  day0:
+    cooldown: 1719610992340
+    one_time: true
+    bought: false

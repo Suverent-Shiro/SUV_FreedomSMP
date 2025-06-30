@@ -1,0 +1,62 @@
+name: §5Fragment magicznego odłamka
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m-------------------------------------------
+- §5💰 Specjalna waluta
+- §5§o§m-------------------------------------------
+- §7§oFragment magicznego odłamka. Ze względu na
+- §7§onieznane pochodzenie jest on bardzo wartościowy.
+- §7§oU Kitka możesz go rozmienić na fajne nagrody
+- §7§olub utworzyć cały magiczny odłamek który możesz
+- §7§orozmienić na jeszcze lepsze przedmioty.
+- §5§o§m-------------------------------------------
+material: DISC_FRAGMENT_5
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

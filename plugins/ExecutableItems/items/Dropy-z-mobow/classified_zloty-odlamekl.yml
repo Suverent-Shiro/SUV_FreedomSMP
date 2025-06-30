@@ -1,0 +1,66 @@
+name: §9Złoty odłamek
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m-----------------------------------------
+- §9💰 Specjalna waluta
+- §9§o§m-----------------------------------------
+- §7§oMalutki odłamek ze złota. Możesz je znaleźć
+- '§7§ozazwyczaj na pustyniach, gdyż dropią one z '
+- §7§oposuchów. Posiadają one nawet wartość
+- §7§okolekcjonerską, więc parę osób może ci za niego
+- §7§ozaoferować nawet ładną sumkę.
+- §9§o§m-----------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: GOLD_NUGGET
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: true
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+  cancel-anvil: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

@@ -1,0 +1,78 @@
+name: §5Zwiadowca
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------------------
+- §5🗡 Uzbrojenie
+- §5§o§m----------------------------------------------
+- '§4🏹 Moc: 3'
+- §d🔄 Nieskończoność
+- '§2🏹 Niezniszczalność: 4'
+- §x§D§3§7§2§0§B🔥 Aspekt ognia
+- §5§o§m----------------------------------------------
+- §7§oPrecyzyjny łuk z możliwością podpalania przeciwników
+- §7§otak aby już nigdy do ciebie nie próbowali się zbliżyć.
+- §5§o§m----------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: BOW
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Flame
+    level: 1
+  enchantment1:
+    enchantment: Infinity
+    level: 1
+  enchantment2:
+    enchantment: Power
+    level: 3
+  enchantment3:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

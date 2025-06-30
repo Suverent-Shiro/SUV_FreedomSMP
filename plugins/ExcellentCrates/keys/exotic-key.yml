@@ -1,0 +1,17 @@
+Name: '&6&lKlucz do Egzotycznej skrzyni'
+Virtual: false
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&6&lKlucz do Egzotycznej skrzyni'
+  Lore:
+  - '&6&lEgzotyczne&6 ☆☆☆☆☆'
+  - '&6&o&m---------------------------------------'
+  - '&6🎁 &6&lKlucz do skrzyni'
+  - '&6&o&m---------------------------------------'
+  - '&7&oKlucz do skrzyni. Jest on przeznaczony'
+  - '&7&odo &6&l&oSkrzyni egzotycznej&7&o. Skrzynie możesz'
+  - '&7&oznaleźć w głównych miejscówkach takie'
+  - '&7&ojak &e&oWioska Spawnu&7&o, &8&oKamienne Wybrzeże&7&o,'
+  - '&a&oMiasto Wolności&7&o lub &b&oKrólestwo Agharii&7&o.'
+  - '&6&o&m---------------------------------------'
+  - '&fNie posiada specjalnych właściwoścI'

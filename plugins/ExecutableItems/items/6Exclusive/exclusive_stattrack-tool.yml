@@ -1,0 +1,68 @@
+name: §4§lUlepszenie do systemu§9 §6StatTrak™
+lore:
+- '§4§lEkskluzywne§4 ★★★★★§4§l '
+- §4§o§m--------------------------------------------
+- §4§o✂§4 §4§lSurowce i materiały
+- §4§o§m--------------------------------------------
+- §7§oUżyj tego schematu na dowolnym uzbrojeniu
+- §7§oaby naliczał liczbę zabójstw. §7§o§nListę obsługujących
+- §7§o§nprzedmiotów znajdziesz w arkuszu z itemami.
+- §4§o§m--------------------------------------------
+- §fNie posiada specjalnych właściwości
+material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+customModelData: 21
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-item-delete-by-cactus: true
+  cancel-rename-anvil: true
+  cancel-item-craft-no-custom: true
+  cancel-grind-stone: true
+  cancel-item-delete-by-lightning: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+  cancel-item-burn: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

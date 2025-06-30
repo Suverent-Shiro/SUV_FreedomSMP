@@ -1,0 +1,101 @@
+name: §5Tornado
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m---------------------------------------
+- §5🗡 Uzbrojenie
+- §5§o§m---------------------------------------
+- '§4🗡 ATK: 7'
+- '§b⚡ SPD: Normalny'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- §e⚡ Porażenie
+- '§d⚜ Lojalność: 3'
+- '§e❁ Odrzut: 1'
+- §5§o§m---------------------------------------
+- §7§oKolejna broń przywołująca pioruny wykonana
+- §7§ow §a§oMieście Wolności§7§o. Ten trójząb można nazwać
+- §7§oistniejącym już trójzębem "Błyskawica". Ten
+- §7§ogłównie różni się wytrzymałością i szybkością
+- §5§o§m---------------------------------------
+- §fNie posiada specjalnych właściwości
+material: TRIDENT
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Channeling
+    level: 1
+  enchantment1:
+    enchantment: Knockback
+    level: 1
+  enchantment2:
+    enchantment: Loyalty
+    level: 3
+  enchantment3:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_speed
+    uuid: a8c14abd-e21a-4249-a059-2eef10d2dfb3
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 6.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_damage
+    uuid: d3429ebe-07ae-4c28-9684-b3aa211de784

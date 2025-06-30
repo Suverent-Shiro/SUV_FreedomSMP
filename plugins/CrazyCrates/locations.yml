@@ -1,0 +1,25 @@
+Locations:
+  '1':
+    Crate: Common-crate
+    World: world
+    X: 100
+    Y: 66
+    Z: -24
+  '2':
+    Crate: Classified-crate
+    World: world
+    X: 98
+    Y: 66
+    Z: -23
+  '3':
+    Crate: Elite-crate
+    World: world
+    X: 96
+    Y: 66
+    Z: -22
+  '4':
+    Crate: Exotic-crate
+    World: world
+    X: 94
+    Y: 66
+    Z: -21

@@ -1,0 +1,67 @@
+name: §5Diamentowe nożyce
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------
+- §5⛏ Narzędzie
+- §5§o§m----------------------------------
+- '§2🏹 Niezniszczalność: 4'
+- §5§o§m----------------------------------
+- §7§oBardzo dobrej jakości nożyce.
+- §7§oPodobno są zrobione z diamentów.
+- §5§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: SHEARS
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+whitelistedWorlds: []
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+customModelData: 17

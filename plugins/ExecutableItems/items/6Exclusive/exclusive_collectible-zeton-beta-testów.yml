@@ -1,0 +1,72 @@
+name: §4✪ §4§lŻeton udziału w Beta-Testach
+lore:
+- §4§lEkskluzywne§4 ★★★★★ Limitowane ✪
+- §4§o§m---------------------------------------
+- §4❂ Przedmiot kolekcjonerski
+- §4§o§m---------------------------------------
+- §7§oPrzyznany każdej osobie za uczestniczenie
+- §7§ow Beta-Testach serwera! Dziękuje!
+- §4§o§m---------------------------------------
+- §fNie posiada specjalnych właściwości
+- §4§o§m---------------------------------------
+- §4✪ Ten przedmiot jest limitowany! Oznacza to
+- §4że nie można go już w żaden sposób zdobyć!
+material: NETHER_STAR
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-merchant: true
+  cancel-item-delete-by-lightning: true
+  cancel-item-craft-no-custom: true
+  cancel-item-craft: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+  cancel-item-burn: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+  cancel-item-delete-by-cactus: true
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+keepDefaultAttributes: false

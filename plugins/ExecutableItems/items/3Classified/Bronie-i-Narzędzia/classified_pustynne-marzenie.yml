@@ -1,0 +1,161 @@
+name: §9Pustynne marzenie
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m----------------------------------
+- §9🗡 Uzbrojenie
+- §9§o§m----------------------------------
+- '§4🗡 ATK: 6 §c[Crit DMG: 12]'
+- '§b⚡ SPD: Normalny'
+- '§c☣ Crit Rate: 10%'
+- ''
+- §x§F§8§6§2§F§3❈ Naprawa
+- '§2🏹 Niezniszczalność: 6'
+- '§6✧ Szerokie ostrze: 1'
+- §9§o§m----------------------------------
+- §7§oKolejny złoty miecz wykonany w §e§oWiosce
+- §e§oSpawnu§7§o. Ten z koleji jest tym z wyższej
+- §7§opółki, oferuje on samo-naprawę gdy
+- §7§ozdobywasz doświadczenie! Niesamowite!
+- §9§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: GOLDEN_SWORD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+customModelData: 13
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Mending
+    level: 1
+  enchantment1:
+    enchantment: Unbreaking
+    level: 6
+  enchantment2:
+    enchantment: Sweeping
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+variables: {}
+activators:
+  activator0:
+    name: Crit
+    option: PLAYER_HIT_ENTITY
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    cooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    commands:
+    - effect give %entity_uuid% minecraft:glowing 3 1
+    - SENDMESSAGE §cCrit!
+    - playsound minecraft:block.glass.break hostile %player% ~ ~1 ~
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions:
+      ifNeedPlayerConfirmationCancel: false
+      ifOwnerOfTheEIMsg: ''
+      ifOwnerOfTheEICancel: true
+    placeholdersConditions:
+      plchCdt0:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%rng_1,10%'
+        part2: '1'
+        cancelEventIfNotValid: false
+        messageIfNotValid: ''
+        messageIfNotValidForTarget: ''
+        stopCheckingOtherConditionsIfNotValid: true
+    detailedDamageCauses: []
+    detailedEntities: []
+    entityCommands:
+    - DAMAGE 12
+    - CUSTOMDASH2 1 3 1 0.75
+    - effect give %entity_uuid% minecraft:slowness 2 255
+    - playsound minecraft:block.glass.break hostile %player% ~ ~1 ~
+    entityConditions: {}
+    variablesModification: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -2.8
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 81fdc927-e6db-4c02-9bc6-2b3a8b0052c1
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 5.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: a8122872-f4a6-4b31-97a1-10b1fe6566d0

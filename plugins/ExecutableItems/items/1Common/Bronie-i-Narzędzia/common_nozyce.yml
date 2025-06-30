@@ -1,0 +1,60 @@
+name: §7Nożyce z bazaru
+lore:
+- §7Pospolite ☆
+- §7§o§m-------------------------------------
+- §7⛏ Narzędzie
+- §7§o§m-------------------------------------
+- §7§oJakieś tanie nożyce z bazaru. Ważne że tną.
+- §7§o§m-------------------------------------
+- §fNie posiada specjalnych właściwości
+material: SHEARS
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+durability: 178
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-smithing-table: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

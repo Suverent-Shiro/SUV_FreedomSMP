@@ -1,0 +1,62 @@
+name: §aZwykła kusza złosadnika
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m----------------------------------
+- §a🗡 Uzbrojenie
+- §a§o§m----------------------------------
+- §fNie posiada dodatkowych statystyk
+- §a§o§m----------------------------------
+- §7§oKusza której używają złosadnicy. Nie
+- '§7§ojest ona jakaś dobra, ale za tą cenę '
+- §7§oto okazja.
+- §a§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: CROSSBOW
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

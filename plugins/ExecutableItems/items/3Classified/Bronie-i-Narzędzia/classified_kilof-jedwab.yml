@@ -1,0 +1,92 @@
+name: §9Jedwab
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m----------------------------------------
+- §9⛏ Narzędzie
+- §9§o§m----------------------------------------
+- '§4🗡 ATK: 2'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 2'
+- '§9⛏ Wydajność: 4'
+- §d⛏ Jedwabny dotyk
+- §9§o§m----------------------------------------
+- §7§oIdealny kilof pod względem ceny do wydajności.
+- §7§oPosiada zdolności jedwabnego kopania przez
+- §7§oco każdy kamień jaki wykopiesz zostanie taki
+- §7§ojaki był pierwotnie.
+- §9§o§m----------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: IRON_PICKAXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 4
+  enchantment1:
+    enchantment: Silk_touch
+    level: 1
+  enchantment2:
+    enchantment: Unbreaking
+    level: 2
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_damage
+    uuid: 8ee66fc8-6419-440d-8174-383b7cb9bcd6
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_speed
+    uuid: cde6d156-648c-4a0f-b31f-62b98d1a1463

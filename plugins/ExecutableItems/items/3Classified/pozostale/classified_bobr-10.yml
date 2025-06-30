@@ -1,0 +1,91 @@
+name: §9Bóbr 10%
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m-----------------------------------------------
+- §9🍖 Jedzenie
+- §9§o§m-----------------------------------------------
+- §7§oBóbr jest popularnym napojem piwnym z większą niż
+- §7§oprzeciętna ilością alkoholu. Ta wersja 10% jest
+- §7§oprodukowana w §a§oMieście Wolności§7§o i głównie tam spożywana
+- §7§ogdyż nigdzie indziej nikt normalny tyle nie pije, ale mimo
+- §7§owszystko jest to jeden z najbardziej sprzedawanych
+- §7§onapojów na świecie... Tylko w tych mniej procentowych
+- §7§owersjach...
+- §9§o§m-----------------------------------------------
+- §f§nMoże§f posiadać specjalne właściwości
+material: POTION
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: Potion
+    type: STRING
+    value: minecraft:slowness
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+  cancel-rename-anvil: true
+  cancel-smithing-table: true
+  cancel-brewing: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+potionSettings:
+  potionType: WEAKNESS
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects:
+    pEffect0:
+      isAmbient: true
+      duration: 400
+      potionEffectType: CONFUSION
+      amplifier: 2
+      hasParticles: true
+      hasIcon: true
+    pEffect1:
+      isAmbient: false
+      duration: 160
+      potionEffectType: POISON
+      amplifier: 0
+      hasParticles: true
+      hasIcon: true
+attributes: {}

@@ -1,0 +1,76 @@
+name: §7Drewniany miecz treningowy
+lore:
+- §7Pospolite ☆
+- §7§o§m-------------------------------
+- §7🗡 Uzbrojenie
+- §7§o§m-------------------------------
+- '§4🗡 ATK: 1'
+- '§b⚡ SPD: Szybki'
+- §7§o§m-------------------------------
+- §7§oDrewniany mieczyk do trenowania
+- §7§o§m-------------------------------
+- §fNie posiada specjalnych właściwości
+material: WOODEN_SWORD
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -2.4
+    slot: HAND
+    name: Szybkość Ataku
+    uuid: 5c2a92ca-0a9d-42e6-8464-239415a67261
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: a1debdb5-730c-4b43-80dc-1e8edf19f9c4

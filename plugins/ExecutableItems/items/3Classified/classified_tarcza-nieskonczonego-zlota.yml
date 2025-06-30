@@ -1,0 +1,103 @@
+name: §9Tarcza nieskończonego złota
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m-----------------------------------------------
+- §9🗡 Uzbrojenie
+- §9§o§m-----------------------------------------------
+- '§2🏹 Niezniszczalność: 3'
+- §9§o§m-----------------------------------------------
+- §7§oTarcza produkcji §x§E§1§E§1§9§8§oZłotej osady§7§o. W porównaniu z resztą
+- §7§ozbroji pod tytułem "nieskończonego złota" ta tarcza
+- §7§onie jest uzbrojeniem budżetowym. Jest ona wytrzymała
+- §7§oi zdobiona złotem.
+- §9§o§m-----------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: SHIELD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: true
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+  '1':
+    key: BlockEntityTag
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: id
+          type: STRING
+          value: minecraft:banner
+        '1':
+          key: Base
+          type: INT
+          value: 4
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+bannerSettings:
+  color: 16701501
+  patterns:
+    pattern0:
+      subPattern0:
+        string: color
+        object: ORANGE
+      subPattern1:
+        string: pattern
+        object: gru
+    pattern1:
+      subPattern0:
+        string: color
+        object: YELLOW
+      subPattern1:
+        string: pattern
+        object: bo
+attributes: {}

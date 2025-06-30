@@ -1,0 +1,95 @@
+name: §4✪ §4§lKawiarnia Wolności
+lore:
+- §4§lEkskluzywne§4 ★★★★★§5 §4Limitowane ✪
+- §4§o§m---------------------------------------------------------
+- §4🗡 §4§lUzbrojenie
+- §4§o§m---------------------------------------------------------
+- '§4🗡 ATK: 10'
+- '§b⚡ SPD: Normalny'
+- §9❈ Niezniszczalny
+- ''
+- '§b⚡ Prąd odpływowy: 4'
+- '§d⚜ Lojalność: 4'
+- §4§o§m---------------------------------------------------------
+- §7§oAle że już rok minął? Kiedy to minęło! Trójząb przyznany każdemu
+- §7§októry grał w rocznicę serwera Kawiarnia Wolności. 11.09.2023~ <3
+- §4§o§m---------------------------------------------------------
+- '§bWięcej staminy: §fGdy trzymasz ten item jesteś odrobine szybszy/a'
+- §4§m---------------------------------------------------------
+- '§4✪ Ten przedmiot jest limitowany! Oznacza to że nie można go już '
+- §4w żaden sposób zdobyć!
+material: TRIDENT
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: true
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: true
+  glowDropColor: RED
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Loyalty
+    level: 4
+  enchantment1:
+    enchantment: Riptide
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-delete-by-lightning: true
+  cancel-stone-cutter: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+  cancel-item-burn: true
+  cancel-rename-anvil: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+  cancel-item-delete-by-cactus: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -2.8
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 47dccaab-1035-4527-86da-8c70a7e202b9
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 9.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 07acc8a0-0203-4234-a075-bd2d6a7ff1f3

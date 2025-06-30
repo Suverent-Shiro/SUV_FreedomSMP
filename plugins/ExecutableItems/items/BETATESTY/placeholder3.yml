@@ -1,0 +1,104 @@
+name: §5Okrucieństwo
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------
+- §5🗡 Uzbrojenie
+- §5🔰 Kolekcja Otchłani
+- §5§o§m----------------------------------
+- '§4🗡 ATK: 12 '
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 5'
+- '§4🗡 Pogromca nieumarłych: 3'
+- '§6✧ Szerokie ostrze: 2'
+- '§x§D§3§7§2§0§B🔥 Aspekt ognia: 2'
+- §5§o§m----------------------------------
+- §5§oSiekiera Piglinów brutali używana
+- §5§opodczas wielkiej wojny netherowej.
+- §5§oSą już popularniejsze opcje, jednak
+- §5§onic nie przebije tej... Kosztem ceny.
+- §5§o§m----------------------------------
+- '§4Krwiożercza wymiana: §fOd razu po '
+- §fzabraniu tej broni do ręki aktywuje.
+- §fsię §4Krwiożercza wymiana§f.
+- '§fOtrzymujesz §4+🗡 ATK: 5 §fkosztem'
+- '§ftwojej ilości serc §4-❤ ATK: 6§f.'
+- '§bCzas trwania: nieskończony'
+material: NETHERITE_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Fire_aspect
+    level: 2
+  enchantment1:
+    enchantment: Smite
+    level: 3
+  enchantment2:
+    enchantment: Sweeping
+    level: 2
+  enchantment3:
+    enchantment: Unbreaking
+    level: 5
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 17.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 39d61836-6027-44ba-9e75-8bc271ecb89a
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: acf945b7-b115-48cb-8f1c-b7084458e463
+  attribute2:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: -6.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.max_health
+    uuid: 8e4020da-f48c-4d36-a71a-2c41da49d7dd

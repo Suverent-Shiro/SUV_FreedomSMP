@@ -1,0 +1,70 @@
+name: §aTarcza po ciężkich walkach
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m-----------------------------------
+- §a🗡 Uzbrojenie
+- §a§o§m-----------------------------------
+- §fNie posiada dodatkowych statystyk
+- §a§o§m-----------------------------------
+- §7§oZużyta w walce tarcza która nie jest
+- §7§ojuż chciana przez nikogo... Jednak
+- §7§opotrafi ona sobie znaleźć resztkę życia
+- §7§odla osób którzy nie posiadają za bardzo
+- §7§obudżetu...
+- §a§o§m-----------------------------------
+- §fNie posiada specjalnych właściwości
+material: SHIELD
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+durability: 116
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: true
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-anvil: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+bannerSettings:
+  color: 4673362
+  patterns: {}
+attributes: {}

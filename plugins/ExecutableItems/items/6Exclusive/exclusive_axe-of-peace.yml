@@ -1,0 +1,105 @@
+name: §4§l"Axe of Peace"
+lore:
+- §4§lEkskluzywne§4 ★★★★★
+- §4§o§m--------------------------------------------
+- §4🗡 §4§lUzbrojenie
+- §4§o§m--------------------------------------------
+- '§4🗡 ATK: 15'
+- '§b⚡ SPD: Bardzo wolny'
+- §9❈ Niezniszczalny
+- ''
+- '§4🗡 Pogromca nieumarłych: 5'
+- '§9⛏ Wydajność: 5'
+- '§a✦ Szczęście: 4'
+- §4§o§m--------------------------------------------
+- §7§oTopór wojenny który należał do pewnej legendy...
+- §7§oTakże była używana jako siekiera do codziennych
+- §7§ozadań. Jej przetłumaczona nazwa znaczy "Siekiera
+- §7§oPokoju".
+- §4§o§m--------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: NETHERITE_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: true
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 5
+  enchantment1:
+    enchantment: Smite
+    level: 5
+  enchantment2:
+    enchantment: Fortune
+    level: 4
+  enchantment3:
+    enchantment: Looting
+    level: 4
+  enchantment5:
+    enchantment: Unbreaking
+    level: 5
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-smithing-table: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+  cancel-grind-stone: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 14.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: f418ee5c-f68a-4270-9762-6f949305ceae
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 065e9cae-e79b-404c-a465-5ee890fb5ce1

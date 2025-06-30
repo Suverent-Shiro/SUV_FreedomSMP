@@ -1,0 +1,64 @@
+name: §9Woda Focalari 0,5l
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m-----------------------------------------
+- §9🧪 Materiały eksploatacyjne
+- §9§o§m-----------------------------------------
+- '§7§oWoda Focalari 0,5l z §a§oMiasta Wolności§7§o. Kilkukrotny '
+- '§7§ozwycięzca "najlepszej wody na świecie". Sama '
+- §7§onazwa "Focalari" jest inspirowana miejscową
+- §7§olegendą o bogini wody "Focalorze".
+- §9§o§m-----------------------------------------
+- §f§nMoże§f posiadać specjalne właściwości
+material: POTION
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+whitelistedWorlds: []
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+potionSettings:
+  potionColor: 3654112
+  potionType: LUCK
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects: {}
+attributes: {}

@@ -1,0 +1,65 @@
+name: §9Zapalniczka z wyższej półki
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m-----------------------------------
+- §9⛏ Narzędzie
+- §9§o§m-----------------------------------
+- '§2🏹 Niezniszczalność: 3'
+- §9§o§m-----------------------------------
+- §7§oZapalniczka z wyższej półki. Sprawują
+- §7§osię naprawdę dobrze w tym co mają robić.
+- §9§o§m-----------------------------------
+- §fNie posiada specjalnych właściwości
+material: FLINT_AND_STEEL
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

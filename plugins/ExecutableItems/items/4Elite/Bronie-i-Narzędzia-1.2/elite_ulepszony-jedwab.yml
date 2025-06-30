@@ -1,0 +1,145 @@
+name: §5Ulepszony Jedwab
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m-----------------------------------------
+- §5⛏ Narzędzie
+- §5§o§m-----------------------------------------
+- '§4🗡 ATK: 4'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 4'
+- '§9⛏ Wydajność: 4'
+- §d⛏ Jedwabny dotyk
+- §5§o§m-----------------------------------------
+- §7§oUlepszona wersja zachwalanego kilofa "Jedwab"
+- §7§oten wciąż posida swoje zdolności jedwabnego
+- '§7§okopania przez co każdy kamień jaki wykopiesz '
+- §7§ozostanie taki jaki był pierwotnie.
+- §5§o§m-----------------------------------------
+- '§eSzybkie dłonie: §fUżyj prawego przycisku myszy '
+- §faby otrzymać efekt pośpiechu.
+- §fOtrzymujesz efekt pośpiechu (ang. haste)
+- '§bCzas trwania: 15 sekund'
+material: DIAMOND_PICKAXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 4
+  enchantment1:
+    enchantment: Silk_touch
+    level: 1
+  enchantment2:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators:
+  activator0:
+    name: Szybkie dlonie
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    cooldownOptions:
+      cooldown: 20
+      isCooldownInTicks: false
+      cooldownMsg: ''
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cCooldown! Możesz ponownie tego użyć za: &e%time_S%&6s'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    commands:
+    - effect give %player% haste 15 0
+    - ACTIONBAR Szybkie dłonie 15
+    - SENDMESSAGE §bAktywowano §eSzybkie dłonie
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions:
+      ifNeedPlayerConfirmationCancel: false
+    placeholdersConditions: {}
+    variablesModification: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 83e59ca5-7d6b-4f4d-8790-f6f94f3ffaf8
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 9d669d64-be4e-42b7-b063-62772899e7dd

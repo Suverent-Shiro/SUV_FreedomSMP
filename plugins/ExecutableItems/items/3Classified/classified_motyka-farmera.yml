@@ -1,0 +1,88 @@
+name: §9Motyka farmera
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m-----------------------------------------------
+- §9⛏ Narzędzie
+- §9§o§m-----------------------------------------------
+- '§4🗡 ATK: 1'
+- '§b⚡ SPD: Błyskawiczny'
+- ''
+- '§2🏹 Niezniszczalność: 4'
+- '§a✦ Szczęście: 4'
+- §9§o§m-----------------------------------------------
+- '§7§oMotyka farmera z §e§oWioski Spawnu§7§o. Wysoka wytrzymałość i '
+- §7§oprzyjazna cena to są jej najważniejsze atrybuty.
+- §9§o§m-----------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: IRON_HOE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Fortune
+    level: 4
+  enchantment1:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-smithing-table: true
+  cancel-stone-cutter: true
+  cancel-enchant: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -1.8
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: dafb9026-f06b-4c45-9118-8c5ce7a0a3c9
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 0.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 53c39e3a-720a-43e4-bcbf-8b6464711418

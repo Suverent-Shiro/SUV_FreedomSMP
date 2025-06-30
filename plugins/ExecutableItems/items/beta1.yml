@@ -1,0 +1,67 @@
+name: §5Futurystyczna motyka
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m--------------------------------------------
+- §5⛏ Narzędzie
+- §5§o§m--------------------------------------------
+- '§4🗡 ATK: 2'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 6'
+- §5§o§m--------------------------------------------
+- §7§o"Ulubieniec farmerów", "Motyka przyszłości",
+- §7§o"Narzędzie niczym z Cyberpunka"... Tak nazywano tą
+- §7§ooto motykę, i muszę przyznać, jeżeli masz rozwinięte
+- §7§orolnictwo... To ta motyka będzie najlepszym zakupem
+- §7§ojaki kiedykolwiek zrobisz dla swoich upraw.
+- §5§o§m--------------------------------------------
+- '§aAutomatyczne sianie: §fTrzymaj tą motykę w swojej'
+- §fdrugiej ręce i wszystkie uprawy jakie zniszczysz
+- §fzostaną automatycznie zasiane! §f§nWymaga nasion
+- §f§nw twoim ekwipunku!
+- '§aRozmiar automatycznego siania: §f3x3x3'
+material: DIAMOND_HOE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

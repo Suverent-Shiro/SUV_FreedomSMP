@@ -1,0 +1,100 @@
+name: §9Kaskada rezonansu
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m-----------------------------------------------------
+- §9🗡 Uzbrojenie
+- §9§o§m-----------------------------------------------------
+- '§4🗡 ATK: 6'
+- '§b⚡ SPD: Błyskawiczny'
+- §9❈ Niezniszczalny
+- ''
+- '§9⛏ Wydajność: 1'
+- '§a✦ Szczęście: 2'
+- §9§o§m-----------------------------------------------------
+- '§7§o"Pobudka, panie Freeman, pobudka, nie żebym chciał sugerować, '
+- '§7§oże przespałeś się w pracy. Nikt bardziej nie zasługuje na '
+- '§7§oodpoczynek, i cały wysiłek świata poszedłby na marne, dopóki '
+- '§7§ocóż... powiedzmy, że nadeszła twoja godzina, znowu właściwy '
+- §7§oczłowiek w niewłaściwym miejscu może wszystko zmienić... Więc
+- §7§oobudź się, panie Freeman... Obudź się i..."
+- §9§o§m-----------------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: STONE_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: true
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 1
+  enchantment1:
+    enchantment: Fortune
+    level: 2
+  enchantment2:
+    enchantment: Looting
+    level: 2
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -1.6
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: cb1819a4-3029-4ad2-b374-870122fd8568
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 5.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 50049d70-a5c1-4193-813d-bfc98573a88d

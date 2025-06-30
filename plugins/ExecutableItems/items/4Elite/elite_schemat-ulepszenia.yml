@@ -1,0 +1,61 @@
+name: §5Elitarny schemat ulepszenia
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m--------------------------------------
+- §5§o✂§5 Surowce i materiały
+- §5§o§m--------------------------------------
+- §7§oSchemat do ulepszania §5§oelitarnych
+- §7§oprzedmiotów. Podejdź do villagera przy
+- §7§osklepach aby ulepszyć §5§oelitarne §7§oprzedmioty.
+- §7§o§nNIE DZIAŁA TO NA WSZYSTKICH PRZEDMIOTACH.
+- §5§o§m--------------------------------------
+material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-enchant: true
+  cancel-anvil: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

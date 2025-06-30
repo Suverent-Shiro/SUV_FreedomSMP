@@ -1,0 +1,97 @@
+name: §5Fabryka diamentowej kawy
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m-----------------------------------
+- §5⛏ Narzędzie
+- §5🔰 Kolekcja Rycerzy Wolności
+- §5§o§m-----------------------------------
+- '§4🗡 ATK: 4'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 7'
+- '§9⛏ Wydajność: 6'
+- §d⛏ Jedwabny dotyk
+- §5§o§m-----------------------------------
+- §a§oMiasto Wolności §7§osamo w sobie nie
+- §7§oposiada żadnych kopalni jednak
+- §7§owytwarzanie dobrych kilofów jest wysoko
+- §7§oopłacalne ze względu na dobry handel
+- §7§oz §b§oKrólestwem Agharii§7§o gdzie górnictwo
+- §7§ojest na wysokim poziomie.
+- §5§o§m-----------------------------------
+- §fNie posiada specjalnych właściwości.
+material: DIAMOND_PICKAXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+customModelData: 31
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 6
+  enchantment1:
+    enchantment: Unbreaking
+    level: 7
+  enchantment2:
+    enchantment: Silk_touch
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_speed
+    uuid: cde6d156-648c-4a0f-b31f-62b98d1a1463
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: ALL_SLOTS
+    name: minecraft:generic.attack_damage
+    uuid: 8ee66fc8-6419-440d-8174-383b7cb9bcd6

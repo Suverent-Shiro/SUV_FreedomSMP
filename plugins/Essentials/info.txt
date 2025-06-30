@@ -1,0 +1,7 @@
+ 
+&7The Suverent Organization's &#37c1e4&lFreedom&a&lSMP &cOpen-Source version
+&8&m-------------------------------------------
+&6Silnik: &5cNull (Open-Source)
+&aWersja Minecraft: &cNull (Open-Source)
+&8&m-------------------------------------------
+&6⚡ &3&lProject: &7&lPrototype &c3.0 &f- Zmodyfikowana wersja dla serwera &#37c1e4&lFreedom&a&lSMP

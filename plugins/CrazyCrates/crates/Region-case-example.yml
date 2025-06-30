@@ -1,0 +1,338 @@
+Crate:
+  # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+
+    # Make sure to check out the wiki for anything not explained here.
+  # https://github.com/Crazy-Crew/Crazy-Crates/wiki
+
+    # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
+  CrateType: CSGO
+  # Name of the Inventory if a GUI crate.
+  CrateName: '&bLimitowana skrzynia'
+  # The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&7Podgląd &bLimitowanej skrzyni'
+  # Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  # Max amount of crates that can be opened at once using /cc max-open
+  Max-Mass-Open: 10
+  # If the crate shows in the /cc GUI.
+  # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
+  InGUI: false
+  # Slot the item is in the GUI.
+  Slot: 21
+  # Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: true
+  # Message that is broadcast when opening the crate.
+  BroadCast: '%prefix%&6&l%player%&r &7otwiera &b&lLimitowaną skrzynie&7.'
+  # Item the crate is in the GUI
+  Item: CHEST
+  # If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  # Name of the item in the GUI.
+  Name: '&a&lBasic Chest'
+  # The lore of the item in the GUI.
+  Lore:
+  - '&7To jest &5epicka skrzynia.'
+  - '&7Użyj &6%Keys% &7aby otworzyć tą skrzynie.'
+  - '&7&l(&e&l!&7&l) Prawy przycisk myszy aby zobaczyć podgląd skrzynki.'
+  Preview:
+    # Turn on and off the preview for this crate.
+    Toggle: true
+    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 6
+    Glass:
+      # Turn the glass boarder in the preview on and off.
+      Toggle: true
+      # The name of the border item.
+      Name: ' '
+      # The item that shows in the boarder. Can be glass or any other item.
+      Item: GRAY_STAINED_GLASS_PANE
+  PhysicalKey:
+    # Name of the Key.
+    Name: '&b&lKlucz &7&ldo &b&lLimitowanej Skrzyni'
+    # Lore of the Key.
+    Lore:
+    - '&7Jest to klucz do &bLimitowanej Skrzyni'
+    - '&7Skrzynie możesz znaleźć na /Spawn.'
+    # The item the key is.
+    Item: TRIPWIRE_HOOK
+    # Makes the key look enchanted.
+    Glowing: true
+  # Settings for the holograms.
+  Hologram:
+    # Toggle on and off the holograms for the crates.
+    Toggle: true
+    # The height of the hologram above the crate.
+    Height: 1.5
+    # The message that will be displayed.
+    Message:
+    - '&b&lLimitowana Skrzynia - 1% Profit'
+  # All the prizes that can be gotten in the Crate.
+  Prizes:
+    '1':
+      DisplayName: §e§lMityczny miecz
+      DisplayEnchantments:
+      - mending:1
+      - sharpness:7
+      - smite:7
+      - unbreaking:8
+      DisplayItem: NETHERITE_SWORD
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l10%.'
+      MaxRange: 100
+      Chance: 10
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Mityczny
+            miecz"}],"text":""}'
+          enchants:
+            MENDING: 1
+            DAMAGE_ALL: 7
+            DAMAGE_UNDEAD: 7
+            DURABILITY: 8
+    '2':
+      DisplayName: §e§lMityczny kilof
+      DisplayEnchantments:
+      - efficiency:9
+      - fortune:4
+      - mending:1
+      - unbreaking:8
+      DisplayItem: NETHERITE_PICKAXE
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l7%.'
+      MaxRange: 100
+      Chance: 7
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Mityczny
+            kilof"}],"text":""}'
+          enchants:
+            DIG_SPEED: 9
+            LOOT_BONUS_BLOCKS: 4
+            MENDING: 1
+            DURABILITY: 8
+    '3':
+      DisplayName: §e§lMityczny piorunowy trójząb
+      DisplayEnchantments:
+      - channeling:1
+      - impaling:8
+      - loyalty:5
+      - sharpness:10
+      - unbreaking:8
+      DisplayItem: TRIDENT
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l1%.'
+      MaxRange: 100
+      Chance: 1
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: TRIDENT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Mityczny
+            piorunowy trójząb"}],"text":""}'
+          enchants:
+            CHANNELING: 1
+            IMPALING: 8
+            LOYALTY: 5
+            DAMAGE_ALL: 10
+            DURABILITY: 8
+    '4':
+      DisplayName: §6§lLegendarny miecz
+      DisplayEnchantments:
+      - sharpness:5
+      - smite:5
+      - unbreaking:6
+      DisplayItem: DIAMOND_SWORD
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l15%.'
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Legendarny
+            miecz"}],"text":""}'
+          enchants:
+            DAMAGE_ALL: 5
+            DAMAGE_UNDEAD: 5
+            DURABILITY: 6
+    '5':
+      DisplayName: §6§lLegendarny kilof
+      DisplayEnchantments:
+      - efficiency:6
+      - fortune:3
+      - unbreaking:7
+      DisplayItem: DIAMOND_PICKAXE
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l15%.'
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Legendarny
+            kilof"}],"text":""}'
+          enchants:
+            DIG_SPEED: 6
+            LOOT_BONUS_BLOCKS: 3
+            DURABILITY: 7
+    '6':
+      DisplayName: §6§lLegendarny płomienisty łuk
+      DisplayEnchantments:
+      - flame:1
+      - infinity:1
+      - power:5
+      - punch:4
+      - unbreaking:6
+      DisplayItem: BOW
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l15%.'
+      MaxRange: 100
+      Chance: 15
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Legendarny
+            płomienisty łuk"}],"text":""}'
+          enchants:
+            ARROW_FIRE: 1
+            ARROW_INFINITE: 1
+            ARROW_DAMAGE: 5
+            ARROW_KNOCKBACK: 4
+            DURABILITY: 6
+    '7':
+      DisplayName: §7Zwykły Miecz+
+      DisplayEnchantments:
+      - sharpness:2
+      - unbreaking:3
+      DisplayItem: STONE_SWORD
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l80%.'
+      MaxRange: 100
+      Chance: 80
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Zwykły
+            Miecz+"}],"text":""}'
+          enchants:
+            DAMAGE_ALL: 2
+            DURABILITY: 3
+    '8':
+      DisplayName: §7Zwykły Kilof+
+      DisplayEnchantments:
+      - efficiency:4
+      - fortune:1
+      - unbreaking:3
+      DisplayItem: STONE_PICKAXE
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l80%.'
+      MaxRange: 100
+      Chance: 80
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: STONE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Zwykły
+            Kilof+"}],"text":""}'
+          enchants:
+            DIG_SPEED: 4
+            LOOT_BONUS_BLOCKS: 1
+            DURABILITY: 3
+    '9':
+      DisplayName: §7Zwykła Siekiera+
+      DisplayEnchantments:
+      - efficiency:4
+      - unbreaking:3
+      DisplayItem: STONE_AXE
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l80%.'
+      MaxRange: 100
+      Chance: 80
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Zwykła
+            Siekiera+"}],"text":""}'
+          enchants:
+            DIG_SPEED: 4
+            DURABILITY: 3
+    '10':
+      DisplayName: §7Zwykła Łopata+
+      DisplayEnchantments:
+      - efficiency:3
+      - unbreaking:3
+      DisplayItem: STONE_SHOVEL
+      DisplayAmount: 1
+      Lore:
+      - '&7Szansa: &e&l80%.'
+      MaxRange: 100
+      Chance: 80
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: STONE_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Zwykła
+            Łopata+"}],"text":""}'
+          enchants:
+            DIG_SPEED: 3
+            DURABILITY: 3
+    '11':
+      DisplayItem: DIRT
+      DisplayAmount: 64
+      Lore:
+      - '&7Szansa: &e&l90%.'
+      MaxRange: 100
+      Chance: 90
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3218
+        type: DIRT
+        amount: 64

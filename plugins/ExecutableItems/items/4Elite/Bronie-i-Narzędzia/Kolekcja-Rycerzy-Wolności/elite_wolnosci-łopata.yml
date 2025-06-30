@@ -1,0 +1,92 @@
+name: §5Łopata rycerzy wolności
+lore:
+- §5Elitarne§9 §5☆☆☆☆
+- §5§o§m----------------------------------
+- §5⛏ Narzędzie
+- §5🔰 Kolekcja Rycerzy Wolności
+- §5§o§m----------------------------------
+- '§4🗡 ATK: 3'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 4'
+- '§9⛏ Wydajność: 3'
+- §5§o§m----------------------------------
+- §a§oMiasto Wolności §7§ojest dużym
+- §7§oeksporterem narzędzi i broni na cały
+- §7§oświat. Dlatego ich jakość jest
+- §7§ozazwyczaj bardzo dobra. Nie do końca
+- §7§otyczy się to łopat.
+- §5§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: IRON_SHOVEL
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+whitelistedWorlds: []
+customModelData: 34
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 3
+  enchantment1:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+  cancel-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: a0bbeed9-cf7e-4d9c-8436-40463a8f65ff
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 2.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: a1838712-2a4d-49ff-9280-bfc1cf10d4db

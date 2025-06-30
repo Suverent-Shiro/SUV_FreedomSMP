@@ -1,0 +1,289 @@
+cooldown: 1
+one_time: true
+auto_armor: true
+permission_required: false
+save_original_items: false
+display:
+  default:
+    id: STONE_PICKAXE
+    name: '&c&lZestaw startowy'
+    amount: 1
+    lore:
+    - '&fTen zestaw posiada:'
+    - '&8- &fx1 &7Startowy miecz'
+    - '&8- &fx1 &7Startowy kilof'
+    - '&8- &fx1 &7Startowa siekiera'
+    - '&8- &fx1 &7Startowa łopata'
+    - '&8- &fx1 &7Startowe buty'
+    - '&8- &fx1 &7Startowe spodnie'
+    - '&8- &fx1 &7Startowa tunika'
+    - '&8- &fx1 &7Startowa czapka'
+    - '&8- &fx64 &7Pieczony stek'    
+    - ' '
+    - ''
+    - '&aKliknij lewym przyciskiem myszy aby odebrać!'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    id: WOODEN_SWORD
+    name: '&7Startowy miecz'
+    amount: 1
+    lore:
+    - '&7Pospolite ☆'
+    - '&7&o&m----------------------------------'
+    - '&7🗡 Uzbrojenie'
+    - '&7🔰 Kolekcja Startowa'
+    - '&7&o&m----------------------------------'
+    - '&4🗡 ATK: 4'
+    - '&b⚡ SPD: Szybki'
+    - '&7&o&m----------------------------------'
+    - '&7&oZwykły miecz startowy. Każdy musi od '
+    - '&7&oczegoś zacząć co nie?'
+    - '&7&o&m----------------------------------'
+    - '&fNie posiada specjalnych właściwości'
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_POTION_EFFECTS
+    nbt:
+    - PublicBukkitValues|{"executableitems:ei-id":"common_start-sword","score:usage":1}|compound
+    preview_slot: 0
+  '2':
+    id: WOODEN_PICKAXE
+    name: '&7Startowy kilof'
+    amount: 1
+    lore:
+    - '&7Pospolite ☆'
+    - '&7&o&m----------------------------------'
+    - '&7⛏ Narzędzie'
+    - '&7🔰 Kolekcja Startowa'
+    - '&7&o&m----------------------------------'
+    - '&4🗡 ATK: 2'
+    - '&b⚡ SPD: Normalny'
+    - ''
+    - '&9⛏ Wydajność: 1'
+    - '&7&o&m----------------------------------'
+    - '&7&oZwykły kilof startowy. Każdy musi od '
+    - '&7&oczegoś zacząć co nie?'
+    - '&7&o&m----------------------------------'
+    - '&fNie posiada specjalnych właściwości'
+    enchants:
+    - DIG_SPEED;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_POTION_EFFECTS
+    nbt:
+    - PublicBukkitValues|{"executableitems:ei-id":"common_start-pickaxe","score:usage":1}|compound
+    preview_slot: 1
+  '3':
+    id: WOODEN_AXE
+    name: '&7Startowa siekiera'
+    amount: 1
+    lore:
+    - '&7Pospolite ☆'
+    - '&7&o&m----------------------------------'
+    - '&7⛏ Narzędzie'
+    - '&7🔰 Kolekcja Startowa'
+    - '&7&o&m----------------------------------'
+    - '&4🗡 ATK: 3'
+    - '&b⚡ SPD: Bardzo wolny'
+    - ''
+    - '&9⛏ Wydajność: 1'
+    - '&7&o&m----------------------------------'
+    - '&7&oZwykła siekiera startowa. Każdy musi od '
+    - '&7&oczegoś zacząć co nie?'
+    - '&7&o&m----------------------------------'
+    - '&fNie posiada specjalnych właściwości'
+    enchants:
+    - DIG_SPEED;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_POTION_EFFECTS
+    nbt:
+    - PublicBukkitValues|{"executableitems:ei-id":"common_start-axe","score:usage":1}|compound
+    attributes:
+    - GENERIC_ATTACK_DAMAGE;ADD_NUMBER;2.0;9cc45f31-b032-4826-9998-7859ea0a4dd4;HAND;custom_name:minecraft:generic.attack_damage
+    - GENERIC_ATTACK_SPEED;ADD_NUMBER;-3.2;3a9a0c46-7f59-4214-b4b5-fbbd3110b3c0;HAND;custom_name:minecraft:generic.attack_speed
+    preview_slot: 2
+  '4':
+    id: WOODEN_SHOVEL
+    name: '&7Startowa łopata'
+    amount: 1
+    lore:
+    - '&7Pospolite ☆'
+    - '&7&o&m----------------------------------'
+    - '&7⛏ Narzędzie'
+    - '&7🔰 Kolekcja Startowa'
+    - '&7&o&m----------------------------------'
+    - '&4🗡 ATK: 2.5'
+    - '&b⚡ SPD: Wolny'
+    - ''
+    - '&9⛏ Wydajność: 1'
+    - '&7&o&m----------------------------------'
+    - '&7&oZwykła łopata startowa. Każdy musi od '
+    - '&7&oczegoś zacząć co nie?'
+    - '&7&o&m----------------------------------'
+    - '&fNie posiada specjalnych właściwości'
+    enchants:
+    - DIG_SPEED;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_POTION_EFFECTS
+    nbt:
+    - PublicBukkitValues|{"executableitems:ei-id":"common_start-shovel","score:usage":1}|compound
+    preview_slot: 3
+  '5':
+    id: LEATHER_BOOTS
+    name: '&7Startowe buty'
+    amount: 1
+    lore:
+    - '&7Pospolite ☆'
+    - '&7&o&m----------------------------------'
+    - '&7🛡 Zbroja'
+    - '&7🔰 Kolekcja Startowa'
+    - '&7&o&m----------------------------------'
+    - '&9🛡 Pkt. zbroji: &41&9 / &b0&9 / &50'
+    - ''
+    - '&2🏹 Niezniszczalność: 1'
+    - '&7&o&m----------------------------------'
+    - '&7&oZwykłe buty startowe. Każdy musi od '
+    - '&7&oczegoś zacząć co nie?'
+    - '&7&o&m----------------------------------'
+    - '&fNie posiada specjalnych właściwości'
+    enchants:
+    - DURABILITY;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_POTION_EFFECTS
+    color: 10511680
+    nbt:
+    - PublicBukkitValues|{"executableitems:ei-id":"common_start-boots","score:usage":1}|compound
+    preview_slot: 4
+  '6':
+    id: LEATHER_LEGGINGS
+    name: '&7Startowe spodnie'
+    amount: 1
+    lore:
+    - '&7Pospolite ☆'
+    - '&7&o&m----------------------------------'
+    - '&7🛡 Zbroja'
+    - '&7🔰 Kolekcja Startowa'
+    - '&7&o&m----------------------------------'
+    - '&9🛡 Pkt. zbroji: &42&9 / &b0&9 / &50'
+    - ''
+    - '&2🏹 Niezniszczalność: 1'
+    - '&7&o&m----------------------------------'
+    - '&7&oZwykłe spodnie startowe. Każdy musi od '
+    - '&7&oczegoś zacząć co nie?'
+    - '&7&o&m----------------------------------'
+    - '&fNie posiada specjalnych właściwości'
+    enchants:
+    - DURABILITY;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_POTION_EFFECTS
+    color: 10511680
+    nbt:
+    - PublicBukkitValues|{"executableitems:ei-id":"common_start-leggings","score:usage":1}|compound
+    preview_slot: 5
+  '7':
+    id: LEATHER_CHESTPLATE
+    name: '&7Startowa tunika'
+    amount: 1
+    lore:
+    - '&7Pospolite ☆'
+    - '&7&o&m----------------------------------'
+    - '&7🛡 Zbroja'
+    - '&7🔰 Kolekcja Startowa'
+    - '&7&o&m----------------------------------'
+    - '&9🛡 Pkt. zbroji: &43&9 / &b0&9 / &50'
+    - ''
+    - '&2🏹 Niezniszczalność: 1'
+    - '&7&o&m----------------------------------'
+    - '&7&oZwykła tunika startowa. Każdy musi od '
+    - '&7&oczegoś zacząć co nie?'
+    - '&7&o&m----------------------------------'
+    - '&fNie posiada specjalnych właściwości'
+    enchants:
+    - DURABILITY;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_POTION_EFFECTS
+    color: 10511680
+    nbt:
+    - PublicBukkitValues|{"executableitems:ei-id":"common_start-chestplate","score:usage":1}|compound
+    preview_slot: 6
+  '8':
+    id: LEATHER_HELMET
+    name: '&7Startowa czapka'
+    amount: 1
+    lore:
+    - '&7Pospolite ☆'
+    - '&7&o&m----------------------------------'
+    - '&7🛡 Zbroja '
+    - '&7🔰 Kolekcja Startowa'
+    - '&7&o&m----------------------------------'
+    - '&9🛡 Pkt. zbroji: &41&9 / &b0&9 / &50'
+    - ''
+    - '&2🏹 Niezniszczalność: 1'
+    - '&7&o&m----------------------------------'
+    - '&7&oZwykła czapka startowa. Każdy musi od '
+    - '&7&oczegoś zacząć co nie?'
+    - '&7&o&m----------------------------------'
+    - '&fNie posiada specjalnych właściwości'
+    enchants:
+    - DURABILITY;1
+    item_flags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_POTION_EFFECTS
+    color: 10511680
+    nbt:
+    - PublicBukkitValues|{"executableitems:ei-id":"common_start-helmet","score:usage":1}|compound
+    preview_slot: 7
+  '9':
+    id: COOKED_BEEF
+    amount: 64
+    preview_slot: 8
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

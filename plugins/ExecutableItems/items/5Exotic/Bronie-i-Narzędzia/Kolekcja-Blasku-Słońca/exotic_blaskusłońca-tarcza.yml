@@ -1,0 +1,102 @@
+name: §6§lTarcza Legionów bastionów
+lore:
+- §6§lEgzotyczne §6☆☆☆☆☆
+- §6§o§m----------------------------------
+- §6🗡 §6§lUzbrojenie
+- §6🔰 §6§lKolekcja Blasku słońca
+- §6§o§m----------------------------------
+- '§2🏹 Niezniszczalność: 6'
+- §6§o§m----------------------------------
+- §7§oSolidnie wykonana tarcza z drewna
+- §7§oszkarłatnego. Zdobiona sztandarem
+- §7§oLegionów bastionów, które były kiedyś
+- §7§opod dowództwem króla §6§oPiglinosa§7§o.
+- §6§o§m----------------------------------
+- §fNie posiada specjalnych właściwości
+material: SHIELD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 6
+  enchantment1:
+    enchantment: Mending
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant: true
+  cancel-anvil: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+bannerSettings:
+  color: 1908001
+  patterns:
+    pattern0:
+      subPattern0:
+        string: color
+        object: ORANGE
+      subPattern1:
+        string: pattern
+        object: gru
+    pattern1:
+      subPattern0:
+        string: color
+        object: YELLOW
+      subPattern1:
+        string: pattern
+        object: gra
+    pattern2:
+      subPattern0:
+        string: color
+        object: GRAY
+      subPattern1:
+        string: pattern
+        object: cbo
+    pattern3:
+      subPattern0:
+        string: color
+        object: YELLOW
+      subPattern1:
+        string: pattern
+        object: pig
+attributes: {}

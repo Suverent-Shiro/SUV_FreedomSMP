@@ -1,0 +1,12 @@
+location: world:96.500:66.500:-23.500
+enabled: true
+display-range: 10
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: W przyszłości będą tutaj skrzynki...
+    height: 0.3
+  actions: {}

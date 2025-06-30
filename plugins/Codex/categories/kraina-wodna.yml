@@ -1,0 +1,71 @@
+---
+name: "&a&lOdkryte miejscówki - &9&lWodna kraina"
+discover_title:
+  title: "&c&lCodex zaktualizowany"
+  subtitle: "&7Miejscówka: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+  - "{centered}&f&m00                                                 00"
+  - " "
+  - "{centered}&c&lCodex zaktualizowany"
+  - "{centered}&7Miejscówka: %name%"
+  - " "
+  - "{centered}&7Sprawdź za pomocą: &e/codex"
+  - " "
+  - "{centered}&f&m00                                                 00"
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  "1":
+    name: "&a&lPLACEHOLDER"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&a&lMiasto Wolności &cnie należy do żadnej krainy"
+      - "&7&o&m-------------------------------------------------------"
+      - "&fLokalizacja zachodniej statuy: &eX&f: 2467 &eZ&f: 1611"
+      - "&7&o&m-------------------------------------------------------"
+      - "&a&lMiasto Wolności &fjest największym miastem na świecie!"
+      - "&fDlatego jest ono podzielone na aż 2 statuy!"
+      - "&fNie oznacza to też że mają oni najbardziej wartościowe kupony..."
+      - "&fJednak nie ważne co, ale musicie spróbować w tym mieście kawy."
+    discovered_on_region: PLACEHOLDER
+    commands:
+      - ei give %player% Kupon_0global_100 2
+  "2":
+    name: "&9&lAquaris"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&fLokalizacja: &eX&f: 0 &eZ&f: 0"
+      - "&9&o&m----------------------------------------------------------------------"
+      - "&9&lAquaris &7jest wielką podwodną stolicą &9Wodnej Krainy&7! Niektóre części miasta"
+      - "&7znajdują się zarówno pod wodą jak i na lądzie. W stolicy tej krainy można znaleźć"
+      - "&bLatarnię Teleportacji &7która umożliwia teleport pomiędzy miejscówkami które takze"
+      - "&7ten teleport posiadają. &9Aquaris &7jest także uznawane jako światowa stolica naturalnej"
+      - "&7piękności i ekologii."
+      - "&9&o&m----------------------------------------------------------------------"
+      - "&9&lAquaris &fnależy i jest stolicą &9Wodnej Krainy"
+      - "&7W &9&lAquaris &7używa się &9Kuponów Morskiej Głębi &f/ &e1 KMG &f= &74 KSP"
+    discovered_on_region: PLACEHOLDER
+    commands:
+      - ei give %player% Kupon_0global_100 2
+  "3":
+    name: "&9&lkraina-wodna-placeholder"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&fLokalizacja: &eX&f: 0 &eZ&f: 0"
+      - "&7&o&m----------------------------------------------------------------------"
+      - "&9&lAquaris &7jest wielką podwodną stolicą &9Wodnej Krainy&7! Niektóre części miasta"
+      - "&7znajdują się zarówno pod wodą jak i na lądzie. W stolicy tej krainy można znaleźć"
+      - "&bLatarnię Teleportacji &7która umożliwia teleport pomiędzy miejscówkami które takze"
+      - "&7ten teleport posiadają. &9Aquaris &7jest także uznawane jako światowa stolica naturalnej"
+      - "&7piękności i ekologii."
+      - "&7&o&m----------------------------------------------------------------------"
+      - "&9&lAquaris &fnależy i jest stolicą &9Wodnej Krainy"
+      - "&7W &9&lAquaris &7używa się &9Kuponów Morskiej Głębi &f/ &e1 KMG &f= &74 KSP"
+    discovered_on_region: PLACEHOLDER
+    commands:
+      - ei give %player% Kupon_0global_100 2

@@ -1,0 +1,113 @@
+name: §4§lWładca mórz gofrowych
+lore:
+- §4§lEkskluzywne§4 ★★★★★
+- §4§o§m-----------------------------------
+- §4🗡 §4§lUzbrojenie
+- §4🔰 §4§lKolekcja Zapomnianego świata
+- §4§o§m-----------------------------------
+- '§4🗡 ATK: 15'
+- '§b⚡ SPD: Normalny'
+- ''
+- §x§F§8§6§2§F§3❈ Naprawa
+- '§2🏹 Niezniszczalność: 6'
+- '§1🔱 Przebicie trójzębu: 5'
+- §e⚡ Porażenie
+- '§d⚜ Lojalność: 4'
+- '§x§D§3§7§2§0§B🔥 Aspekt ognia: 2'
+- §4§o§m-----------------------------------
+- §7§oTrójząb z innego świata. Gdzieś indziej
+- §7§owładał nią pewien "§4§oWładca gofrów§7§o"...
+- §7§oZa dużo o nim nie wiemy jednakże broń
+- §7§omiał bardzo potężną.
+- §4§o§m-----------------------------------
+- '§bWięcej staminy: §fGdy trzymasz ten item'
+- §fjesteś odrobine szybszy/a
+material: TRIDENT
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Channeling
+    level: 1
+  enchantment1:
+    enchantment: Fire_aspect
+    level: 2
+  enchantment2:
+    enchantment: Impaling
+    level: 5
+  enchantment3:
+    enchantment: Loyalty
+    level: 4
+  enchantment4:
+    enchantment: Mending
+    level: 1
+  enchantment5:
+    enchantment: Unbreaking
+    level: 6
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -2.8
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 3a104a3c-110d-422b-bd11-d7de35f5d2c3
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 14.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: f680eb71-b4a8-4583-8321-fd4ba98008b6
+  attribute2:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 0.025
+    slot: ALL_SLOTS
+    name: minecraft:generic.movement_speed
+    uuid: 0ecdd520-3c95-4175-be28-f69471f6e549

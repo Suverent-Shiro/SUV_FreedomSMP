@@ -1,0 +1,61 @@
+name: §5Magiczny odłamek
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m---------------------------------------------
+- §5💰 Specjalna waluta
+- §5§o§m---------------------------------------------
+- §7§oMagicznego odłamek złożony z wszystkich
+- '§7§ofragmentów. Ze względu nanieznane pochodzenie jest '
+- §7§oon bardzo wartościowy. Rozmień go u Kitka aby
+- §7§ootrzymać potężne nagrody.
+- §5§o§m---------------------------------------------
+material: ECHO_SHARD
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-rename-anvil: true
+  cancel-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

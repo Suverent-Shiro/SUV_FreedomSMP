@@ -1,0 +1,63 @@
+name: §aOdłamek przewodni
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m---------------------------------------
+- §a💰 Specjalna waluta
+- §a§o§m---------------------------------------
+- §7§oMalutki odłamek od powdodnych przewodni.
+- §7§oMimo ich pochodzenia są częstym zjawiskiem,
+- §7§oprzez co nie posiadają największej wartości
+- §7§owśród przedmiotów kolekcjonerskich.
+- §a§o§m---------------------------------------
+- §fNie posiada specjalnych właściwości
+material: PRISMARINE_SHARD
+glow: true
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-smithing-table: true
+  cancel-anvil: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

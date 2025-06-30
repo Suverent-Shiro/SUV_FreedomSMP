@@ -1,0 +1,78 @@
+name: §aDrewniana kosa treningowa
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m-------------------------------
+- §a🗡 Uzbrojenie
+- §a§o§m-------------------------------
+- '§4🗡 ATK: 1'
+- '§b⚡ SPD: Bardzo szybki'
+- §a§o§m-------------------------------
+- §7§oDrewniana kosa do trenowania
+- §a§o§m-------------------------------
+- §fNie posiada specjalnych właściwości
+material: WOODEN_HOE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-anvil: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+whitelistedWorlds: []
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -1.8
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 682a4211-8481-42dd-ad71-0710347b665e
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: d6d8f858-6503-4e11-b630-e1116e55159f
+customModelData: 9

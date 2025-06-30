@@ -1,0 +1,92 @@
+name: §4§lKaczuszka
+lore:
+- §4§lEkskluzywne§4 ★★★★★
+- §4§o§m-----------------------------------
+- §4🗡 §4§lUzbrojenie
+- §4🔰 §4§lKolekcja Zapomnianego świata
+- §4§o§m-----------------------------------
+- §x§F§8§6§2§F§3❈ Naprawa
+- '§2🏹 Niezniszczalność: 4'
+- '§4🏹 Przebicie: 4'
+- §6⚡ Wielostrzał
+- '§b⚡ Szybkie ładowanie: 3'
+- §4§o§m-----------------------------------
+- §4§oKaczuszki §7§oto słodkie zwierzęta prawda?
+- §7§oNiektórzy to samo sądzą o lamach, albo
+- '§4§oalpakach§7§o... Jednak tutaj za nim się '
+- §7§oobejrzysz... to możesz być już w grobie.
+- §4§o§m-----------------------------------
+- '§bWięcej staminy: §fGdy trzymasz ten item'
+- §fjesteś odrobine szybszy/a
+material: CROSSBOW
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Mending
+    level: 1
+  enchantment1:
+    enchantment: Multishot
+    level: 1
+  enchantment2:
+    enchantment: Piercing
+    level: 4
+  enchantment3:
+    enchantment: Quick_charge
+    level: 3
+  enchantment4:
+    enchantment: Unbreaking
+    level: 6
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute0:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 0.025
+    slot: HAND
+    name: minecraft:generic.movement_speed
+    uuid: 3d1baa25-c82c-4b68-979e-ccb841f35d6f

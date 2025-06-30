@@ -1,0 +1,143 @@
+name: §6§lTarcza Kharsena
+lore:
+- §6§lEgzotyczn§6e ☆☆☆☆☆
+- §6§o§m-----------------------------------------------------
+- §6🗡 Uzbrojenie
+- §6§o§m-----------------------------------------------------
+- §x§F§8§6§2§F§3❈ Naprawa
+- '§2🏹 Niezniszczalność: 4'
+- §6§o§m-----------------------------------------------------
+- '§7§oTarcza wyprodukowana przez zbrojmistrzów w §b§oKrainie Agharii§7§o. '
+- §7§oKharsen jako §c§oMendarczyk §7§oz krwi i kości dokładnie wie jak
+- §7§opowinny być tworzone zbroje i narzędzia, dlatego on właśnie
+- §7§ooferuje ci przedmioty z §b§oKrainy Agharii§7§o w§8§o Kamiennym Wybrzeżu§7§o.
+- §7§oTakże sztandar na tarczy ukazuje sztandar §c§oMendarii§7§o.
+- §6§o§m-----------------------------------------------------
+- '§bWięcej staminy: §fGdy trzymasz ten item w drugiej ręce jesteś '
+- §fodrobine szybszy/a
+material: SHIELD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+  '1':
+    key: BlockEntityTag
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: id
+          type: STRING
+          value: minecraft:banner
+        '1':
+          key: Base
+          type: INT
+          value: 8
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Mending
+    level: 1
+  enchantment1:
+    enchantment: Unbreaking
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-smithing-table: true
+  cancel-rename-anvil: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+  cancel-grind-stone: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+bannerSettings:
+  color: 10329495
+  patterns:
+    pattern0:
+      subPattern0:
+        string: color
+        object: LIGHT_BLUE
+      subPattern1:
+        string: pattern
+        object: cs
+    pattern1:
+      subPattern0:
+        string: color
+        object: LIGHT_GRAY
+      subPattern1:
+        string: pattern
+        object: ts
+    pattern2:
+      subPattern0:
+        string: color
+        object: LIGHT_GRAY
+      subPattern1:
+        string: pattern
+        object: ss
+    pattern3:
+      subPattern0:
+        string: color
+        object: WHITE
+      subPattern1:
+        string: pattern
+        object: flo
+    pattern4:
+      subPattern0:
+        string: color
+        object: YELLOW
+      subPattern1:
+        string: pattern
+        object: mc
+    pattern5:
+      subPattern0:
+        string: color
+        object: LIGHT_BLUE
+      subPattern1:
+        string: pattern
+        object: cbo
+attributes:
+  attribute0:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 0.025
+    slot: OFF_HAND
+    uuid: e5a49f25-880e-40ba-b8bf-6b9afd3e54a0

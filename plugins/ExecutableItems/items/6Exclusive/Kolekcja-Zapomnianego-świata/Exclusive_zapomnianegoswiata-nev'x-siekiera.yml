@@ -1,0 +1,116 @@
+name: §4§lEra Hardcore
+lore:
+- §4§lEkskluzywne§4 ★★★★★
+- §4§o§m-------------------------------------------
+- §4🗡 §4§lUzbrojenie
+- §4🔰 §4§lKolekcja Zapomnianego świata
+- §4§o§m-------------------------------------------
+- '§4🗡 ATK: 17'
+- '§b⚡ SPD: Bardzo wolny'
+- ''
+- §x§F§8§6§2§F§3❈ Naprawa
+- '§2🏹 Niezniszczalność: 3'
+- '§4🗡 Pogromca nieumarłych: 3'
+- '§9⛏ Wydajność: 4'
+- '§a✦ Szczęście: 4'
+- '§x§D§3§7§2§0§B🔥 Aspekt ognia: 2'
+- §4§o§m-------------------------------------------
+- §7§oTa siekiera używana jako broń pochodzi z innego
+- '§7§oświata... Jednak ta się wydaje być z innej ery... '
+- '§7§oZ ery "§4§oHardcore§7§o". Ta siekiera zawsze była w '
+- §7§orękach top 1... Jak myślisz? Kim był §4§otop 1§7§o?
+- §4§o§m-------------------------------------------
+- '§bWięcej staminy: §fGdy trzymasz ten item jesteś '
+- §fodrobine szybszy/a
+material: NETHERITE_AXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 4
+  enchantment1:
+    enchantment: Fire_aspect
+    level: 2
+  enchantment2:
+    enchantment: Fortune
+    level: 4
+  enchantment3:
+    enchantment: Looting
+    level: 4
+  enchantment4:
+    enchantment: Mending
+    level: 1
+  enchantment5:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-delete-by-lightning: true
+  cancel-smithing-table: true
+  cancel-anvil: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+  cancel-item-burn: true
+  cancel-grind-stone: true
+  cancel-item-delete-by-cactus: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 065e9cae-e79b-404c-a465-5ee890fb5ce1
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 16.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: f418ee5c-f68a-4270-9762-6f949305ceae
+  attribute2:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 0.025
+    slot: HAND
+    uuid: df58dd78-64e6-411b-9e64-781745a5b34e

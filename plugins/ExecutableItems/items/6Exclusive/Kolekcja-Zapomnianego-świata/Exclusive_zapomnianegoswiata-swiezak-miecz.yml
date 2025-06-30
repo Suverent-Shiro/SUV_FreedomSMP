@@ -1,0 +1,110 @@
+name: §4§lPłomienny cesarz
+lore:
+- §4§lEkskluzywne§4 ★★★★★
+- §4§o§m---------------------------------------------
+- §4🗡 §4§lUzbrojenie
+- §4🔰 §4§lKolekcja Zapomnianego świata
+- §4§o§m---------------------------------------------
+- '§4🗡 ATK: 10'
+- '§b⚡ SPD: Szybki'
+- ''
+- §x§F§8§6§2§F§3❈ Naprawa
+- '§2🏹 Niezniszczalność: 6'
+- '§4🗡 Pogromca nieumarłych: 5'
+- '§a✦ Szczęście: 3'
+- '§6✧ Szerokie ostrze: 3'
+- '§x§D§3§7§2§0§B🔥 Aspekt ognia: 4'
+- §4§o§m---------------------------------------------
+- §7§oMiecz z innego świata. Ten zawsze płomienisty
+- §7§omiecz służył do miażdzenia wszystkiego na swej
+- §7§odrodze. Z podpisu jaki można znaleźć na tym
+- §7§omieczu można wywnioskować że władał nim "§4§oŚwieżak§7§o"
+- §4§o§m---------------------------------------------
+- '§bWięcej staminy: §fGdy trzymasz ten item jesteś '
+- §fodrobine szybszy/a
+material: NETHERITE_SWORD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Fire_aspect
+    level: 4
+  enchantment1:
+    enchantment: Looting
+    level: 3
+  enchantment2:
+    enchantment: Mending
+    level: 1
+  enchantment3:
+    enchantment: Smite
+    level: 4
+  enchantment4:
+    enchantment: Unbreaking
+    level: 6
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-anvil: true
+  cancel-rename-anvil: true
+  cancel-enchant: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -2.4
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 002e0f3f-895b-4c32-bbad-070d3757e396
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 9.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 88e9428a-c93f-4f9f-b5aa-e5d47e563202
+  attribute2:
+    attribute: GENERIC_MOVEMENT_SPEED
+    operation: ADD_NUMBER
+    amount: 0.025
+    slot: HAND
+    name: minecraft:generic.movement_speed
+    uuid: b7f224aa-b475-4285-946a-511baaf503cd

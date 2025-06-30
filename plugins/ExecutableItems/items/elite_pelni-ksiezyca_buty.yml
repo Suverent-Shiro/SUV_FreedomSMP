@@ -1,0 +1,102 @@
+name: §5Buty nocnego cienia
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m---------------------------------------------------------
+- §5🛡 Zbroja
+- §5🔰 Kolekcja Pełni księżyca
+- §5§o§m---------------------------------------------------------
+- '§9🛡 Pkt. zbroji: §43§9 / §b2§9 / §50'
+- ''
+- '§2🏹 Niezniszczalność: 5'
+- '§3❈ Ochrona: §4🗡 5§3 / §6🔥 0§3 / §c💥 0§3 / §2🏹 0'
+- '§b🪶 Łagodny upadek: 3'
+- §5§o§m---------------------------------------------------------
+- '§7§oLegendarne buty które otaczają cię mocą blasku księżyca. Nosząc '
+- §7§oje możesz poczuć jakbyś przemieżał/a przez niebo pełne gwiazd...
+- §5§o§m---------------------------------------------------------
+- '§eGwiezdny upadek:§f Gdy założysz buty kliknij §b§nSPACJA§f+§b§nSHIFT§f aby '
+- §fwłączyć powolne spadanie i wyłączyć obrażenia od upadku.
+- '§bCzas trwania: §f5 sekund'
+- ''
+- '§6Księżycowa aura: §fGdy posiadasz założone wszystkie części zbroji'
+- '§fz kolekcji §dPełni księżyca §fto otrzymujesz §4+❤ HP: 6 §fdo twojej'
+- §fłącznej ilości serc.
+- §bCzas trwania:§f Nieskończone
+material: DIAMOND_BOOTS
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: Trim
+    type: COMPOUND
+    value:
+      nbt:
+        '0':
+          key: material
+          type: STRING
+          value: minecraft:lapis
+        '1':
+          key: pattern
+          type: STRING
+          value: minecraft:silence
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: true
+enchantments:
+  enchantment0:
+    enchantment: Feather_falling
+    level: 3
+  enchantment1:
+    enchantment: Protection
+    level: 5
+  enchantment2:
+    enchantment: Unbreaking
+    level: 5
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: EYE
+activators: {}

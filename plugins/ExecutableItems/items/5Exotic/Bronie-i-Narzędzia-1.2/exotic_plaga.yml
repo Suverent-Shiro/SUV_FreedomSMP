@@ -1,0 +1,99 @@
+name: §6§lPlaga
+lore:
+- §6§lEgzotyczne§6 ☆☆☆☆☆
+- §6§o§m--------------------------------------------
+- §6🗡 §6§lUzbrojenie
+- §6§o§m--------------------------------------------
+- '§4🗡 ATK: 15'
+- '§b⚡ SPD: Bardzo wolny'
+- ''
+- §x§F§8§6§2§F§3❈ Naprawa
+- '§2🏹 Niezniszczalność: 3'
+- '§4🗡 Pogromca nieumarłych: 5'
+- '§6✧ Szerokie ostrze: 5'
+- '§e❁ Odrzut: 1'
+- §6§o§m--------------------------------------------
+- '§7§oBroń przybliżona do claymore''ów używana w '
+- §7§oStarożytnej §e§oWiosce Spawnu§7§o podczas "Wiekiej Plagi".
+- §6§o§m--------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: NETHERITE_SWORD
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Knockback
+    level: 1
+  enchantment1:
+    enchantment: Mending
+    level: 1
+  enchantment2:
+    enchantment: Smite
+    level: 5
+  enchantment3:
+    enchantment: Sweeping
+    level: 5
+  enchantment4:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.2
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: 4b731719-224c-4a30-92d4-30c90687826f
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 14.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 6ad0d98a-054f-422a-b1f4-a955534202fb

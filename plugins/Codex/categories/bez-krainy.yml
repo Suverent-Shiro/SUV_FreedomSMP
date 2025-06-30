@@ -1,0 +1,70 @@
+---
+name: "&a&lOdkryte miejscówki - &7&lBez krainy"
+discover_title:
+  title: "&c&lCodex zaktualizowany"
+  subtitle: "&7Miejscówka: %name%"
+  fade_in: 20
+  stay: 60
+  fade_out: 20
+discover_message:
+  - "{centered}&f&m00                                                 00"
+  - " "
+  - "{centered}&c&lCodex zaktualizowany"
+  - "{centered}&7Miejscówka: %name%"
+  - " "
+  - "{centered}&7Sprawdź za pomocą: &e/codex"
+  - " "
+  - "{centered}&f&m00                                                 00"
+discover_sound:
+  name: BLOCK_GILDED_BLACKSTONE_STEP
+  volume: 10
+  pitch: 0.1
+discoveries:
+  "1":
+    name: "&a&lMiasto Wolności - Zachód"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&fLokalizacja zachodniej statuy: &eX&f: 2467 &eZ&f: 1611"
+      - "&7&o&m-------------------------------------------------------------"
+      - "&a&lMiasto Wolności &7jest największą metropolią na świecie! Dlatego jest ono"
+      - "&7podzielone na aż 2 statuy, są też miejscówki które posiadają więcej"
+      - "&7statuł, jednak na pewno nie są taką metropolią jakie jest &a&lMiasto Wolności! "
+      - "&7Jednak nie ważne co, ale musicie spróbować w tym mieście kawy!"
+      - "&7&o&m-------------------------------------------------------------"
+      - "&a&lMiasto Wolności &fnie należy do żadnej krainy"
+      - "&7W &a&lMieście Wolności &7używa się &aKuponów Wolności &f/ &a1 KW &f= &75 KSP"
+    discovered_on_region: miastowolnosci_statue
+    commands:
+      - ei give %player% Kupon_0global_100 1
+  "2":
+    name: "&a&lMiasto Wolności - Wschód"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&fLokalizacja wschodniej statuy: &eX&f: 2762 &eZ&f: 1678"
+      - "&7&o&m-------------------------------------------------------------"
+      - "&a&lMiasto Wolności &7jest największą metropolią na świecie! Dlatego jest ono"
+      - "&7podzielone na aż 2 statuy, są też miejscówki które posiadają więcej"
+      - "&7statuł, jednak na pewno nie są taką metropolią jakie jest &a&lMiasto Wolności! "
+      - "&7Jednak nie ważne co, ale musicie spróbować w tym mieście kawy!"
+      - "&7&o&m-------------------------------------------------------------"
+      - "&a&lMiasto Wolności &fnie należy do żadnej krainy"
+      - "&7W &a&lMieście Wolności &7używa się &aKuponów Wolności &f/ &a1 KW &f= &75 KSP"
+    discovered_on_region: miatowolnosci_statue2
+    commands:
+      - ei give %player% Kupon_0global_100 1
+  "3":
+    name: "&9&lSpawnowa podwodna stacja laboratoryjna &7(&9&lSPSL&7)"
+    lore:
+      - "&6&l« &e✔ &6&l» Odblokowano!"
+      - "&fLokalizacja: &eX&f: 561 &eZ&f: -138 &c(Może znajdować się w ciężko dostępnym miejscu.)"
+      - "&7&o&m----------------------------------------------------------------------"
+      - "&7Na świecie jest kilka podwodnych stacji. Ta mimo nazwy nie należy do żadnej krainy,"
+      - "&7leży ona po prostu w pobliżu &e&lKrainy Spawnowej&7... Na tych stacjach są zwykle"
+      - "&7laboratoria a w nich są testowane różne rzeczy, głównie jakieś sztuczne rzeczy..."
+      - "&7Nazwa tej miejscówki jest też często skracana do &9&lSPSL&7."
+      - "&7&o&m----------------------------------------------------------------------"
+      - "&9&lSpawnowa podwodna stacja laboratoryjna &fnie należy do żadnej krainy"
+      - "&7W &9&lSPSL &7używa się &7Kuponów Spadającej Gwiazdy"     
+    discovered_on_region: podwodnastacja_spawnowa_statue
+    commands:
+      - ei give %player% Kupon_0global_100 1

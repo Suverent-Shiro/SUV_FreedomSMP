@@ -1,0 +1,61 @@
+name: §aSkondensowana trzcina cukrowa
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m--------------------------------
+- §a§o✂§a Surowce i materiały
+- §a§o§m--------------------------------
+- §7§oSkondensowana trzcina cukrowa. x9
+- §7§oPołączonych przedmiotów w jedno.
+- §a§o§m--------------------------------
+- §fNie posiada specjalnych właściwości.
+material: SCUTE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: true
+config_5: true
+config_update: true
+customModelData: 87
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-place: true
+  cancel-composter: true
+  cancel-item-craft-no-custom: true
+  cancel-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

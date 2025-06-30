@@ -1,0 +1,88 @@
+name: §9Złota łopata ze Złotej Osady
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m---------------------------------------------------
+- §9⛏ Narzędzie
+- §9§o§m---------------------------------------------------
+- '§4🗡 ATK: 2'
+- '§b⚡ SPD: Wolny'
+- ''
+- '§2🏹 Niezniszczalność: 10'
+- '§9⛏ Wydajność: 4'
+- §9§o§m---------------------------------------------------
+- §7§oZłote narzędzia w §x§E§1§E§1§9§8§oZłotej osadzie§7§o to codzienność. Mimo bycia
+- §7§oze złota jest ona dosyć wytrzymała i przede wszytkim tania.
+- §9§o§m---------------------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: GOLDEN_SHOVEL
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 4
+  enchantment1:
+    enchantment: Unbreaking
+    level: 10
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-smithing-table: true
+  cancel-stone-cutter: true
+  cancel-enchant: true
+  cancel-enchant-anvil: true
+  cancel-grind-stone: true
+  cancel-rename-anvil: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    name: minecraft:generic.attack_speed
+    uuid: fbb69724-9573-4c92-9967-f1e8c1f694df
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    name: minecraft:generic.attack_damage
+    uuid: 46407199-9e47-4f81-b761-813b52302190

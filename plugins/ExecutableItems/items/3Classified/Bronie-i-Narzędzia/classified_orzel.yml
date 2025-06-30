@@ -1,0 +1,81 @@
+name: §9Orzeł
+lore:
+- §9Klasyfikowane ☆☆☆
+- §9§o§m--------------------------------------------
+- §9🗡 Uzbrojenie
+- §9§o§m--------------------------------------------
+- '§4🏹 Moc: 3'
+- '§2🏹 Niezniszczalność: 2'
+- '§x§D§3§7§2§0§B🔥 Aspekt ognia: 1'
+- §9§o§m--------------------------------------------
+- §7§oŚwietna opcja dla osób uwielbiających strzelania
+- §7§odo swoich przeciwników na dystans. Ta produkcja
+- §7§oz §c§oMendarii§7§o została tak nazwana ponieważ symbolizuje
+- §7§oona historię związaną z założeniem osady §c§oMendaria
+- '§7§októra później przerodziła się w miasteczko które '
+- §7§oznamy dzisiaj.
+- §9§o§m--------------------------------------------
+- §fNie posiada specjalnych właściwości
+material: BOW
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+nbt:
+  '0':
+    key: PublicBukkitValues
+    type: COMPOUND
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Flame
+    level: 1
+  enchantment1:
+    enchantment: Power
+    level: 3
+  enchantment2:
+    enchantment: Unbreaking
+    level: 2
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-enchant-anvil: true
+  cancel-smithing-table: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

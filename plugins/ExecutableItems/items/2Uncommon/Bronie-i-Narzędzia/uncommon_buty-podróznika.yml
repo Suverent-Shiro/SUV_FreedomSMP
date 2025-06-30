@@ -1,0 +1,66 @@
+name: §aButy podróżnika
+lore:
+- §aNiepospolite ☆☆
+- §a§o§m-----------------------------------
+- §a🛡 Zbroja
+- §a§o§m-----------------------------------
+- '§9🛡 Pkt. zbroji: §41§9 / §b0§9 / §50'
+- ''
+- '§2🏹 Niezniszczalność: 3'
+- §a§o§m-----------------------------------
+- §7§oTanie i chwalone buty przez podróżników.
+- §a§o§m-----------------------------------
+- §fNie posiada specjalnych właściwości
+material: LEATHER_BOOTS
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+disabledWorlds: []
+recognitions: []
+armorColor: 12734770
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: true
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Unbreaking
+    level: 3
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+armorTrim:
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: EYE

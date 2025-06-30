@@ -1,0 +1,92 @@
+name: §5Diamentowa regeneracja
+lore:
+- §5Elitarne ☆☆☆☆
+- §5§o§m----------------------------------------
+- §5⛏ Narzędzie
+- §5§o§m----------------------------------------
+- '§4🗡 ATK: 4'
+- '§b⚡ SPD: Wolny'
+- ''
+- §x§F§8§6§2§F§3❈ Naprawa
+- '§9⛏ Wydajność: 5'
+- '§a✦ Szczęście: 1'
+- §5§o§m----------------------------------------
+- §7§oTen diamentowy kilof w atrakcyjnej cenie jest
+- §7§oskarbem prosto z §a§oMiasta Wolności§7§o. Posiada on
+- §7§oregeneracyjne zaklęcie przez co twój kilof
+- §7§onigdy ci się nie zniszczy! Teraz możesz kopać
+- §7§oswoje wymażone diamenty tyle ile chcesz!
+- §5§o§m----------------------------------------
+- §fNie posiada specjalnych właściwości.
+material: DIAMOND_PICKAXE
+glow: false
+disableStack: false
+keepItemOnDeath: true
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+cancelEventIfNoPerm: false
+whitelistedWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hidePotionEffects: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 5
+  enchantment1:
+    enchantment: Fortune
+    level: 1
+  enchantment2:
+    enchantment: Mending
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-grind-stone: true
+  cancel-smithing-table: true
+  cancel-enchant-anvil: true
+  cancel-stone-cutter: true
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes:
+  attribute1:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HAND
+    uuid: 8e5cb7b1-f968-4c70-bc6b-26731d90267b
+  attribute0:
+    attribute: GENERIC_ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: -3.0
+    slot: HAND
+    uuid: ce72a3f9-5216-4516-94bc-4696053cd4a1
