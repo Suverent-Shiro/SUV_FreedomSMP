@@ -6,7 +6,7 @@ This repository is meant to be private and only accesible to @Suverent_Shiro and
 
 To jest oficjalne repozytorium konfiguracji FreedomSMP! W tym repozytorium znajdziesz konfiguracje pluginów FreedomSMP.
 
-___Nie znajdziesz w tym repozytorium konfiguracji pluginu **ExecutableItems** ze względu na to że ten plugin jest płatny___
+___W tym repozytorium są tylko konfiguracje do pluginów ponizej! Musisz je pobrać ręcznie!___
 
 **Nazwy podkreślone na [niebiesko to linki](https://www.youtube.com/watch?v=dQw4w9WgXcQ) które można klikać!**
 <!----------------------------------------------------------------------------->
@@ -17,7 +17,7 @@ ___Nie znajdziesz w tym repozytorium konfiguracji pluginu **ExecutableItems** ze
   - [WolfyUtilities](https://www.spigotmc.org/resources/wolfyutilities-core-api-1-17-1-1-21-1.64124/) 4.16.16.1 \ WolfyScript
   - [ViaVersion](https://www.spigotmc.org/resources/viaversion.19254/) 4.10.2 \ _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD and RK_01
   - [Vault](https://www.spigotmc.org/resources/vault.34315/) 1.7.3-b131 \ cereal, Sleaker and mung3r
-  - Spark 1.10.139 \ Luck
+  - [Spark](https://www.spigotmc.org/resources/spark.57242/) 1.10.139 \ Luck
   - [Shopkeepers](https://www.spigotmc.org/resources/shopkeepers.80756/) 2.20.1 \ nisovin and blablubbabc
   - [SimpleScore](https://www.spigotmc.org/resources/simplescore-animated-scoreboard.23243/) 3.12.5 \ R4G3_BABY
   - [SCore](https://github.com/Ssomar-Developement/SCore) 5.24.7.28 \ Ssomar
@@ -26,29 +26,29 @@ ___Nie znajdziesz w tym repozytorium konfiguracji pluginu **ExecutableItems** ze
   - [Orebfuscator](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710/) 5.4.3 \ Ingrim4, NgLoader, lishid, SydMontague, ProgrammerDan and Aleksey-Terzi
   - [ODailyQuests](https://www.spigotmc.org/resources/odailyquests-daily-quests-plugin-1-16-1-21.100990/) 2.2.5 \ Ordwen
   - [nightcore](https://github.com/nulli0n/nightcore-spigot/releases) 2.5.2 \ NightExpress
-  - NBTAPI 2.13.1 \ tr7zw
+  - [NBTAPI](https://www.spigotmc.org/resources/nbt-api.7939/) 2.13.1 \ tr7zw
   - [LuckPerms](https://luckperms.net/) 5.4.137 \ Luck
   - [LevelledMobs](https://www.spigotmc.org/resources/levelledmobs.74304/) 4.0.3.1 b19 \ PenalBuffalo, lokka30 and UltimaOath
   - [ItemEdit](https://www.spigotmc.org/resources/itemedit-1-8-x-1-21-x.40993/) 3.5.1 \ emanon
   - [InvSee++](https://modrinth.com/plugin/invsee++) 0.26.0 \ Jannyboy11
   - [InteractiveChat](https://www.spigotmc.org/resources/interactivechat-show-items-inventory-in-chat-custom-chat-keywords-bungee-velocity-support.75870/) 4.2.9.0 \ loohp
-  - HeadDB 5.0.0-rc.10 \ TheSilentPro (Silent)
-  - GSit 1.9.1 \ Gecolay
+  - [HeadDB](https://github.com/TheSilentPro/HeadDB) 5.0.0-rc.10 \ TheSilentPro (Silent)
+  - [GSit](https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-16-1-21-6.62325/) 1.9.1 \ Gecolay
   - [ExecutableItems Premium](https://www.spigotmc.org/resources/%E2%9A%94%EF%B8%8Fexecutableitems-%E2%AD%90-customize-all-items-add-abilities-%E2%AD%90-ai-items-generation-on-the-discord-%E2%9C%85.83070/updates) 7.24.7.28 \ Ssomar
-  - ExcellentCrates 5.2.2.3 \ NightExpress
+  - ExcellentCrates 5.2.2.3 \ NightExpress (*Ten plugin nie posiadał żadnego zastosowania na serwerze, pobieranie nie jest wymagane*)
   - [EssentialsX](https://essentialsx.net/) 2.20.1 \ Zenexer, ementalo, Aelux, Brettflan, KimKandor, snowleo, ceulemans, Xeology, KHobbits, md_5, Iaccidentally, drtshock, vemacs, SupaHam, mdcfe, JRoy and pop4959
     - EssentialsX Chat 2.20.1
     - EssentialsX Spawn 2.20.1
     - EssentialsX AntiBuild 2.20.1
   - [eShulkerBox](https://www.spigotmc.org/resources/eshulkerbox-let-players-interact-with-shulker-boxes-in-a-better-way-and-comfort.106156/) 0.4.0 \ Sweet_Duck
   - [DecentHolograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-21-5-papi-support-no-dependencies.96927/) 2.8.9 \ d0by
-  - CustomDrops 1.4.3-BETA \ OG_Ali
+  - [CustomDrops](https://modrinth.com/plugin/customdrops) 1.4.3-BETA \ OG_Ali
   - [CustomCrafting](https://www.spigotmc.org/resources/customcrafting-advanced-custom-recipe-plugin-1-17-1-1-20-6-free.55883/) 4.16.9.1 \ WolfyScript
   - [CoreProtect](https://www.spigotmc.org/resources/coreprotect.8631/) 22.4 \ Intelli
   - [CombatLogX](https://www.spigotmc.org/resources/combatlogx.31689/) 11.4.0.1.1193 \ SirBlobman
   - [Codex](https://www.spigotmc.org/resources/codex-rpg-discoveries-1-16-5-1-21-6.90371/) 1.16.1 \ Ajneb97
-  - BlueSlimeCore 2.9.4.377 \ SirBlobman
-  - AutoPickup 1.4.4-SNAPSHOT \ BUTTERFIELD8
+  - BlueSlimeCore 2.9.4.377 \ SirBlobman (*Ten plugin jest zawarty razem z CombatLogX*)
+  - [AutoPickup](https://www.spigotmc.org/resources/autopickup-1-21-support.70157/) 1.4.4-SNAPSHOT \ BUTTERFIELD8
   - [AutomaticBroadcast](https://www.spigotmc.org/resources/automaticbroadcast-%C2%BB-placeholderapi-support-1-16-1-21.83455/) 1.6.0 \ Pandaaa
 
 
