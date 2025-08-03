@@ -1,5 +1,5 @@
 # The Suverent Organization's FreedomSMP
-This repository is meant to be private and only accesible to @Suverent_Shiro and people selected by him.
+This repository contains config files for plugins from a closed now Suverent Shiro's Minecraft server "FreedomSMP".
 
 <!----------------------------------------------------------------------------->
 ![TheSuverentOrganizations_FreedomSMP-08-04-2024](https://github.com/user-attachments/assets/cf3b02e3-0e18-4f97-bbc7-05c965eb0569)
@@ -71,11 +71,8 @@ ___W tym repozytorium są tylko konfiguracje do pluginów ponizej! Musisz je pob
 ## Zasoby do pobrania
 Świat FreedomSMP (Overwold i Nether) / 4.6 GiB
   - [Pobierz z MediaFire](https://www.mediafire.com/file/evff0fw64woaj6j/FreedomSMP_WorldArchives_7-12-2024.zip/file)
-  - ~~Pobierz z Apple iCloud~~
 
 Resource Pack FreedomSMP (Umożliwia widzenie textur niestandardowych przedmiotów) / 266 KiB
   - [Pobierz z MediaFire](https://www.mediafire.com/file/19v8o2b57if46k4/FreedomSMP_ResourcePack.zip/file)
-  - ~~Pobierz z Apple iCloud~~
-  - ~~Pobierz z GitHub~~
 
 <!----------------------------------------------------------------------------->
