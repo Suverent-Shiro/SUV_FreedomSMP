@@ -70,7 +70,11 @@ ___W tym repozytorium są tylko konfiguracje do pluginów ponizej! Musisz je pob
 <!----------------------------------------------------------------------------->
 ## Zasoby do pobrania
 Świat FreedomSMP (Overwold i Nether) / 4.6 GiB
-  - [Pobierz z MediaFire](https://www.mediafire.com/file/evff0fw64woaj6j/FreedomSMP_WorldArchives_7-12-2024.zip/file)
+
+**Ważne! Te archiwum jest chronione hasłem! Hasło do archiwum nie jest podane publicznie na githubie, hasło możesz zdobyć poprzez prywatny kontakt z autorem**
+  - [Pobierz z MediaFire](http://www.mediafire.com/file/hh18c4yjc9j3rx7/SUV_FreedomSMP-WorldArchive.zip)
+
+
 
 Resource Pack FreedomSMP (Umożliwia widzenie textur niestandardowych przedmiotów) / 266 KiB
   - [Pobierz z MediaFire](https://www.mediafire.com/file/19v8o2b57if46k4/FreedomSMP_ResourcePack.zip/file)
